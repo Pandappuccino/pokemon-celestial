@@ -3,7 +3,7 @@
 [NORMAL]
 Name = Normal
 IconPosition = 0
-Weaknesses = FIGHTING
+Weaknesses = FIGHTING,COSMIC
 Immunities = GHOST
 #-------------------------------
 [FIGHTING]
@@ -36,7 +36,7 @@ Immunities = ELECTRIC
 Name = Rock
 IconPosition = 5
 Weaknesses = FIGHTING,GROUND,STEEL,WATER,GRASS
-Resistances = NORMAL,FLYING,POISON,FIRE
+Resistances = NORMAL,FLYING,POISON,FIRE,COSMIC
 #-------------------------------
 [BUG]
 Name = Bug
@@ -55,7 +55,7 @@ Immunities = NORMAL,FIGHTING
 Name = Steel
 IconPosition = 8
 Weaknesses = FIGHTING,GROUND,FIRE
-Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY
+Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY,COSMIC
 Immunities = POISON
 #-------------------------------
 [QMARKS]
@@ -95,7 +95,7 @@ Resistances = FLYING,STEEL,ELECTRIC
 Name = Psychic
 IconPosition = 14
 IsSpecialType = true
-Weaknesses = BUG,GHOST,DARK
+Weaknesses = BUG,GHOST,DARK,COSMIC
 Resistances = FIGHTING,PSYCHIC
 #-------------------------------
 [ICE]
@@ -127,3 +127,11 @@ IsSpecialType = true
 Weaknesses = POISON,STEEL
 Resistances = FIGHTING,BUG,DARK
 Immunities = DRAGON
+#-------------------------------
+[COSMIC]
+Name = Cosmic
+IconPosition = 19
+IsSpecialType = true
+Weaknesses = FLYING,STEEL,COSMIC
+Resistances = FIRE,ROCK,ICE,PSYCHIC
+Immunities = NORMAL
