@@ -4,17 +4,17 @@
 StartMoney = 3000
 StartItemStorage = POTION
 Home = 3,7,5,8
-StorageCreator = Bill
-WildBattleBGM = Battle wild
-TrainerBattleBGM = Battle trainer
-WildVictoryBGM = Battle victory wild
-TrainerVictoryBGM = Battle victory trainer
+StorageCreator = Remi
+WildBattleBGM = Battle_Wild
+TrainerBattleBGM = Battle_Trainer
+WildVictoryBGM = Battle_Victory_Wild
+TrainerVictoryBGM = Battle_Victory_Trainer
 SurfBGM = Surfing
 BicycleBGM = Bicycle
 #-------------------------------
 [1]
-TrainerType = POKEMONTRAINER_Red
-WalkCharset = trainer_POKEMONTRAINER_Red
+TrainerType = POKEMONTRAINER_Cass
+WalkCharset = trainer_POKEMONTRAINER_Cass
 RunCharset = boy_run
 CycleCharset = boy_bike
 SurfCharset = boy_surf
@@ -23,8 +23,8 @@ FishCharset = boy_fish_offset
 SurfFishCharset = boy_fish_offset
 #-------------------------------
 [2]
-TrainerType = POKEMONTRAINER_Leaf
-WalkCharset = trainer_POKEMONTRAINER_Leaf
+TrainerType = POKEMONTRAINER_Polly
+WalkCharset = trainer_POKEMONTRAINER_Polly
 RunCharset = girl_run
 CycleCharset = girl_bike
 SurfCharset = girl_surf
