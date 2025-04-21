@@ -77,3 +77,26 @@ Habitat =
 Category = 
 Pokedex =
 Flags = Legendary
+#================================#
+[LUKKIKI]
+Name = Lukkiki
+Types = GRASS,FAIRY
+BaseStats = 
+GenderRatio = 
+GrowthRate = 
+BaseExp = 
+EVs = 
+CatchRate = 
+Happiness = 
+Abilities = GOODLUCK
+Moves = 
+TutorMoves = 
+EggGroups = Undiscovered
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = Rare
+Category = Fortune
+Pokedex = Humans befriended by Lukkiki will enjoy endless good luck, but those it dislikes will only know misfortune.
+Flags = Mythical
