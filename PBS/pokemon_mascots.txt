@@ -1,0 +1,79 @@
+#================================#
+[ASTEKON]
+Name = Astekon
+Types = NORMAL,DRAGON
+BaseStats = 
+GenderRatio = 
+GrowthRate = 
+BaseExp = 
+EVs = 
+CatchRate = 
+Happiness = 
+Abilities = 
+HiddenAbilities = 
+Moves = 
+TutorMoves = 
+EggMoves
+HatchSteps =
+EggGroups = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex =
+Flags = Legendary
+Evolutions = KOROTIA,LevelSunPearl,50,GERAKYMA,LevelMoonPearl,50
+#================================#
+[KOROTIA]
+Name = Korotia
+Types = FIRE,DRAGON
+BaseStats = 
+GenderRatio = 
+GrowthRate = 
+BaseExp = 
+EVs = 
+CatchRate = 
+Happiness = 
+Abilities = 
+HiddenAbilities = 
+Moves = 
+TutorMoves = 
+EggMoves
+HatchSteps =
+EggGroups = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex =
+Flags = Legendary
+#================================#
+[GERAKYMA]
+Name = Gerakyma
+Types = WATER,DRAGON
+BaseStats = 
+GenderRatio = 
+GrowthRate = 
+BaseExp = 
+EVs = 
+CatchRate = 
+Happiness = 
+Abilities = 
+HiddenAbilities = 
+Moves = 
+TutorMoves = 
+EggMoves
+HatchSteps =
+EggGroups = 
+Height = 
+Weight = 
+Color = 
+Shape = 
+Habitat = 
+Category = 
+Pokedex =
+Flags = Legendary
