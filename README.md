@@ -21,14 +21,45 @@
 [Check out the wiki for more information!](https://pokemoncelestial.miraheze.org/wiki/Main_Page)
 
 ## Credits
-### Graphics
-* []
-
-### Audio
-* []
+### Graphics and Audio
+* Caruban
+ * Generation 9 Pack
+* Droid779
+ * Better Berry Trees
+* ENLS
+ * Pre-Looped Pokémon Music Library
+* KRLW890
+ * Generation 9 Attack Animations
+* LMicolash
+ * Generation 1-8 Custom Eggs
+* NocTurn
+ * Terrain Item Balls
 
 ### Scripting and Plugins
-* []
+* A.I.R.
+ * BW2 Bag Menu
+* Boonzeet
+ * BW Shout Bubble
+ * Generation 8 "Item Find" Description
+* DemICE
+ * Tutor.net
+* Lucidious89
+ * Deluxe Battle Kit
+* ThatWelshOne_
+ * Modern Quest System
+* Vendily
+ * Item Crafting UI
+ * Wild Drop Items
+* Voltseon
+ * Pause Menu
+ * PokéSearch
+* Wrigty12
+ * Berry Core and Dex
+ * Berry Planting Improvements
+ * Instant Messaging
+ * Pokémon Contests and Pokéblocks
+ * Social Links
+ * Tip Cards
 
 ### Playtesting
 * []
