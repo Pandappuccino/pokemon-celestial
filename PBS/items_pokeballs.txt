@@ -1,1 +1,283 @@
+#================STANDARD BALLS================#
+[POKEBALL]
+Name = Poké Ball
+NamePlural = Poké Balls
+Pocket = 2
+Price = 200
+SellPrice = 100
+BPPrice = 1
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.
+#================================#
+[GREATBALL]
+Name = Great Ball
+NamePlural = Great Balls
+Pocket = 2
+Price = 600
+SellPrice = 200
+BPPrice = 1
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.
+#================================#
+[ULTRABALL]
+Name = Ultra Ball
+NamePlural = Ultra Balls
+Pocket = 2
+Price = 1200
+SellPrice = 300
+BPPrice = 1
+BattleUse = OnFoe
+Flags = PokeBall
+Description = An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.
+#================================#
+[MASTERBALL]
+Name = Master Ball
+NamePlural = Master Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = The best Ball with the ultimate level of performance. It will catch any wild Pokémon without fail.
+#================================#
+[PREMIERBALL]
+Name = Premier Ball
+NamePlural = Premier Balls
+Pocket = 2
+Price = 20
+SellPrice = 5
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.
+
+#================SPECIALTY BALLS================#
+[NETBALL]
+Name = Net Ball
+NamePlural = Net Balls
+Pocket = 2
+Price = 1000
+SellPrice = 250
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon.
+#================================#
+[NESTBALL]
+Name = Nest Ball
+NamePlural = Nest Balls
+Pocket = 2
+Price = 1000
+SellPrice = 250
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on weaker Pokémon in the wild.
+#================================#
+[REPEATBALL]
+Name = Repeat Ball
+NamePlural = Repeat Balls
+Pocket = 2
+Price = 1000
+SellPrice = 250
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught.
+#================================#
+[TIMERBALL]
+Name = Timer Ball
+NamePlural = Timer Balls
+Pocket = 2
+Price = 1000
+SellPrice = 250
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Ball that becomes progressively better during longer battles.
+#================================#
+[QUICKBALL]
+Name = Quick Ball
+NamePlural = Quick Balls
+Pocket = 2
+Price = 1000
+SellPrice = 250
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter.
+#================================#
+[DIVEBALL]
+Name = Dive Ball
+NamePlural = Dive Balls
+Pocket = 2
+Price = 1000
+SellPrice = 250
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on Pokémon that live underwater.
+#================================#
+[DUSKBALL]
+Name = Dusk Ball
+NamePlural = Dusk Balls
+Pocket = 2
+Price = 1000
+SellPrice = 250
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.
+#================================#
+[HEALBALL]
+Name = Heal Ball
+NamePlural = Heal Balls
+Pocket = 2
+Price = 300
+SellPrice = 150
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.
+#================================#
+[LUXURYBALL]
+Name = Luxury Ball
+NamePlural = Luxury Balls
+Pocket = 2
+Price = 3000
+SellPrice = 1000
+BPPrice = 5
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.
+#================================#
+
+
+#================APRICORN BALLS================#
+[FASTBALL]
+Name = Fast Ball
+NamePlural = Fast Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on very fast Pokémon.
+#================================#
+[LEVELBALL]
+Name = Level Ball
+NamePlural = Level Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on weaker Pokémon than your own.
+#================================#
+[LUREBALL]
+Name = Lure Ball
+NamePlural = Lure Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on Pokémon caught with a Rod.
+#================================#
+[HEAVYBALL]
+Name = Heavy Ball
+NamePlural = Heavy Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on very heavy Pokémon.
+#================================#
+[LOVEBALL]
+Name = Love Ball
+NamePlural = Love Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on Pokémon of the opposite gender.
+#================================#
+[FRIENDBALL]
+Name = Friend Ball
+NamePlural = Friend Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that makes wild Pokémon friendly immediately.
+#================================#
+[MOONBALL]
+Name = Moon Ball
+NamePlural = Moon Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on Cosmic-type Pokémon.
+#================================#
+[DREAMBALL]
+Name = Dream Ball
+NamePlural = Dream Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works especially well on sleeping Pokémon.
+#================================#
+
+
+#================OTHER BALLS================#
+[CHERISHBALL]
+Name = Cherish Ball
+NamePlural = Cherish Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.
+#================================#
+[BEASTBALL]
+Name = Beast Ball
+NamePlural = Beast Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that is very ineffective at catching Pokémon.
+#================================#
+[STRANGEBALL]
+Name = Strange Ball
+NamePlural = Strange Balls
+Pocket = 2
+Price = 0
+SellPrice = 0
+BPPrice = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A peculiar Poké Ball that seems to come from a different dimension.
 #================================#
