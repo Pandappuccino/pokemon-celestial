@@ -1,1 +1,544 @@
 #================================#
+[ASSURANCE]
+Name = Assurance
+Type = DARK
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetLostHPThisTurn
+Flags = Contact,CanProtect,CanMirrorMove
+Description = If the target has already taken some damage in the same turn, this attack's power is doubled.
+#================================#
+[BEATUP]
+Name = Beat Up
+Type = DARK
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitOncePerUserTeamMember
+Flags = CanProtect,CanMirrorMove
+Description = The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.
+#================================#
+[BITE]
+Name = Bite
+Type = DARK
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 30
+Description = The target is bitten with viciously sharp fangs. It may make the target flinch.
+#================================#
+[BRUTALSWING]
+Name = Brutal Swing
+Type = DARK
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = AllNearOthers
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user swings its body around violently to inflict damage on everything in its vicinity.
+#================================#
+[CEASELESSEDGE]
+Name = Ceaseless Edge
+Type = DARK
+Category = Physical
+Power = 65
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = SplintersTargetGen8AddSpikesGen9
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+EffectChance = 100
+Description = The user slashes the opponent with its shell blade. May leave spikes around the target.
+#================================#
+[COMEUPPANCE]
+Name = Comeuppance
+Type = DARK
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = None
+FunctionCode = CounterDamagePlusHalf
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user retaliates with much greater force against the opponent that last inflicted damage on it.
+#================================#
+[CRUNCH]
+Name = Crunch
+Type = DARK
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#================================#
+[DARKPULSE]
+Name = Dark Pulse
+Type = DARK
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove,Pulse
+EffectChance = 20
+Description = The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.
+#================================#
+[DARKVOID]
+Name = Dark Void
+Type = DARK
+Category = Status
+Accuracy = 50
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = SleepTargetIfUserDarkrai
+Flags = CanProtect,CanMirrorMove
+Description = Opposing Pokémon are dragged into a world of total darkness that makes them sleep.
+#================================#
+[DARKESTLARIAT]
+Name = Darkest Lariat
+Type = DARK
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = IgnoreTargetDefSpDefEvaStatStages
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user swings both arms and hits the target. Ignores the target's stat changes.
+#================================#
+[EMBARGO]
+Name = Embargo
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartTargetCannotUseItem
+Flags = CanProtect,CanMirrorMove
+Description = It prevents the target from using its held item. Its Trainer is also prevented from using items on it.
+#================================#
+[FAKETEARS]
+Name = Fake Tears
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetSpDef2
+Flags = CanProtect,CanMirrorMove
+Description = The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.
+#================================#
+[FALSESURRENDER]
+Name = False Surrender
+Type = DARK
+Category = Physical
+Power = 80
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user pretends to bow its head, but then it stabs the target with its disheveled hair. Never misses.
+#================================#
+[FEINTATTACK]
+Name = Feint Attack
+Type = DARK
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.
+#================================#
+[FIERYWRATH]
+Name = Fiery Wrath
+Type = DARK
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 20
+Description = The user transforms its wrath into a fire-like aura to attack. This may also make foes flinch.
+#================================#
+[FLATTER]
+Name = Flatter
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseTargetSpAtk1ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+Description = Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat.
+#================================#
+[FLING]
+Name = Fling
+Type = DARK
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ThrowUserItemAtTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user flings its held item at the target to attack. Its power and effects depend on the item.
+#================================#
+[FOULPLAY]
+Name = Foul Play
+Type = DARK
+Category = Physical
+Power = 95
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = UseTargetAttackInsteadOfUserAttack
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user turns the foe's power against it. It does more damage the higher the target's Attack stat.
+#================================#
+[HONECLAWS]
+Name = Hone Claws
+Type = DARK
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = User
+FunctionCode = RaiseUserAtkAcc1
+Description = The user sharpens its claws to boost its Attack stat and accuracy.
+#================================#
+[HYPERSPACEFURY]
+Name = Hyperspace Fury
+Type = DARK
+Category = Physical
+Power = 100
+Accuracy = 0
+TotalPP = 5
+Target = NearOther
+FunctionCode = HoopaRemoveProtectionsBypassSubstituteLowerUserDef1
+Flags = CanMirrorMove,CannotMetronome
+Description = Unleashes a barrage of multi-arm attacks, skipping protections. The user's Defense stat falls.
+#================================#
+[JAWLOCK]
+Name = Jaw Lock
+Type = DARK
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TrapUserAndTargetInBattle
+Flags = Contact,CanProtect,CanMirrorMove
+Description = This move prevents the user and the target from switching out until either of them faints.
+#================================#
+[KNOCKOFF]
+Name = Knock Off
+Type = DARK
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RemoveTargetItem
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user slaps down the target's held item, preventing that item from being used in the battle.
+#================================#
+[KOWTOWCLEAVE]
+Name = Kowtow Cleave
+Type = DARK
+Category = Physical
+Power = 85
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Slicing,Contact,CanProtect,CanMirrorMove
+Description = The user kowtows to make the target lower its guard, then slashes. This attack never misses.
+#================================#
+[LASHOUT]
+Name = Lash Out
+Type = DARK
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = DoublePowerIfUserStatsLoweredThisTurn
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user lashes out to vent its frustration. Power is doubled if its stats dropped this turn.
+#================================#
+[MEMENTO]
+Name = Memento
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserFaintsLowerTargetAtkSpAtk2
+Flags = CanProtect,CanMirrorMove
+Description = The user faints when using this move. In return, it harshly lowers the target's Attack and Sp. Atk.
+#================================#
+[NASTYPLOT]
+Name = Nasty Plot
+Type = DARK
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtk2
+Description = The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.
+#================================#
+[NIGHTDAZE]
+Name = Night Daze
+Type = DARK
+Category = Special
+Power = 85
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 40
+Description = The user lets loose a pitch-black shock wave at its target. It may also lower the target's accuracy.
+#================================#
+[NIGHTSLASH]
+Name = Night Slash
+Type = DARK
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user slashes the target the instant an opportunity arises. Critical hits land more easily.
+#================================#
+[OBSTRUCT]
+Name = Obstruct
+Type = DARK
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserFromDamagingMovesObstruct
+Description = The user protects itself from all attacks. Direct contact lowers the attacker's Defense.
+#================================#
+[PARTINGSHOT]
+Name = Parting Shot
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAtkSpAtk1SwitchOutUser
+Flags = CanProtect,CanMirrorMove,Sound
+Description = With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches out.
+#================================#
+[PAYBACK]
+Name = Payback
+Type = DARK
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetActed
+Flags = Contact,CanProtect,CanMirrorMove
+Description = If the user moves after the target, this attack's power will be doubled.
+#================================#
+[POWERTRIP]
+Name = Power Trip
+Type = DARK
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PowerHigherWithUserPositiveStatStages
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user boasts of its strength. Power increases the more the user's stats are raised.
+#================================#
+[PUNISHMENT]
+Name = Punishment
+Type = DARK
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithTargetPositiveStatStages
+Flags = Contact,CanProtect,CanMirrorMove
+Description = This attack's power increases the more the target has powered up with stat changes.
+#================================#
+[PURSUIT]
+Name = Pursuit
+Type = DARK
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PursueSwitchingFoe
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An attack move that inflicts double damage if used on a target that is switching out of battle.
+#================================#
+[QUASH]
+Name = Quash
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = TargetActsLast
+Flags = CanProtect,CanMirrorMove
+Description = The user suppresses the target and makes its move go last.
+#================================#
+[RUINATION]
+Name = Ruination
+Type = DARK
+Category = Special
+Power = 1
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FixedDamageHalfTargetHP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user summons a ruinous disaster. This cuts the target’s HP in half.
+#================================#
+[SNARL]
+Name = Snarl
+Type = DARK
+Category = Special
+Power = 55
+Accuracy = 95
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
+EffectChance = 100
+Description = The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.
+#================================#
+[SNATCH]
+Name = Snatch
+Type = DARK
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = StealAndUseBeneficialStatusMove
+Description = The user steals the effects of any healing or stat-changing move the foe attempts to use.
+#================================#
+[SUCKERPUNCH]
+Name = Sucker Punch
+Type = DARK
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 1
+FunctionCode = FailsIfTargetActed
+Flags = Contact,CanProtect,CanMirrorMove
+Description = This move enables the user to attack first. It fails if the target is not readying an attack, however.
+#================================#
+[SWITCHEROO]
+Name = Switcheroo
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetSwapItems
+Flags = CanProtect,CanMirrorMove
+Description = The user trades held items with the target faster than the eye can follow.
+#================================#
+[TAUNT]
+Name = Taunt
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = DisableTargetStatusMoves
+Flags = CanProtect,CanMirrorMove
+Description = The target is taunted into a rage that allows it to use only attack moves for three turns.
+#================================#
+[THIEF]
+Name = Thief
+Type = DARK
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = UserTakesTargetItem
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item.
+#================================#
+[THROATCHOP]
+Name = Throat Chop
+Type = DARK
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DisableTargetSoundMoves
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks the target's throat. The target cannot use sound-based moves for two turns.
+#================================#
+[TOPSYTURVY]
+Name = Topsy-Turvy
+Type = DARK
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = InvertTargetStatStages
+Flags = CanProtect,CanMirrorMove
+Description = All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.
+#================================#
+[TORMENT]
+Name = Torment
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DisableTargetUsingSameMoveConsecutively
+Flags = CanProtect,CanMirrorMove
+Description = The user torments and enrages the foe, making it incapable of using the same move twice in a row.
+#================================#
+[WICKEDBLOW]
+Name = Wicked Blow
+Type = DARK
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = AlwaysCriticalHit
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = Strikes with a fierce blow through mastery of the Dark style. Always results in a critical hit.
