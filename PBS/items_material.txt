@@ -1,1 +1,251 @@
+#================BASE MATERIALS================#
+[BLANKRECORD]
+Name = Blank Record
+NamePlural = Blank Records
+Pocket = 11
+Price = 2500
+SellPrice = 500
+BPPrice = 25
+Flags = Material
+Description = A blank record that can be used to create TRs using a recorder.
+#================================#
+
+#================MOVE CLASSIFICATION MATERIALS================#
+[BOLDLABEL]
+Name = Bold Label
+NamePlural = Bold Labels
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A TR label with a bold, striking pattern. It is used for TRs that teach physical moves.
+#================================#
+[CALMLABEL]
+Name = Calm Label
+NamePlural = Calm Labels
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A TR label with a calm, soothing pattern. It is used for TRs that teach special moves.
+#================================#
+[STRANGELABEL]
+Name = Strange Label
+NamePlural = Strange Labels
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A TR label with a strange, garish pattern. It is used for TR that teach status moves.
+#================================#
+
+#================TYPE MATERIALS================#
+[LOOSEFUR]
+Name = Loose Fur
+NamePlural = Loose Furs
+PortionName = tuft of Loose Fur
+PortionNamePlural = tufts of Loose Fur
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A tuft of loose fur dropped by a Normal-type Pokémon.
+#================================#
+[OLDASH]
+Name = Old Ashes
+NamePlural = Old Ashes
+PortionName = pile of Old Ash
+PortionNamePlural = piles of Old Ash
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A small pile of ash left behind by a Fire-type Pokémon.
+#================================#
+[DAMPSCALE]
+Name = Damp Scale
+NamePlural = Damp Scales
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A tiny wet scale dropped by a Water-type Pokémon.
+#================================#
+[CHARGEDFUR]
+Name = Charged Fur
+NamePlural = Charged Furs
+PortionName = tuft of Charged Fur
+PortionNamePlural = tufts of Charged Fur
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A tuft of static-charged fur dropped by an Electric-type Pokémon.
+#================================#
+[TINYPETAL]
+Name = Tiny Petal
+NamePlural = Tiny Petals
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A small flower petal left behind by a Grass-type Pokémon.
+#================================#
+[FROSTYSHARD]
+Name = Frosty Shard
+NamePlural = Frosty Shards
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A tiny shard of ice left behind by an Ice-type Pokémon.
+#================================#
+[MACHOSWEAT]
+Name = Macho Sweat
+NamePlural = Macho Sweats
+PortionName = bead of Macho Sweat
+PortionNamePlural = beads of Macho Sweat
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = Sweat left behind after vigorous training by a Fighting-type Pokémon.
+#================================#
+[TOXICFANG]
+Name = Toxic Fang
+NamePlural = Toxic Fang
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A venom-laced fang left behind by a Poison-type Pokémon.
+#================================#
+[REDCLAY]
+Name = Red Clay
+NamePlural = Red Clays
+PortionName = lump of Red Clay
+PortionNamePlural = lumps of Red Clay
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A hunk of malleable clay left behind by a Ground-type Pokémon.
+#================================#
+[SOFTPLUMAGE]
+Name = Soft Plumage
+NamePlural = Soft Plumages
+PortionName = tuft of Soft Plumage
+PortionNamePlural = tufts of Soft Plumage
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A soft, downy feather left behind by a Flying-type Pokémon.
+#================================#
+[MYSTERYENERGY]
+Name = Mystery Energy
+NamePlural = Mystery Energies
+PortionName = ball of Mystery Energy
+PortionNamePlural = balls of Mystery Energy
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A tangible ball of energy left behind by a Psychic-type Pokémon.
+#================================#
+[OLDCARAPACE]
+Name = Old Carapace
+NamePlural = Old Carapaces
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A discarded carapace left behind by a Bug-type Pokémon.
+#================================#
+[SMOOTHPEBBLE]
+Name = Smooth Pebble
+NamePlural = Smooth Pebbles
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A perfectly-smooth pebble left behind by a Rock-type Pokémon.
+#================================#
+[EERIEWISP]
+Name = Eerie Wisp
+NamePlural = Eerie Wisps
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A haunting wisp of fire left behind by a Ghost-type Pokémon.
+#================================#
+[DRAGONHORN]
+Name = Dragon Horn
+NamePlural = Dragon HOrns
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A cracked horn left behind by a Dragon-type Pokémon.
+#================================#
+[BLACKCLAW]
+Name = Black Claw
+NamePlural = Black Claws
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A jet-black claw left behind by a Dark-type Pokémon.
+#================================#
+[RUSTYSCRAP]
+Name = Rusty Scrap
+NamePlural = Rusty Scraps
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A rusted piece of metal left behind by a Steel-type Pokémon.
+#================================#
+[FAIRYDUST]
+Name = Fairy Dust
+NamePlural = Fairy Dusts
+PortionName = pile of Fairy Dust
+PortionNamePlural = piles of Fairy Dust
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A pile of shimmering dust left behind by a Fairy-type Pokémon.
+#================================#
+[METEORSHARD]
+Name = Meteor Shard
+NamePlural = Meteor Shards
+Pocket = 11
+Price = 250
+SellPrice = 50
+BPPrice = 5
+Flags = Material
+Description = A piece of meteorite left behind by a Cosmic-type Pokémon.
 #================================#
