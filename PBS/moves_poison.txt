@@ -1,1 +1,386 @@
 #================================#
+[ACID]
+Name = Acid
+Type = POISON
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The foe is attacked with a spray of harsh acid. It may also lower the target's Sp. Def stat.
+#================================#
+[ACIDARMOR]
+Name = Acid Armor
+Type = POISON
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserDefense2
+Description = The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.
+#================================#
+[ACIDSPRAY]
+Name = Acid Spray
+Type = POISON
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetSpDef2
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 100
+Description = The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.
+#================================#
+[BANEFULBUNKER]
+Name = Baneful Bunker
+Type = POISON
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserBanefulBunker
+Description = Protects the user from attacks. Also poisons any attacker that makes contact with the user.
+#================================#
+[BARBBARRAGE]
+Name = Barb Barrage
+Type = POISON
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetPoisonedPoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = Fires toxic barbs which may poison the target. Power is doubled if the target is poisoned.
+#================================#
+[BELCH]
+Name = Belch
+Type = POISON
+Category = Special
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FailsIfUserNotConsumedBerry
+Flags = CanProtect
+Description = The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.
+#================================#
+[CLEARSMOG]
+Name = Clear Smog
+Type = POISON
+Category = Special
+Power = 50
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+FunctionCode = ResetTargetStatStages
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks by throwing a clump of special mud. All status changes are returned to normal.
+#================================#
+[COIL]
+Name = Coil
+Type = POISON
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserAtkDefAcc1
+Description = The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.
+#================================#
+[CORROSIVEGAS]
+Name = Corrosive Gas
+Type = POISON
+Category = Status
+Accuracy = 100
+TotalPP = 40
+Target = AllNearOthers
+FunctionCode = CorrodeTargetItem
+Flags = CanProtect,CanMirrorMove
+Description = The user surrounds everything around it with highly acidic gas and melts away items they hold.
+#================================#
+[CROSSPOISON]
+Name = Cross Poison
+Type = POISON
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 10
+Description = A slashing attack with a poisonous blade that may also poison the foe. Critical hits land more easily.
+#================================#
+[DIRECLAW]
+Name = Dire Claw
+Type = POISON
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = PoisonParalyzeOrSleepTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user may critically hit with its ruinous claws. May also leave the target poisoned, paralyzed, or asleep.
+#================================#
+[GASTROACID]
+Name = Gastro Acid
+Type = POISON
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = NegateTargetAbility
+Flags = CanProtect,CanMirrorMove
+Description = The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.
+#================================#
+[GUNKSHOT]
+Name = Gunk Shot
+Type = POISON
+Category = Physical
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user shoots filthy garbage at the target to attack. It may also poison the target.
+#================================#
+[MALIGNANTCHAIN]
+Name = Malignant Chain
+Type = POISON
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = BadPoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = Wraps the target in a toxic, corrosive chain. This may also leave the target badly poisoned.
+#================================#
+[MORTALSPIN]
+Name = Mortal Spin
+Type = POISON
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = RemoveUserBindingAndEntryHazardsPoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Performs a spin that eliminates certain traps and hazards. This also poisons opposing Pokémon.
+#================================#
+[POISONFANG]
+Name = Poison Fang
+Type = POISON
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BadPoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 50
+Description = The user bites the target with toxic fangs. It may also leave the target badly poisoned.
+#================================#
+[POISONGAS]
+Name = Poison Gas
+Type = POISON
+Category = Status
+Accuracy = 90
+TotalPP = 40
+Target = AllNearFoes
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+Description = A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.
+#================================#
+[POISONJAB]
+Name = Poison Jab
+Type = POISON
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is stabbed with a tentacle or arm seeped with poison. It may also poison the target.
+#================================#
+[POISONPOWDER]
+Name = Poison Powder
+Type = POISON
+Category = Status
+Accuracy = 75
+TotalPP = 35
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user scatters a cloud of poisonous dust on the target. It may poison the target.
+#================================#
+[POISONSTING]
+Name = Poison Sting
+Type = POISON
+Category = Physical
+Power = 15
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user stabs the target with a poisonous stinger. This may also poison the target.
+#================================#
+[POISONTAIL]
+Name = Poison Tail
+Type = POISON
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 10
+Description = The user hits the target with its tail. It may also poison the target. Critical hits land more easily.
+#================================#
+[PURIFY]
+Name = Purify
+Type = POISON
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = CureTargetStatusHealUserHalfOfTotalHP
+Flags = CanProtect,CanMirrorMove
+Description = The user heals the target's status condition. If so, it also restores the user's own HP.
+#================================#
+[SHELLSIDEARM]
+Name = Shell Side Arm
+Type = POISON
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = CategoryDependsOnHigherDamagePoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = Inflicts physical or special damage, whichever will be more effective. May also poison the target.
+#================================#
+[SLUDGE]
+Name = Sludge
+Type = POISON
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = Unsanitary sludge is hurled at the target. It may also poison the target.
+#================================#
+[SLUDGEBOMB]
+Name = Sludge Bomb
+Type = POISON
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 30
+Description = Unsanitary sludge is hurled at the target. It may also poison the target.
+#================================#
+[SLUDGEWAVE]
+Name = Sludge Wave
+Type = POISON
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = It swamps the area around the user with a giant sludge wave. It may also poison those hit.
+#================================#
+[SMOG]
+Name = Smog
+Type = POISON
+Category = Special
+Power = 30
+Accuracy = 70
+TotalPP = 20
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 40
+Description = The target is attacked with a discharge of filthy gases. It may also poison the target.
+#================================#
+[TOXIC]
+Name = Toxic
+Type = POISON
+Category = Status
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = BadPoisonTarget
+Flags = CanProtect,CanMirrorMove
+Description = A move that leaves the target badly poisoned. Its poison damage worsens every turn.
+#================================#
+[TOXICSPIKES]
+Name = Toxic Spikes
+Type = POISON
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = FoeSide
+FunctionCode = AddToxicSpikesToFoeSide
+Description = The user lays a trap of poison spikes at the foe's feet. They poison foes that switch into battle.
+#================================#
+[TOXICTHREAD]
+Name = Toxic Thread
+Type = POISON
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PoisonTargetLowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots poisonous threads to poison the target and lower the target's Speed stat.
+#================================#
+[VENOMDRENCH]
+Name = Venom Drench
+Type = POISON
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = LowerPoisonedTargetAtkSpAtkSpd1
+Flags = CanProtect
+Description = Foes are drenched in an odd liquid that lowers the Attack, Sp. Atk, and Speed of poisoned Pokémon.
+#================================#
+[VENOSHOCK]
+Name = Venoshock
+Type = POISON
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetPoisoned
+Flags = CanProtect,CanMirrorMove
+Description = The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.
