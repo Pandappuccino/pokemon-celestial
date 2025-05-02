@@ -1,1 +1,322 @@
 #================================#
+[ASTONISH]
+Name = Astonish
+Type = GHOST
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks the target while shouting in a startling fashion. It may also make the target flinch.
+#================================#
+[ASTRALBARRAGE]
+Name = Astral Barrage
+Type = GHOST
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.
+#================================#
+[BITTERMALICE]
+Name = Bitter Malice
+Type = GHOST
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks the target with spine-chilling resentment. This also lowers the target’s Attack stat.
+#================================#
+[CONFUSERAY]
+Name = Confuse Ray
+Type = GHOST
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+Description = The target is exposed to a sinister ray that triggers confusion.
+#================================#
+[CURSE]
+Name = Curse
+Type = GHOST
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = CurseTargetOrLowerUserSpd1RaiseUserAtkDef1
+Description = A move that works differently for the Ghost type than for all the other types.
+#================================#
+[DESTINYBOND]
+Name = Destiny Bond
+Type = GHOST
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = AttackerFaintsIfUserFaints
+Description = When this move is used, if the user faints, the foe that landed the knockout hit also faints.
+#================================#
+[GRUDGE]
+Name = Grudge
+Type = GHOST
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = SetAttackerMovePPTo0IfUserFaints
+Description = If the user faints, the user's grudge fully depletes the PP of the foe's move that knocked it out.
+#================================#
+[HEX]
+Name = Hex
+Type = GHOST
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetStatusProblem
+Flags = CanProtect,CanMirrorMove
+Description = This relentless attack does massive damage to a target affected by status problems.
+#================================#
+[INFERNALPARADE]
+Name = Infernal Parade
+Type = GHOST
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DoublePowerIfTargetStatusProblemBurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = Hurls fireballs which may cause burns. Power is doubled if the target has a status condition.
+#================================#
+[LASTRESPECTS]
+Name = Last Respects
+Type = GHOST
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = IncreasePowerEachFaintedAlly
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks to avenge its allies. The move’s power increases for each defeated ally.
+#================================#
+[LICK]
+Name = Lick
+Type = GHOST
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.
+#================================#
+[MOONGEISTBEAM]
+Name = Moongeist Beam
+Type = GHOST
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = IgnoreTargetAbility
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user emits a sinister ray. This move can be used on the target regardless of its Abilities.
+#================================#
+[NIGHTSHADE]
+Name = Night Shade
+Type = GHOST
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FixedDamageUserLevel
+Flags = CanProtect,CanMirrorMove
+Description = The user makes the foe see a frightening mirage. It inflicts damage matching the user's level.
+#================================#
+[NIGHTMARE]
+Name = Nightmare
+Type = GHOST
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartDamageTargetEachTurnIfTargetAsleep
+Flags = CanProtect,CanMirrorMove
+Description = A sleeping target sees a nightmare that inflicts some damage every turn.
+#================================#
+[OMINOUSWIND]
+Name = Ominous Wind
+Type = GHOST
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = RaiseUserMainStats1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once.
+#================================#
+[PHANTOMFORCE]
+Name = Phantom Force
+Type = GHOST
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
+Flags = Contact,CanMirrorMove
+Description = The user vanishes somewhere, then strikes on the next turn. Hits through protections.
+#================================#
+[POLTERGEIST]
+Name = Poltergeist
+Type = GHOST
+Category = Physical
+Power = 110
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = FailsIfTargetHasNoItem
+Flags = CanProtect,CanMirrorMove
+Description = Attacks the target by controlling its item. The move fails if the target doesn't have an item.
+#================================#
+[RAGEFIST]
+Name = Rage Fist
+Type = GHOST
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = IncreasePowerEachTimeHit
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome,Punching
+Description = The user converts its rage into energy to attack. The move’s power increases every time the user is hit.
+#================================#
+[SHADOWBALL]
+Name = Shadow Ball
+Type = GHOST
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 20
+Description = The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.
+#================================#
+[SHADOWCLAW]
+Name = Shadow Claw
+Type = GHOST
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user slashes with a sharp claw made from shadows. Critical hits land more easily.
+#================================#
+[SHADOWFORCE]
+Name = Shadow Force
+Type = GHOST
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
+Flags = Contact,CanMirrorMove
+Description = The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself.
+#================================#
+[SHADOWPUNCH]
+Name = Shadow Punch
+Type = GHOST
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user throws a punch from the shadows. The punch lands without fail.
+#================================#
+[SHADOWSNEAK]
+Name = Shadow Sneak
+Type = GHOST
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user extends its shadow and attacks the target from behind. This move always goes first.
+#================================#
+[SPECTRALTHIEF]
+Name = Spectral Thief
+Type = GHOST
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserStealTargetPositiveStatStages
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user hides in the target's shadow, steals the target's stat boosts, and then attacks.
+#================================#
+[SPIRITSHACKLE]
+Name = Spirit Shackle
+Type = GHOST
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TrapTargetInBattle
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks while also stitching the target's shadow to the ground to prevent it fleeing.
+#================================#
+[SPITE]
+Name = Spite
+Type = GHOST
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerPPOfTargetLastMoveBy4
+Flags = CanProtect,CanMirrorMove
+Description = The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.
+#================================#
+[TRICKORTREAT]
+Name = Trick-or-Treat
+Type = GHOST
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = AddGhostTypeToTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user takes the target trick-or-treating. This adds Ghost type to the target's type.
