@@ -1,1 +1,359 @@
+#================HP RESTORING ITEMS================#
+[POTION]
+Name = Potion
+NamePlural = Potions
+Pocket = 1
+Price = 200
+SellPrice = 100
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine for wounds. It restores 20 HP to a single Pokémon.
+#================================#
+[SUPERPOTION]
+Name = Super Potion
+NamePlural = Super Potions
+Pocket = 1
+Price = 700
+SellPrice = 250
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine for wounds. It restores 60 HP to a single Pokémon.
+#================================#
+[HYPERPOTION]
+Name = Hyper Potion
+NamePlural = Hyper Potions
+Pocket = 1
+Price = 1200
+SellPrice = 400
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine for wounds. It restores 120 HP to a single Pokémon.
+#================================#
+[MAXPOTION]
+Name = Max Potion
+NamePlural = Max Potions
+Pocket = 1
+Price = 2500
+SellPrice = 500
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine for wounds. It fully restores the HP of a single Pokémon.
+#================================#
+[FULLRESTORE]
+Name = Full Restore
+NamePlural = Full Restores
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A medicine that fully restores the HP and heals any status problems of a single Pokémon.
+#================================#
+[REVIVE]
+Name = Revive
+NamePlural = Revives
+Pocket = 1
+Price = 2000
+SellPrice = 500
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A medicine that revives a fainted Pokémon and restores half of its maximum HP.
+#================================#
+[MAXREVIVE]
+Name = Max Revive
+NamePlural = Max Revives
+Pocket = 1
+Price = 5000
+SellPrice = 1500
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A medicine that revives a fainted Pokémon and fully restores its maximum HP.
+#================================#
+
+#================STATUS ITEMS================#
+[ANTIDOTE]
+Name = Antidote
+NamePlural = Antidotes
+Pocket = 1
+Price = 150
+SellPrice = 50
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine that treats poisoning for a single Pokémon.
+#================================#
+[AWAKENING]
+Name = Awakening
+NamePlural = Awakenings
+Pocket = 1
+Price = 150
+SellPrice = 50
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine that wakes a single sleeping Pokémon.
+#================================#
+[BURNHEAL]
+Name = Burn Heal
+NamePlural = Burn Heals
+Pocket = 1
+Price = 150
+SellPrice = 50
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine that treats a burn for a single Pokémon.
+#================================#
+[PARALYZEHEAL]
+Name = Paralyze Heal
+NamePlural = Paralyze Heals
+Pocket = 1
+Price = 150
+SellPrice = 50
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine that treats paralysis for a single Pokémon.
+#================================#
+[ICEHEAL]
+Name = Ice Heal
+NamePlural = Ice Heals
+Pocket = 1
+Price = 150
+SellPrice = 50
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine that thaws out a single frozen Pokémon.
+#================================#
+[FULLHEAL]
+Name = Full Heal
+NamePlural = Full Heals
+Pocket = 1
+Price = 500
+SellPrice = 100
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine that treats all status conditions for a single Pokémon.
+#================================#
+
+
+#================PP RESTORING ITEMS================#
+[ETHER]
+Name = Ether
+NamePlural = Ethers
+Pocket = 1
+Price = 1500
+SellPrice = 300
+BPPrice = 5
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Fling_30
+Description = A medicine that restores 10 PP to a single move known by a Pokémon.
+#================================#
+[MAXETHER]
+Name = Max Ether
+NamePlural = Max Ethers
+Pocket = 1
+Price = 2500
+SellPrice = 500
+BPPrice = 10
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Fling_30
+Description = A medicine that fully restores the PP of a single move known by a Pokémon.
+#================================#
+[ELIXIR]
+Name = Elixir
+NamePlural = Elixirs
+Pocket = 1
+Price = 3500
+SellPrice = 750
+BPPrice = 15
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A medicine that restores 10 PP to all four moves known by a Pokémon.
+#================================#
+[MAXELIXIR]
+Name = Max Elixir
+NamePlural = Max Elixirs
+Pocket = 1
+Price = 5000
+SellPrice = 1250
+BPPrice = 25
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A medicine that fully restores the PP of all four moves known by a Pokémon.
+#================================#
+
+
+#================HERBAL MEDICINE================#
+[ENERGYPOWDER]
+Name = Energy Powder
+NamePlural = Energy Powders
+PortionName = dose of Energy Powder
+PortionNamePlural = doses of Energy Powder
+Pocket = 1
+Price = 500
+SellPrice = 250
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_10
+Description = A bitter medicinal powder that restores 60 HP to a Pokémon.
+#================================#
+[ENERGYROOT]
+Name = Energy Root
+NamePlural = Energy Roots
+PortionName = dose of Energy Root
+PortionNamePlural = doses of Energy Root
+Pocket = 1
+Price = 1200
+SellPrice = 400
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_10
+Description = A very bitter medicinal root that restores 120 HP to a Pokémon.
+#================================#
+[REVIVALHERB]
+Name = Revival Herb
+NamePlural = Revival Herbs
+Pocket = 1
+Price = 2500
+SellPrice = 500
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_10
+Description = An extremely bitter medicinal herb that revives a fainted Pokémon and fully restores its HP.
+#================================#
+[HEALPOWDER]
+Name = Heal Powder
+NamePlural = Heal Powders
+PortionName = dose of Heal Powder
+PortionNamePlural = doses of Heal Powder
+Pocket = 1
+Price = 300
+SellPrice = 100
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_10
+Description = A bitter medicinal powder that cures all status conditions for a single Pokémon.
+#================================#
+
+
+#================FOOD AND DRINKS================#
+[BERRYJUICE]
+Name = Berry Juice
+NamePlural = Berry Juices
+PortionName = cup of Berry Juice
+PortionNamePlural = cups of Berry Juice
+Pocket = 1
+Price = 500
+SellPrice = 50
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A 100% pure juice made of Berries. It restores the HP of one Pokémon by 20 points.
+#================================#
+[FRESHWATER]
+Name = Fresh Water
+NamePlural = Fresh Waters
+PortionName = bottle of Fresh Water
+PortionNamePlural = bottles of Fresh Water
+Pocket = 1
+Price = 200
+SellPrice = 100
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Water with a high mineral content. It restores the HP of one Pokémon by 30 points.
+#================================#
+[SODAPOP]
+Name = Soda Pop
+NamePlural = Soda Pops
+PortionName = bottle of Soda Pop
+PortionNamePlural = bottles of Soda Pop
+Pocket = 1
+Price = 300
+SellPrice = 150
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A sweet, carbonated drink. It restores the HP of one Pokémon by 60 points.
+#================================#
+[LEMONADE]
+Name = Lemonade
+NamePlural = Lemonades
+PortionName = can of Lemonade
+PortionNamePlural = cans of Lemonade
+Pocket = 1
+Price = 350
+SellPrice = 175
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A very sweet and tart drink. It restores the HP of one Pokémon by 70 points.
+#================================#
+[MOOMOOMILK]
+Name = Moomoo Milk
+NamePlural = Moomoo Milks
+PortionName = bottle of Moomoo Milk
+PortionNamePlural = bottles of Moomoo Milk
+Pocket = 1
+Price = 500
+SellPrice = 250
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A bottle of highly-nutritious milk. It restores the HP of one Pokémon by 120 points.
+#================================#
+[SWEETHEART]
+Name = Sweet Heart
+NamePlural = Sweet Hearts
+Pocket = 1
+Price = 100
+SellPrice = 25
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_10
+Description = A heart-shaped piece of chocolate. It restores the HP of one Pokémon by 20 points.
+#================================#
+[GREENTEA]
+Name = Green Tea
+NamePlural = Green Teas
+PortionName = cup of Green Tea
+PortionNamePlural = cup of Green Tea
+Pocket = 1
+Price = 700
+SellPrice = 200
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A warm cup of green tea. It revives a fainted Pokémon, restoring half of its max HP.
 #================================#
