@@ -1,1 +1,783 @@
 #================================#
+[AGILITY]
+Name = Agility
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = RaiseUserSpeed2
+Description = The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.
+#================================#
+[ALLYSWITCH]
+Name = Ally Switch
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = User
+Priority = 2
+FunctionCode = UserSwapsPositionsWithAlly
+Description = The user teleports using a strange power and switches its place with one of its allies.
+#================================#
+[AMNESIA]
+Name = Amnesia
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpDef2
+Description = The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.
+#================================#
+[BARRIER]
+Name = Barrier
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserDefense2
+Description = The user throws up a sturdy wall that sharply raises its Defense stat.
+#================================#
+[CALMMIND]
+Name = Calm Mind
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtkSpDef1
+Description = The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+#================================#
+[CONFUSION]
+Name = Confusion
+Type = PSYCHIC
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is hit by a weak telekinetic force. It may also leave the target confused.
+#================================#
+[DREAMEATER]
+Name = Dream Eater
+Type = PSYCHIC
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDoneIfTargetAsleep
+Flags = CanProtect,CanMirrorMove
+Description = The user eats the dreams of a sleeping foe. It absorbs half the damage caused to heal the user's HP.
+#================================#
+[EERIESPELL]
+Name = Eerie Spell
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerPPOfTargetLastMoveBy3
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 100
+Description = The user attacks with tremendous psychic power. This also removes 3 PP from the target's last move.
+#================================#
+[ESPERWING]
+Name = Esper Wing
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserSpeed1
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 100
+Description = The user slashes with aura-enriched wings which boosts its Speed stat. Critical hits land more easily.
+#================================#
+[EXPANDINGFORCE]
+Name = Expanding Force
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitsAllFoesAndPowersUpInPsychicTerrain
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the target with psychic power. Powers up and hits all foes on Psychic Terrain.
+#================================#
+[EXTRASENSORY]
+Name = Extrasensory
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks with an odd, unseeable power. It may also make the target flinch.
+#================================#
+[FREEZINGGLARE]
+Name = Freezing Glare
+Type = PSYCHIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 10
+Description = The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.
+#================================#
+[FUTURESIGHT]
+Name = Future Sight
+Type = PSYCHIC
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = AttackTwoTurnsLater
+Description = Two turns after this move is used, a hunk of psychic energy attacks the target.
+#================================#
+[GRAVITY]
+Name = Gravity
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+FunctionCode = StartGravity
+Description = Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.
+#================================#
+[GUARDSPLIT]
+Name = Guard Split
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetAverageBaseDefSpDef
+Flags = CanProtect
+Description = The user employs its psychic power to average its Defense and Sp. Def stats with those of its target.
+#================================#
+[GUARDSWAP]
+Name = Guard Swap
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetSwapDefSpDefStages
+Flags = CanProtect,CanMirrorMove
+Description = The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.
+#================================#
+[HEALBLOCK]
+Name = Heal Block
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = DisableTargetHealingMoves
+Flags = CanProtect,CanMirrorMove
+Description = For five turns, the foe is prevented from using any moves, Abilities, or held items that recover HP.
+#================================#
+[HEALPULSE]
+Name = Heal Pulse
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = Other
+FunctionCode = HealTargetHalfOfTotalHP
+Flags = CanProtect,Pulse
+Description = The user emits a healing pulse which restores the target's HP by up to half of its max HP.
+#================================#
+[HEALINGWISH]
+Name = Healing Wish
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = UserFaintsHealAndCureReplacement
+Description = The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.
+#================================#
+[HEARTSTAMP]
+Name = Heart Stamp
+Type = PSYCHIC
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user unleashes a vicious blow after its cute act makes the foe less wary. It may also cause flinching.
+#================================#
+[HYPERSPACEHOLE]
+Name = Hyperspace Hole
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 0
+TotalPP = 5
+Target = NearOther
+FunctionCode = RemoveProtectionsBypassSubstitute
+Flags = CanMirrorMove,CannotMetronome
+Description = Using a hyperspace hole, the user appears right next to the target and strikes. Skips protections.
+#================================#
+[HYPNOSIS]
+Name = Hypnosis
+Type = PSYCHIC
+Category = Status
+Accuracy = 60
+TotalPP = 20
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user employs hypnotic suggestion to make the target fall into a deep sleep.
+#================================#
+[IMPRISON]
+Name = Imprison
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = DisableTargetMovesKnownByUser
+Description = If the foe knows any move also known by the user, the foe is prevented from using it.
+#================================#
+[INSTRUCT]
+Name = Instruct
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+FunctionCode = TargetUsesItsLastUsedMoveAgain
+Flags = CanProtect
+Description = The user instructs the target to use the target's last move again.
+#================================#
+[KINESIS]
+Name = Kinesis
+Type = PSYCHIC
+Category = Status
+Accuracy = 80
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+Description = The user distracts the target by bending a spoon. It lowers the target's accuracy.
+#================================#
+[LIGHTSCREEN]
+Name = Light Screen
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = UserSide
+FunctionCode = StartWeakenSpecialDamageAgainstUserSide
+Description = A wondrous wall of light is put up to suppress damage from special attacks for five turns.
+#================================#
+[LUMINACRASH]
+Name = Lumina Crash
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef2
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks by unleashing a peculiar, mind-bending light that harshly lowers the target’s Sp. Def.
+#================================#
+[LUSTERPURGE]
+Name = Luster Purge
+Type = PSYCHIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat.
+#================================#
+[MAGICCOAT]
+Name = Magic Coat
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = User
+Priority = 4
+FunctionCode = BounceBackProblemCausingStatusMoves
+Description = A barrier reflects back to the target moves like Leech Seed and moves that damage status.
+#================================#
+[MAGICPOWDER]
+Name = Magic Powder
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SetTargetTypesToPsychic
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user scatters a cloud of magic powder that changes the target to Psychic type.
+#================================#
+[MAGICROOM]
+Name = Magic Room
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartNegateHeldItems
+Flags = CanMirrorMove
+Description = The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.
+#================================#
+[MEDITATE]
+Name = Meditate
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = RaiseUserAttack1
+Description = The user meditates to awaken the power deep within its body and raise its Attack stat.
+#================================#
+[MIRACLEEYE]
+Name = Miracle Eye
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = NearOther
+FunctionCode = StartNegateTargetEvasionStatStageAndDarkImmunity
+Flags = CanProtect,CanMirrorMove
+Description = Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe.
+#================================#
+[MIRRORCOAT]
+Name = Mirror Coat
+Type = PSYCHIC
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = None
+Priority = -5
+FunctionCode = CounterSpecialDamage
+Flags = CanProtect
+Description = A retaliation move that counters any special attack, inflicting double the damage taken.
+#================================#
+[MISTBALL]
+Name = Mist Ball
+Type = PSYCHIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 50
+Description = A mistlike flurry of down envelops and damages the target. It may also lower the target's Sp. Atk.
+#================================#
+[MYSTICALPOWER]
+Name = Mystical Power
+Type = PSYCHIC
+Category = Special
+Power = 70
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks by emitting a mysterious power. This also boosts the user’s Sp. Atk stat.
+#================================#
+[PHOTONGEYSER]
+Name = Photon Geyser
+Type = PSYCHIC
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks with a pillar of light. This move uses the higher of the user's Attack or Sp. Atk stat.
+#================================#
+[POWERSPLIT]
+Name = Power Split
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetAverageBaseAtkSpAtk
+Flags = CanProtect
+Description = The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.
+#================================#
+[POWERSWAP]
+Name = Power Swap
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetSwapAtkSpAtkStages
+Flags = CanProtect,CanMirrorMove
+Description = The user employs its psychic power to switch changes to its Attack and Sp. Atk with the target.
+#================================#
+[POWERTRICK]
+Name = Power Trick
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = UserSwapBaseAtkDef
+Description = The user employs its psychic power to switch its Attack with its Defense stat.
+#================================#
+[PRISMATICLASER]
+Name = Prismatic Laser
+Type = PSYCHIC
+Category = Special
+Power = 160
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.
+#================================#
+[PSYBEAM]
+Name = Psybeam
+Type = PSYCHIC
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is attacked with a peculiar ray. It may also cause confusion.
+#================================#
+[PSYBLADE]
+Name = Psyblade
+Type = PSYCHIC
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = IncreasePowerInElectricTerrain
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+Description = The user rends the target with an ethereal blade whose power is boosted on Electric Terrain.
+#================================#
+[PSYCHIC]
+Name = Psychic
+Type = PSYCHIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.
+#================================#
+[PSYCHICFANGS]
+Name = Psychic Fangs
+Type = PSYCHIC
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = RemoveScreens
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+Description = The user bites the target using psychic abilities. This can also destroy Light Screen and Reflect.
+#================================#
+[PSYCHICNOISE]
+Name = Psychic Noise
+Type = PSYCHIC
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DisableTargetHealingMoves2Turns
+Flags = Sound,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Attacks the target with unpleasant sound waves. Prevents the target from healing for two turns.
+#================================#
+[PSYCHOBOOST]
+Name = Psycho Boost
+Type = PSYCHIC
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.
+#================================#
+[PSYCHOCUT]
+Name = Psycho Cut
+Type = PSYCHIC
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user tears at the target with blades formed by psychic power. Critical hits land more easily.
+#================================#
+[PSYCHOSHIFT]
+Name = Psycho Shift
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = GiveUserStatusToTarget
+Flags = CanProtect,CanMirrorMove
+Description = Using its psychic power of suggestion, the user transfers its status problems to the target.
+#================================#
+[PSYSHIELDBASH]
+Name = Psyshield Bash
+Type = PSYCHIC
+Category = Physical
+Power = 70
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Cloaking itself in psychic energy, the user slams into the target. This raises the user’s Defense.
+#================================#
+[PSYSHOCK]
+Name = Psyshock
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UseTargetDefenseInsteadOfTargetSpDef
+Flags = CanProtect,CanMirrorMove
+Description = The user materializes an odd psychic wave to attack the target. This attack does physical damage.
+#================================#
+[PSYSTRIKE]
+Name = Psystrike
+Type = PSYCHIC
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UseTargetDefenseInsteadOfTargetSpDef
+Flags = CanProtect,CanMirrorMove
+Description = The user materializes an odd psychic wave to attack the target. This attack does physical damage.
+#================================#
+[PSYWAVE]
+Name = Psywave
+Type = PSYCHIC
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FixedDamageUserLevelRandom
+Flags = CanProtect,CanMirrorMove
+Description = The target is attacked with an odd psychic wave. The attack varies in intensity.
+#================================#
+[REFLECT]
+Name = Reflect
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = UserSide
+FunctionCode = StartWeakenPhysicalDamageAgainstUserSide
+Description = A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
+#================================#
+[REST]
+Name = Rest
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserFullyAndFallAsleep
+Description = The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
+#================================#
+[ROLEPLAY]
+Name = Role Play
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = SetUserAbilityToTargetAbility
+Description = The user mimics the target completely, copying the target's natural Ability.
+#================================#
+[SKILLSWAP]
+Name = Skill Swap
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetSwapAbilities
+Flags = CanProtect,CanMirrorMove
+Description = The user employs its psychic power to exchange Abilities with the target.
+#================================#
+[SPEEDSWAP]
+Name = Speed Swap
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetSwapBaseSpeed
+Flags = CanProtect,CanMirrorMove
+Description = The user exchanges Speed stats with the target.
+#================================#
+[STOREDPOWER]
+Name = Stored Power
+Type = PSYCHIC
+Category = Special
+Power = 20
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PowerHigherWithUserPositiveStatStages
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks with stored power. The more the user's stats are raised, the greater the damage.
+#================================#
+[SYNCHRONOISE]
+Name = Synchronoise
+Type = PSYCHIC
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = FailsUnlessTargetSharesTypeWithUser
+Flags = CanProtect,CanMirrorMove
+Description = Using an odd shock wave, the user damages any Pokémon of the same type as the user.
+#================================#
+[TAKEHEART]
+Name = Take Heart
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserSpAtkSpDef1CureStatus
+Description = The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats.
+#================================#
+[TELEKINESIS]
+Name = Telekinesis
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartTargetAirborneAndAlwaysHitByMoves
+Flags = CanProtect,CanMirrorMove
+Description = The user makes the target float with its psychic power. The target is easier to hit for three turns.
+#================================#
+[TELEPORT]
+Name = Teleport
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+Priority = -6
+FunctionCode = SwitchOutUserStatusMove
+Description = The user switches places with a party Pokémon. Also warps to the last Pokémon Center visited.
+#================================#
+[TRICK]
+Name = Trick
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetSwapItems
+Flags = CanProtect,CanMirrorMove
+Description = The user catches the target off guard and swaps its held item with its own.
+#================================#
+[TRICKROOM]
+Name = Trick Room
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+Priority = -7
+FunctionCode = StartSlowerBattlersActFirst
+Flags = CanMirrorMove
+Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+#================================#
+[TWINBEAM]
+Name = Twin Beam
+Type = PSYCHIC
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.
+#================================#
+[WONDERROOM]
+Name = Wonder Room
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+Priority = -7
+FunctionCode = StartSwapAllBattlersBaseDefensiveStats
+Flags = CanMirrorMove
+Description = The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for 5 turns.
+#================================#
+[ZENHEADBUTT]
+Name = Zen Headbutt
+Type = PSYCHIC
+Category = Physical
+Power = 80
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user focuses its willpower to its head and attacks the foe. It may also make the target flinch.
