@@ -1,1 +1,843 @@
+#================NORMAL HP/PP BERRIES================#
+[ORANBERRY]
+Name = Oran Berry
+NamePlural = Oran Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_POISON_80
+Description = If held by a Pokémon, it heals the user by just 10 HP.
+#================================#
+[SITRUSBERRY]
+Name = Sitrus Berry
+NamePlural = Sitrus Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_80
+Description = If held by a Pokémon, it heals the user's HP a little.
+#================================#
+[LEPPABERRY]
+Name = Leppa Berry
+NamePlural = Leppa Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_80
+Description = If held by a Pokémon, it restores a move's PP by 10.
+#================================#
+
+#================STATUS-REMOVING BERRIES================#
+[CHERIBERRY]
+Name = Cheri Berry
+NamePlural = Cheri Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FIRE_80
+Description = If held by a Pokémon, it will recover from paralysis.
+#================================#
+[CHESTOBERRY]
+Name = Chesto Berry
+NamePlural = Chesto Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_WATER_80
+Description = If held by a Pokémon, it will recover from sleep.
+#================================#
+[PECHABERRY]
+Name = Pecha Berry
+NamePlural = Pecha Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80
+Description = If held by a Pokémon, it will recover from poisoning.
+#================================#
+[RAWSTBERRY]
+Name = Rawst Berry
+NamePlural = Rawst Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_80
+Description = If held by a Pokémon, it will recover from a burn.
+#================================#
+[ASPEARBERRY]
+Name = Aspear Berry
+NamePlural = Aspear Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ICE_80
+Description = If held by a Pokémon, it will recover from being frozen.
+#================================#
+[PERSIMBERRY]
+Name = Persim Berry
+NamePlural = Persim Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GROUND_80
+Description = If held by a Pokémon, it will recover from confusion.
+#================================#
+[LUMBERRY]
+Name = Lum Berry
+NamePlural = Lum Berries
+Pocket = 4
+Price = 80
+SellPrice = 20
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FLYING_80
+Description = If held by a Pokémon, it will recover from any status condition.
+#================================#
+
+#================CONFUSION-INDUCING BERRIES================#
+[FIGYBERRY]
+Name = Figy Berry
+NamePlural = Figy Berries
+Pocket = 4
+Price = 75
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_BUG_80
+Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+#================================#
+[WIKIBERRY]
+Name = Wiki Berry
+NamePlural = Wiki Berries
+Pocket = 4
+Price = 75
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ROCK_80
+Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+#================================#
+[MAGOBERRY]
+Name = Mago Berry
+NamePlural = Mago Berries
+Pocket = 4
+Price = 75
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GHOST_80
+Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+#================================#
+[AGUAVBERRY]
+Name = Aguav Berry
+NamePlural = Aguav Berries
+Pocket = 4
+Price = 75
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_DRAGON_80
+Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+#================================#
+[IAPAPABERRY]
+Name = Iapapa Berry
+NamePlural = Iapapa Berries
+Pocket = 4
+Price = 75
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_DRAGON_80
+Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+#================================#
+
+#================EV-REDUCING BERRIES================#
+[POMEGBERRY]
+Name = Pomeg Berry
+NamePlural = Pomeg Berries
+Pocket = 4
+Price = 100
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ICE_90
+Description = Using this Berry on a Pokémon makes it more friendly, but it also lowers its base HP.
+#================================#
+[KELPSYBERRY]
+Name = Kelpsy Berry
+NamePlural = Kelpsy Berries
+Pocket = 4
+Price = 100
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_90
+Description = Using this Berry on a Pokémon makes it more friendly, but it also lowers its base Attack.
+#================================#
+[QUALOTBERRY]
+Name = Qualot Berry
+NamePlural = Qualot Berries
+Pocket = 4
+Price = 100
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_POISON_90
+Description = Using this Berry on a Pokémon makes it more friendly, but it also lowers its base Defense.
+#================================#
+[HONDEWBERRY]
+Name = Hondew Berry
+NamePlural = Hondew Berries
+Pocket = 4
+Price = 100
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GROUND_90
+Description = Using this Berry on a Pokémon makes it more friendly, but it also lowers its base Sp. Atk.
+#================================#
+[GREPABERRY]
+Name = Grepa Berry
+NamePlural = Grepa Berries
+Pocket = 4
+Price = 100
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FLYING_90
+Description = Using this Berry on a Pokémon makes it more friendly, but it also lowers its base Sp. Def.
+#================================#
+[TAMATOBERRY]
+Name = Tamato Berry
+NamePlural = Tamato Berries
+Pocket = 4
+Price = 100
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_90
+Description = Using this Berry on a Pokémon makes it more friendly, but it also lowers its base Speed.
+#================================#
+
+#================MOVE-WEAKENING BERRIES================#
+[CHILANBERRY]
+Name = Chilan Berry
+NamePlural = Chilan Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_NORMAL_60
+Description = If held by a Pokémon, it weakens a foe's Normal-type attack.
+#================================#
+[OCCABERRY]
+Name = Occa Berry
+NamePlural = Occa Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FIRE_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Fire-type attack.
+#================================#
+[PASSHOBERRY]
+Name = Passho Berry
+NamePlural = Passho Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_WATER_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Water-type attack.
+#================================#
+[WACANBERRY]
+Name = Wacan Berry
+NamePlural = Wacan Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Electric-type attack.
+#================================#
+[RINDOBERRY]
+Name = Rindo Berry
+NamePlural = Rindo Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Grass-type attack.
+#================================#
+[YACHEBERRY]
+Name = Yache Berry
+NamePlural = Yache Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ICE_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Ice-type attack.
+#================================#
+[CHOPLEBERRY]
+Name = Chople Berry
+NamePlural = Chople Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Fighting-type attack.
+#================================#
+[KEBIABERRY]
+Name = Kebia Berry
+NamePlural = Kebia Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_POISON_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Poison-type attack.
+#================================#
+[SHUCABERRY]
+Name = Shuca Berry
+NamePlural = Shuca Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GROUND_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Ground-type attack.
+#================================#
+[COBABERRY]
+Name = Coba Berry
+NamePlural = Coba Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FLYING_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Flying-type attack.
+#================================#
+[PAYAPABERRY]
+Name = Payapa Berry
+NamePlural = Payapa Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_PSYCHIC_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Psychic-type attack.
+#================================#
+[TANGABERRY]
+Name = Tanga Berry
+NamePlural = Tanga Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_BUG_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Bug-type attack.
+#================================#
+[CHARTIBERRY]
+Name = Charti Berry
+NamePlural = Charti Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ROCK_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Rock-type attack.
+#================================#
+[KASIBBERRY]
+Name = Kasib Berry
+NamePlural = Kasib Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GHOST_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Ghost-type attack.
+#================================#
+[HABANBERRY]
+Name = Haban Berry
+NamePlural = Haban Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_DRAGON_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Dragon-type attack.
+#================================#
+[COLBURBERRY]
+Name = Colbur Berry
+NamePlural = Colbur Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_DARK_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Dark-type attack.
+#================================#
+[BABIRIBERRY]
+Name = Babiri Berry
+NamePlural = Babiri Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_STEEL_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Steel-type attack.
+#================================#
+[ROSELIBERRY]
+Name = Roseli Berry
+NamePlural = Roseli Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FAIRY_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Fairy-type attack.
+#================================#
+[RACCOTBERRY]
+Name = Raccot Berry
+NamePlural = Raccot Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_COSMIC_60
+Description = If held by a Pokémon, it weakens a foe's super-effective Cosmic-type attack.
+#================================#
+
+#================STAT-BOOSTING BERRIES================#
+[LIECHIBERRY]
+Name = Liechi Berry
+NamePlural = Liechi Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_100
+Description = If held by a Pokémon, it sharply boosts its Attack stat in a pinch.
+#================================#
+[GANLONBERRY]
+Name = Ganlon Berry
+NamePlural = Ganlon Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ICE_100
+Description = If held by a Pokémon, it sharply boosts its Defense stat in a pinch.
+#================================#
+[SALACBERRY]
+Name = Salac Berry
+NamePlural = Salac Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_100
+Description = If held by a Pokémon, it sharply boosts its Sp. Atk stat in a pinch.
+#================================#
+[PETAYABERRY]
+Name = Petaya Berry
+NamePlural = Petaya Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_POISON_100
+Description = If held by a Pokémon, it sharply boosts its Sp. Def stat in a pinch.
+#================================#
+[APICOTBERRY]
+Name = Apicot Berry
+NamePlural = Apicot Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GROUND_100
+Description = If held by a Pokémon, it sharply boosts its Speed stat in a pinch.
+#================================#
+[LANSATBERRY]
+Name = Lansat Berry
+NamePlural = Lansat Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FLYING_100
+Description = If held by a Pokémon, it sharply boosts its critical-hit ratio in a pinch.
+#================================#
+[STARFBERRY]
+Name = Starf Berry
+NamePlural = Starf Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_COSMIC_100
+Description = If held by a Pokémon, it sharply boosts one of its stats in a pinch.
+#================================#
+[MICLEBERRY]
+Name = Micle Berry
+NamePlural = Micle Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ROCK_100
+Description = If held by a Pokémon, it raises the accuracy of a move just once in a pinch.
+#================================#
+[CUSTAPBERRY]
+Name = Custap Berry
+NamePlural = Custap Berries
+Pocket = 4
+Price = 100
+SellPrice = 25
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GHOST_100
+Description = If held by a Pokémon, it gets to move first just once in a pinch.
+#================================#
+
+#================SPECIALTY BERRIES================#
+[ENIGMABERRY]
+Name = Enigma Berry
+NamePlural = Enigma Berries
+Pocket = 4
+Price = 250
+SellPrice = 100
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_COSMIC_100
+Description = If held by a Pokémon, it restores its HP if it is hit by a supereffective attack.
+#================================#
+[JABOCABERRY]
+Name = Jaboca Berry
+NamePlural = Jaboca Berries
+Pocket = 4
+Price = 200
+SellPrice = 75
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_DRAGON_100
+Description = If held by a Pokémon and a foe's physical attack lands, the foe also takes damage.
+#================================#
+[ROWAPBERRY]
+Name = Rowap Berry
+NamePlural = Rowap Berries
+Pocket = 4
+Price = 200
+SellPrice = 75
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_STEEL_100
+Description = If held by a Pokémon and a foe's special attack lands, the foe also takes damage.
+#================================#
+[KEEBERRY]
+Name = Kee Berry
+NamePlural = Kee Berries
+Pocket = 4
+Price = 200
+SellPrice = 75
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FAIRY_100
+Description = If held by a Pokémon and a foe's physical attack lands, the holder's Defense increases.
+#================================#
+[MARANGABERRY]
+Name = Maranga Berry
+NamePlural = Maranga Berries
+Pocket = 4
+Price = 200
+SellPrice = 75
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_DARK_100
+Description = If held by a Pokémon and a foe's special attack lands, the holder's Sp. Def increases.
+#================================#
+[GOMANBERRY]
+Name = Goman Berry
+NamePlural = Goman Berries
+Pocket = 4
+Price = 200
+SellPrice = 75
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_COSMIC_80
+Description = If held by a Pokémon and its stats are lowered, its Speed sharply increases.
+#================================#
+[DERELBERRY]
+Name = Derel Berry
+NamePlural = Derel Berries
+Pocket = 4
+Price = 50
+SellPrice = 10
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_COSMIC_80
+Description = If held by a Pokémon, it may endure an attack with 1 HP.
+#================================#
+
+#================POKEBLOCK-ONLY BERRIES================#
+[RAZZBERRY]
+Name = Razz Berry
+NamePlural = Razz Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_STEEL_30
+Description = A Berry used in making Pokéblocks. It has a mildly spicy and dry taste.
+#================================#
+[BLUKBERRY]
+Name = Razz Berry
+NamePlural = Razz Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FIRE_30
+Description = A Berry used in making Pokéblocks. It has a mildly dry and sweet taste.
+#================================#
+[NANABBERRY]
+Name = Nanab Berry
+NamePlural = Nanab Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_WATER_30
+Description = A Berry used in making Pokéblocks. It has a mildly sweet and bitter taste.
+#================================#
+[WEPEARBERRY]
+Name = Wepear Berry
+NamePlural = Wepear Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_30
+Description = A Berry used in making Pokéblocks. It has a mildly bitter and sour taste.
+#================================#
+[PINAPBERRY]
+Name = Pinap Berry
+NamePlural = Pinap Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has a mildly sour and spicy taste.
+#================================#
+[CORNNBERRY]
+Name = Cornn Berry
+NamePlural = Cornn Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_BUG_30
+Description = A Berry used in making Pokéblocks. It has a rather dry taste.
+#================================#
+[MAGOSTBERRY]
+Name = Magost Berry
+NamePlural = Magost Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ROCK_30
+Description = A Berry used in making Pokéblocks. It has a rather sweet taste.
+#================================#
+[RABUTABERRY]
+Name = Rabuta Berry
+NamePlural = Rabuta Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GHOST_30
+Description = A Berry used in making Pokéblocks. It has a rather bitter taste.
+#================================#
+[NOMELBERRY]
+Name = Nomel Berry
+NamePlural = Nomel Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_DRAGON_30
+Description = A Berry used in making Pokéblocks. It has a rather sour taste.
+#================================#
+[SPELONBERRY]
+Name = Spelon Berry
+NamePlural = Spelon Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_DARK_30
+Description = A Berry used in making Pokéblocks. It has an intensely spicy taste.
+#================================#
+[PAMTREBERRY]
+Name = Pamtre Berry
+NamePlural = Pamtre Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_STEEL_30
+Description = A Berry used in making Pokéblocks. It has an intensely dry taste.
+#================================#
+[WATMELBERRY]
+Name = Watmel Berry
+NamePlural = Watmel Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FIRE_30
+Description = A Berry used in making Pokéblocks. It has an intensely sweet taste.
+#================================#
+[DURINBERRY]
+Name = Durin Berry
+NamePlural = Durin Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_WATER_30
+Description = A Berry used in making Pokéblocks. It has an intensely bitter taste.
+#================================#
+[BELUEBERRY]
+Name = Belue Berry
+NamePlural = Belue Berries
+Pocket = 4
+Price = 20
+SellPrice = 5
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_30
+Description = A Berry used in making Pokéblocks. It has an intensely sour taste.
+#================================#
+
+#================E-READER BERRIES================#
+[TOUGABERRY]
+Name = Touga Berry
+NamePlural = Touga Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has an overwhelmingly spicy taste.
+#================================#
+[EGGANTBERRY]
+Name = Eggant Berry
+NamePlural = Eggant Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_30
+Description = A Berry used in making Pokéblocks. It has an overwhelmingly dry taste.
+#================================#
+[DRASHBERRY]
+Name = Drash Berry
+NamePlural = Drash Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_ICE_30
+Description = A Berry used in making Pokéblocks. It has an overwhelmingly sweet taste.
+#================================#
+[YAGOBERRY]
+Name = Yago Berry
+NamePlural = Yago Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has an overwhelmingly bitter taste.
+#================================#
+[PUMKINBERRY]
+Name = Pumkin Berry
+NamePlural = Pumkin Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has an overwhelmingly sour taste.
+#================================#
+[HOZUBERRY]
+Name = Hozu Berry
+NamePlural = Hozu Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has an intensely spicy, sweet taste.
+#================================#
+[STRIBBERRY]
+Name = Strib Berry
+NamePlural = Strib Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has an intensely spicy, bitter taste.
+#================================#
+[NINIKUBERRY]
+Name = Niniku Berry
+NamePlural = Niniku Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has an intensely dry, bitter taste.
+#================================#
+[GINEMABERRY]
+Name = Ginema Berry
+NamePlural = Ginema Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has an intensely dry, sour taste.
+#================================#
+[TOPOBERRY]
+Name = Topo Berry
+NamePlural = Topo Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has an intensely sweet, sour taste.
+#================================#
+[NUTPEABERRY]
+Name = Nutpea Berry
+NamePlural = Nutpea Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has a mild, balanced taste.
+#================================#
+[KUOBERRY]
+Name = Kuo Berry
+NamePlural = Kuo Berries
+Pocket = 4
+Price = 200
+SellPrice = 50
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_GRASS_30
+Description = A Berry used in making Pokéblocks. It has a mild, balanced taste.
 #================================#
