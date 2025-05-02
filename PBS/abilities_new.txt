@@ -1,1 +1,36 @@
 #================================#
+[ACIDICPOISON]
+Name = Acidic Poison
+Description = Poisoning attacks instead burn the target.
+#================================#
+[BURNINGSTEAM]
+Name = Burning Steam
+Description = Water-type moves may burn the target.
+#================================#
+[ECHOLOCATION]
+Name = Echolocation
+Description = Immune to accuracy reduction, but weak to sound-based moves.
+#================================#
+[PARALYTICPOISON]
+Name = Paralytic Poison
+Description = Poisoning attacks instead paralyze the target.
+#================================#
+[ROTTENSTENCH]
+Name = Rotten Stench
+Description = Prevents the opposing team from using Berries.
+#================================#
+[RUSTYFEATHERS]
+Name = Rusty Feathers
+Description = Halves Speed and damage dealt. Weak to Water-type moves.
+#================================#
+[STARGAZER]
+Name = Stargazer
+Description = Normal-type moves become Cosmic-type and have their power boosted.
+#================================#
+[STICKYSILK]
+Name = Sticky Silk
+Description = Reduces Speed on contact with the user.
+#================================#
+[TOXICWATERS]
+Name = Toxic Waters
+Description = Water-type moves may poison the target.
