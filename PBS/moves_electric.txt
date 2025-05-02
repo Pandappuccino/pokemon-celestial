@@ -1,1 +1,486 @@
 #================================#
+[AURAWHEEL]
+Name = Aura Wheel
+Type = ELECTRIC
+Category = Physical
+Power = 110
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TypeDependsOnUserMorpekoFormRaiseUserSpeed1
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = Morpeko attacks and raises its Speed with energy stored in its cheeks. Type changes with the user's form.
+#================================#
+[BOLTBEAK]
+Name = Bolt Beak
+Type = ELECTRIC
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetNotActed
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Stabs the target with an electrified beak. Power is doubled if the user attacks first.
+#================================#
+[BOLTSTRIKE]
+Name = Bolt Strike
+Type = ELECTRIC
+Category = Physical
+Power = 130
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user charges at its foe, surrounding itself with lightning. It may also leave the target paralyzed.
+#================================#
+[CHARGE]
+Name = Charge
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpDef1PowerUpElectricMove
+Description = The user boosts the power of the Electric move it uses next. It also raises the user's Sp. Def stat.
+#================================#
+[CHARGEBEAM]
+Name = Charge Beam
+Type = ELECTRIC
+Category = Special
+Power = 50
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 70
+Description = The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat.
+#================================#
+[DISCHARGE]
+Name = Discharge
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.
+#================================#
+[DOUBLESHOCK]
+Name = Double Shock
+Type = ELECTRIC
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = UserLosesElectricType
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks by discharging all of its electricity. The user will no longer be Electric type.
+#================================#
+[EERIEIMPULSE]
+Name = Eerie Impulse
+Type = ELECTRIC
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpAtk2
+Flags = CanProtect,CanMirrorMove
+Description = The user's body generates an eerie impulse. Harshly lowers the target's Sp. Atk stat.
+#================================#
+[ELECTRICTERRAIN]
+Name = Electric Terrain
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartElectricTerrain
+Description = The user electrifies the ground for five turns. Pokémon on the ground no longer fall asleep.
+#================================#
+[ELECTRIFY]
+Name = Electrify
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = TargetMovesBecomeElectric
+Flags = CanProtect,CanMirrorMove
+Description = If the target uses a move after being electrified, that move becomes Electric-type.
+#================================#
+[ELECTROBALL]
+Name = Electro Ball
+Type = ELECTRIC
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PowerHigherWithUserFasterThanTarget
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = The user hurls an electric orb at the foe. It does more damage the faster the user is.
+#================================#
+[ELECTRODRIFT]
+Name = Electro Drift
+Type = ELECTRIC
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = IncreasePowerSuperEffective
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = A futuristic electric strike. This move’s power is boosted more than usual if it’s a supereffective hit.
+#================================#
+[ELECTROSHOT]
+Name = Electro Shot
+Type = ELECTRIC
+Category = Special
+Power = 130
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackOneTurnInRainRaiseUserSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = A two-turn attack. The user boosts its Sp. Atk and then fires a high-voltage shot.
+#================================#
+[ELECTROWEB]
+Name = Electroweb
+Type = ELECTRIC
+Category = Special
+Power = 55
+Accuracy = 95
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user captures and attacks foes by using an electric net, which lowers their Speed stat.
+#================================#
+[FUSIONBOLT]
+Name = Fusion Bolt
+Type = ELECTRIC
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = DoublePowerAfterFusionFlare
+Flags = CanProtect,CanMirrorMove
+Description = The user throws down a giant thunderbolt. It does more damage if influenced by an enormous flame.
+#================================#
+[IONDELUGE]
+Name = Ion Deluge
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 25
+Target = BothSides
+Priority = 1
+FunctionCode = NormalMovesBecomeElectric
+Description = The user disperses electrically charged particles. Normal-type moves become Electric-type.
+#================================#
+[MAGNETRISE]
+Name = Magnet Rise
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = StartUserAirborne
+Description = The user levitates using electrically generated magnetism for five turns.
+#================================#
+[MAGNETICFLUX]
+Name = Magnetic Flux
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = UserAndAllies
+FunctionCode = RaisePlusMinusUserAndAlliesDefSpDef1
+Description = Manipulates magnetic fields to raise the Defense and Sp. Def stats of allies with Plus or Minus Abilities.
+#================================#
+[NUZZLE]
+Name = Nuzzle
+Type = ELECTRIC
+Category = Physical
+Power = 20
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user nuzzles its electrified cheeks against the target. This also leaves the target with paralysis.
+#================================#
+[OVERDRIVE]
+Name = Overdrive
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Sound,CannotMetronome
+Description = The user attacks all foes by twanging a guitar or bass guitar, causing a huge echo and strong vibration.
+#================================#
+[PARABOLICCHARGE]
+Name = Parabolic Charge
+Type = ELECTRIC
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = AllNearOthers
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks everything around it. The user's HP is restored by half the damage dealt.
+#================================#
+[PLASMAFISTS]
+Name = Plasma Fists
+Type = ELECTRIC
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = NormalMovesBecomeElectric
+Flags = Contact,CanProtect,CanMirrorMove,Punching,CannotMetronome
+Description = The user attacks with electrically charged fists. Normal-type moves become Electric-type.
+#================================#
+[RISINGVOLTAGE]
+Name = Rising Voltage
+Type = ELECTRIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = DoublePowerInElectricTerrain
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks with electric voltage rising from the ground. Power is doubled on Electric Terrain.
+#================================#
+[SHOCKWAVE]
+Name = Shock Wave
+Type = ELECTRIC
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.
+#================================#
+[SPARK]
+Name = Spark
+Type = ELECTRIC
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user throws an electrically charged tackle at the target. It may also leave the target with paralysis.
+#================================#
+[SUPERCELLSLAM]
+Name = Supercell Slam
+Type = ELECTRIC
+Category = Physical
+Power = 100
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = CrashDamageIfFails
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user drops onto the target with its electrified body. If it misses, the user is hurt instead.
+#================================#
+[THUNDER]
+Name = Thunder
+Type = ELECTRIC
+Category = Special
+Power = 110
+Accuracy = 70
+TotalPP = 10
+Target = NearOther
+FunctionCode = ParalyzeTargetAlwaysHitsInRainHitsTargetInSky
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.
+#================================#
+[THUNDERCAGE]
+Name = Thunder Cage
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user traps the target in a cage of sparking electricity for four to five turns.
+#================================#
+[THUNDERFANG]
+Name = Thunder Fang
+Type = ELECTRIC
+Category = Physical
+Power = 65
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeFlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 101
+Description = The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.
+#================================#
+[THUNDERPUNCH]
+Name = Thunder Punch
+Type = ELECTRIC
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 10
+Description = The target is punched with an electrified fist. It may also leave the target with paralysis.
+#================================#
+[THUNDERSHOCK]
+Name = Thunder Shock
+Type = ELECTRIC
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A jolt of electricity is hurled at the foe to inflict damage. It may also leave the target with paralysis.
+#================================#
+[THUNDERWAVE]
+Name = Thunder Wave
+Type = ELECTRIC
+Category = Status
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = ParalyzeTargetIfNotTypeImmune
+Flags = CanProtect,CanMirrorMove
+Description = A weak electric charge is launched at the target. It causes paralysis if it hits.
+#================================#
+[THUNDERBOLT]
+Name = Thunderbolt
+Type = ELECTRIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A strong electric blast is loosed at the target. It may also leave the target with paralysis.
+#================================#
+[THUNDERCLAP]
+Name = Thunderclap
+Type = ELECTRIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 1
+FunctionCode = FailsIfTargetActed
+Flags = CanProtect,CanMirrorMove
+Description = This move enables the user to attack first. It fails if the target is not readying an attack, however.
+#================================#
+[VOLTSWITCH]
+Name = Volt Switch
+Type = ELECTRIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#================================#
+[VOLTTACKLE]
+Name = Volt Tackle
+Type = ELECTRIC
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealtParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well.
+#================================#
+[WILDCHARGE]
+Name = Wild Charge
+Type = ELECTRIC
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilQuarterOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user shrouds itself in electricity and smashes into its foe. It also damages the user a little.
+#================================#
+[WILDBOLTSTORM]
+Name = Wildbolt Storm
+Type = ELECTRIC
+Category = Special
+Power = 100
+Accuracy = 80
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = ParalyzeTargetAlwaysHitsInRain
+Flags = CanProtect,CanMirrorMove,Wind
+EffectChance = 20
+Description = The user attacks opposing Pokémon with a thunderous tempest. This may also leave them paralyzed.
+#================================#
+[ZAPCANNON]
+Name = Zap Cannon
+Type = ELECTRIC
+Category = Special
+Power = 120
+Accuracy = 50
+TotalPP = 5
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 100
+Description = The user fires an electric blast like a cannon to inflict damage and cause paralysis.
+#================================#
+[ZINGZAP]
+Name = Zing Zap
+Type = ELECTRIC
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = A strong electric blast crashes down on the target. This may also make the target flinch.
