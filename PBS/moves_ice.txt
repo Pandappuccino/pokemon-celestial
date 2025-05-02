@@ -1,1 +1,340 @@
 #================================#
+[AURORABEAM]
+Name = Aurora Beam
+Type = ICE
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.
+#================================#
+[AURORAVEIL]
+Name = Aurora Veil
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = UserSide
+FunctionCode = StartWeakenDamageAgainstUserSideIfHail
+Description = This move reduces damage from attacks for five turns. This can be used only in a hailstorm.
+#================================#
+[AVALANCHE]
+Name = Avalanche
+Type = ICE
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -4
+FunctionCode = DoublePowerIfUserLostHPThisTurn
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+#================================#
+[BLIZZARD]
+Name = Blizzard
+Type = ICE
+Category = Special
+Power = 110
+Accuracy = 70
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = FreezeTargetAlwaysHitsInHail
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.
+#================================#
+[CHILLYRECEPTION]
+Name = Chilly Reception
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = SwitchOutUserStartHailWeather
+Flags = CannotMetronome
+Description = The user tells a chillingly bad joke and switches out. This summons a snowstorm lasting five turns.
+#================================#
+[FREEZESHOCK]
+Name = Freeze Shock
+Type = ICE
+Category = Physical
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = TwoTurnAttackParalyzeTarget
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 30
+Description = On the second turn, the user hits the foe with electrically charged ice. It may also paralyze the foe.
+#================================#
+[FREEZEDRY]
+Name = Freeze-Dry
+Type = ICE
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = FreezeTargetSuperEffectiveAgainstWater
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user rapidly cools the target. This may freeze the target. Is super-effective on Water types.
+#================================#
+[FROSTBREATH]
+Name = Frost Breath
+Type = ICE
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = AlwaysCriticalHit
+Flags = CanProtect,CanMirrorMove
+Description = The user blows a cold breath on the target. This attack always results in a critical hit.
+#================================#
+[GLACIALLANCE]
+Name = Glacial Lance
+Type = ICE
+Category = Physical
+Power = 130
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.
+#================================#
+[GLACIATE]
+Name = Glaciate
+Type = ICE
+Category = Special
+Power = 65
+Accuracy = 95
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks by blowing freezing cold air at the foe. This attack reduces the targets' Speed stat.
+#================================#
+[HAIL]
+Name = Hail
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartHailWeather
+Description = The user summons a hail storm lasting five turns. It damages all Pokémon except the Ice type.
+#================================#
+[HAZE]
+Name = Haze
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = BothSides
+FunctionCode = ResetAllBattlersStatStages
+Description = The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.
+#================================#
+[ICEBALL]
+Name = Ice Ball
+Type = ICE
+Category = Physical
+Power = 30
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = MultiTurnAttackPowersUpEachTurn
+Flags = Contact,CanProtect,CanMirrorMove,Bomb
+Description = The user continually rolls into the target over five turns. It becomes stronger each time it hits.
+#================================#
+[ICEBEAM]
+Name = Ice Beam
+Type = ICE
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is struck with an icy-cold beam of energy. It may also freeze the target solid.
+#================================#
+[ICEBURN]
+Name = Ice Burn
+Type = ICE
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = TwoTurnAttackBurnTarget
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 30
+Description = On the second turn, an ultracold, freezing wind surrounds the foe. This may leave it with a burn.
+#================================#
+[ICEFANG]
+Name = Ice Fang
+Type = ICE
+Category = Physical
+Power = 65
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = FreezeFlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 101
+Description = The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.
+#================================#
+[ICEHAMMER]
+Name = Ice Hammer
+Type = ICE
+Category = Physical
+Power = 100
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerUserSpeed1
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.
+#================================#
+[ICESHARD]
+Name = Ice Shard
+Type = ICE
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
+#================================#
+[ICESPINNER]
+Name = Ice Spinner
+Type = ICE
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RemoveTerrainIceSpinner
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user spins into the target with feet covered in thin ice. This also destroys the terrain.
+#================================#
+[ICICLECRASH]
+Name = Icicle Crash
+Type = ICE
+Category = Physical
+Power = 85
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks by harshly dropping an icicle onto the foe. It may also make the target flinch.
+#================================#
+[ICICLESPEAR]
+Name = Icicle Spear
+Type = ICE
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = The user launches sharp icicles at the target. It strikes two to five times in a row.
+#================================#
+[ICYWIND]
+Name = Icy Wind
+Type = ICE
+Category = Special
+Power = 55
+Accuracy = 95
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks with a gust of chilled air. It also lowers the targets' Speed stat.
+#================================#
+[MIST]
+Name = Mist
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = UserSide
+FunctionCode = StartUserSideImmunityToStatStageLowering
+Description = The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.
+#================================#
+[MOUNTAINGALE]
+Name = Mountain Gale
+Type = ICE
+Category = Physical
+Power = 100
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user hurls giant chunks of ice at the target. This may also make the target flinch.
+#================================#
+[POWDERSNOW]
+Name = Powder Snow
+Type = ICE
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = AllNearFoes
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks with a chilling gust of powdery snow. It may also freeze the targets.
+#================================#
+[SHEERCOLD]
+Name = Sheer Cold
+Type = ICE
+Category = Special
+Power = 1
+Accuracy = 30
+TotalPP = 5
+Target = NearOther
+FunctionCode = OHKOIce
+Flags = CanProtect,CanMirrorMove
+Description = The foe is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.
+#================================#
+[SNOWSCAPE]
+Name = Snowscape
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartHailWeather
+Flags = CannotMetronome
+Description = Summons a five-turn snowstorm that boosts the Defense of Ice-type Pokémon.
+#================================#
+[TRIPLEAXEL]
+Name = Triple Axel
+Type = ICE
+Category = Physical
+Power = 20
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitThreeTimesPowersUpWithEachHit
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A consecutive three-kick attack that becomes more powerful with each successful hit.
