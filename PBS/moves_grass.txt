@@ -1,1 +1,649 @@
 #================================#
+[ABSORB]
+Name = Absorb
+Type = GRASS
+Category = Special
+Power = 20
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#================================#
+[APPLEACID]
+Name = Apple Acid
+Type = GRASS
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = Attacks with an acidic liquid created from tart apples. This also lowers the target's Sp. Def.
+#================================#
+[AROMATHERAPY]
+Name = Aromatherapy
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = UserAndAllies
+FunctionCode = CureUserPartyStatus
+Description = The user releases a soothing scent that heals all status problems affecting the user's party.
+#================================#
+[BRANCHPOKE]
+Name = Branch Poke
+Type = GRASS
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks the target by poking it with a sharply pointed branch.
+#================================#
+[BULLETSEED]
+Name = Bullet Seed
+Type = GRASS
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
+#================================#
+[CHLOROBLAST]
+Name = Chloroblast
+Type = GRASS
+Category = Special
+Power = 150
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = RecoilHalfOfTotalHP
+Flags = CanProtect,CanMirrorMove
+Description = The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user.
+#================================#
+[COTTONGUARD]
+Name = Cotton Guard
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserDefense3
+Description = The user protects itself by wrapping its body in soft cotton, drastically raising its Defense stat.
+#================================#
+[COTTONSPORE]
+Name = Cotton Spore
+Type = GRASS
+Category = Status
+Accuracy = 100
+TotalPP = 40
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed2
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user releases cotton-like spores that cling to the foe, harshly reducing its Speed stat.
+#================================#
+[DRUMBEATING]
+Name = Drum Beating
+Type = GRASS
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = The user plays its drum, controlling roots to attack. This also lowers the target's Speed stat.
+#================================#
+[ENERGYBALL]
+Name = Energy Ball
+Type = GRASS
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 10
+Description = The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.
+#================================#
+[FLOWERTRICK]
+Name = Flower Trick
+Type = GRASS
+Category = Physical
+Power = 70
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = AlwaysCriticalHit
+Flags = CanProtect,CanMirrorMove
+Description = The user throws a rigged bouquet of flowers at the target, which always hits and lands a critical hit.
+#================================#
+[FORESTSCURSE]
+Name = Forest's Curse
+Type = GRASS
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = AddGrassTypeToTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user puts a forest curse on the target. The target is now Grass type as well.
+#================================#
+[FRENZYPLANT]
+Name = Frenzy Plant
+Type = GRASS
+Category = Special
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = The user slams the target with an enormous tree. The user can't move on the next turn.
+#================================#
+[GIGADRAIN]
+Name = Giga Drain
+Type = GRASS
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#================================#
+[GRASSKNOT]
+Name = Grass Knot
+Type = GRASS
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithTargetWeight
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user snares the target with grass and trips it. The heavier the target, the greater the damage.
+#================================#
+[GRASSPLEDGE]
+Name = Grass Pledge
+Type = GRASS
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = GrassPledge
+Flags = CanProtect,CanMirrorMove
+Description = A column of grass hits the foes. When used with its water equivalent, it creates a vast swamp.
+#================================#
+[GRASSWHISTLE]
+Name = Grass Whistle
+Type = GRASS
+Category = Status
+Accuracy = 55
+TotalPP = 15
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The user plays a pleasant melody that lulls the target into a deep sleep.
+#================================#
+[GRASSYGLIDE]
+Name = Grassy Glide
+Type = GRASS
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = HigherPriorityInGrassyTerrain
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.
+#================================#
+[GRASSYTERRAIN]
+Name = Grassy Terrain
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartGrassyTerrain
+Description = The user turns the ground to grass for five turns. Grounded Pokémon restore a little HP every turn.
+#================================#
+[GRAVAPPLE]
+Name = Grav Apple
+Type = GRASS
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetDefense1PowersUpInGravity
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense.
+#================================#
+[HORNLEECH]
+Name = Horn Leech
+Type = GRASS
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user drains the foe's energy with its horns. The user's HP is restored by half the damage inflicted.
+#================================#
+[INGRAIN]
+Name = Ingrain
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = StartHealUserEachTurnTrapUserInBattle
+Description = The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out.
+#================================#
+[IVYCUDGEL]
+Name = Ivy Cudgel
+Type = GRASS
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TypeIsUserSecondType
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = An ivy-wrapped cudgel strike with a high critical-hit ratio. Type changes based on the user's Mask.
+#================================#
+[JUNGLEHEALING]
+Name = Jungle Healing
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = UserAndAllies
+FunctionCode = HealUserAndAlliesQuarterOfTotalHPCureStatus
+Flags = CannotMetronome
+Description = The user becomes one with the jungle, and restores HP and cures status conditions of itself and allies.
+#================================#
+[LEAFBLADE]
+Name = Leaf Blade
+Type = GRASS
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio.
+#================================#
+[LEAFSTORM]
+Name = Leaf Storm
+Type = GRASS
+Category = Special
+Power = 130
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove
+Description = A storm of sharp leaves is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.
+#================================#
+[LEAFTORNADO]
+Name = Leaf Tornado
+Type = GRASS
+Category = Special
+Power = 65
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user attacks its foe by encircling it in sharp leaves. This attack may also lower the foe's accuracy.
+#================================#
+[LEAFAGE]
+Name = Leafage
+Type = GRASS
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks by pelting the target with leaves.
+#================================#
+[LEECHSEED]
+Name = Leech Seed
+Type = GRASS
+Category = Status
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove
+Description = A seed is planted on the target. It steals some HP from the target every turn.
+#================================#
+[MAGICALLEAF]
+Name = Magical Leaf
+Type = GRASS
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user scatters curious leaves that chase the target. This attack will not miss.
+#================================#
+[MATCHAGOTCHA]
+Name = Matcha Gotcha
+Type = GRASS
+Category = Special
+Power = 80
+Accuracy = 90
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = HealUserByHalfOfDamageDoneBurnTarget
+Flags = CanProtect,CanMirrorMove,ThawsUser
+EffectChance = 20
+Description = Blasts opponents with hot tea. Heals the user by half the damage dealt and may also burn targets.
+#================================#
+[MEGADRAIN]
+Name = Mega Drain
+Type = GRASS
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#================================#
+[NEEDLEARM]
+Name = Needle Arm
+Type = GRASS
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks by wildly swinging its thorny arms. It may also make the target flinch.
+#================================#
+[PETALBLIZZARD]
+Name = Petal Blizzard
+Type = GRASS
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user stirs up a violent petal blizzard and attacks everything around it.
+#================================#
+[PETALDANCE]
+Name = Petal Dance
+Type = GRASS
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = RandomNearFoe
+FunctionCode = MultiTurnAttackConfuseUserAtEnd
+Flags = Contact,CanProtect,CanMirrorMove,Dance
+Description = The user attacks by scattering petals for two to three turns. The user then becomes confused.
+#================================#
+[POWERWHIP]
+Name = Power Whip
+Type = GRASS
+Category = Physical
+Power = 120
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user violently whirls its vines or tentacles to harshly lash the target.
+#================================#
+[RAZORLEAF]
+Name = Razor Leaf
+Type = GRASS
+Category = Physical
+Power = 55
+Accuracy = 95
+TotalPP = 25
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.
+#================================#
+[SEEDBOMB]
+Name = Seed Bomb
+Type = GRASS
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = The user slams a barrage of hard-shelled seeds down on the target from above.
+#================================#
+[SEEDFLARE]
+Name = Seed Flare
+Type = GRASS
+Category = Special
+Power = 120
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpDef2
+Flags = CanProtect,CanMirrorMove
+EffectChance = 40
+Description = The user generates a shock wave from within its body. It may harshly lower the target's Sp. Def.
+#================================#
+[SLEEPPOWDER]
+Name = Sleep Powder
+Type = GRASS
+Category = Status
+Accuracy = 75
+TotalPP = 15
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user scatters a big cloud of sleep-inducing dust around the target.
+#================================#
+[SNAPTRAP]
+Name = Snap Trap
+Type = GRASS
+Category = Physical
+Power = 35
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user snares the target in a snap trap for four to five turns.
+#================================#
+[SOLARBEAM]
+Name = Solar Beam
+Type = GRASS
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackOneTurnInSun
+Flags = CanProtect,CanMirrorMove
+Description = A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
+#================================#
+[SOLARBLADE]
+Name = Solar Blade
+Type = GRASS
+Category = Physical
+Power = 125
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackOneTurnInSun
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user gathers light energy into a blade, attacking the target on the next turn.
+#================================#
+[SPICYEXTRACT]
+Name = Spicy Extract
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseTargetAtkLowerTargetDef2
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = Emits a spicy extract which raises the target’s Attack and lowers Defense by two stages each.
+#================================#
+[SPIKYSHIELD]
+Name = Spiky Shield
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserFromTargetingMovesSpikyShield
+Description = Protects the user from attacks. Also damages attackers that make contact with the user.
+#================================#
+[SPORE]
+Name = Spore
+Type = GRASS
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user scatters bursts of spores that induce sleep.
+#================================#
+[STRENGTHSAP]
+Name = Strength Sap
+Type = GRASS
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByTargetAttackLowerTargetAttack1
+Flags = CanProtect,CanMirrorMove
+Description = The user restores its HP by the target's Attack stat amount. Then lowers the target's Attack stat.
+#================================#
+[STUNSPORE]
+Name = Stun Spore
+Type = GRASS
+Category = Status
+Accuracy = 75
+TotalPP = 30
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.
+#================================#
+[SYNTHESIS]
+Name = Synthesis
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = HealUserDependingOnWeather
+Description = The user restores its own HP. The amount of HP regained varies with the weather.
+#================================#
+[SYRUPBOMB]
+Name = Syrup Bomb
+Type = GRASS
+Category = Special
+Power = 60
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpeedOverTime
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 100
+Description = An explosion of sticky candy syrup, which drops the target's Speed stat each turn for three turns.
+#================================#
+[TRAILBLAZE]
+Name = Trailblaze
+Type = GRASS
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseUserSpeed1
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = The user attacks suddenly as if leaping out from tall grass. This boosts the user's Speed stat.
+#================================#
+[TROPKICK]
+Name = Trop Kick
+Type = GRASS
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user lands an intense tropical kick on the target. This also lowers the target's Attack stat.
+#================================#
+[VINEWHIP]
+Name = Vine Whip
+Type = GRASS
+Category = Physical
+Power = 45
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is struck with slender, whiplike vines to inflict damage.
+#================================#
+[WOODHAMMER]
+Name = Wood Hammer
+Type = GRASS
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user slams its rugged body into the target to attack. The user also sustains serious damage.
+#================================#
+[WORRYSEED]
+Name = Worry Seed
+Type = GRASS
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = SetTargetAbilityToInsomnia
+Flags = CanProtect,CanMirrorMove
+Description = A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia.
