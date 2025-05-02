@@ -1,1 +1,95 @@
 #================================#
+[HM01]
+Name = HM01
+NamePlural = HM01s
+Pocket = 10
+Price = 0
+FieldUse = HM
+Move = CUT
+Description = The target is cut with a scythe or a claw. It can also be used to cut down thin trees.
+#================================#
+[HM02]
+Name = HM02
+NamePlural = HM02s
+Pocket = 10
+Price = 0
+FieldUse = HM
+Move = FLY
+Description = The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.
+#================================#
+[HM03]
+Name = HM03
+NamePlural = HM03s
+Pocket = 10
+Price = 0
+FieldUse = HM
+Move = SURF
+Description = It swamps the area around the user with a giant wave. It can also be used for crossing water.
+#================================#
+[HM04]
+Name = HM04
+NamePlural = HM04s
+Pocket = 10
+Price = 0
+FieldUse = HM
+Move = STRENGTH
+Description = The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.
+#================================#
+[HM05]
+Name = HM05
+NamePlural = HM05s
+Pocket = 10
+Price = 0
+FieldUse = HM
+Move = WATERFALL
+Description = The user charges at the target and may make it flinch. It can also be used to climb a waterfall.
+#================================#
+[HM06]
+Name = HM06
+NamePlural = HM06s
+Pocket = 10
+Price = 0
+FieldUse = HM
+Move = FLASH
+Description = The user flashes a light that cuts the target's accuracy. It can also be used to illuminate caves.
+#================================#
+[HM07]
+Name = HM07
+NamePlural = HM07s
+Pocket = 10
+Price = 0
+FieldUse = HM
+Move = DIVE
+Description = Diving on the first turn, the user rises and hits on the next turn. It can be used to dive in the ocean.
+#================================#
+[HM08]
+Name = HM08
+NamePlural = HM08s
+Pocket = 10
+Price = 0
+FieldUse = HM
+Move = ROCKSMASH
+Description = The user attacks with a punch that may also lower the target's Defense stat. This move can also shatter rocks.
+#================================#
+
+#================TMs (REUSABLE)================#
+[TM01]
+Name = TM01
+NamePlural = TM01s
+Pocket = 10
+Price = 0
+FieldUse = TM
+Move = PROTECT
+Description = It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+#================================#
+
+#================TRs (SINGLE-USE)================#
+[TR01]
+Name = TR01
+NamePlural = TR01s
+Pocket = 10
+Price = 5000
+FieldUse = TR
+Move = FALSESWIPE
+Description = A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+#================================#
