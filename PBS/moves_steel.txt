@@ -1,1 +1,394 @@
 #================================#
+[ANCHORSHOT]
+Name = Anchor Shot
+Type = STEEL
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = TrapTargetInBattle
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user entangles the target with its anchor chain. The target becomes unable to flee.
+#================================#
+[AUTOTOMIZE]
+Name = Autotomize
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = User
+FunctionCode = RaiseUserSpeed2LowerUserWeight
+Description = The user sheds part of its body to make itself lighter and sharply raise its Speed stat.
+#================================#
+[BEHEMOTHBASH]
+Name = Behemoth Bash
+Type = STEEL
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user becomes a gigantic shield and slams into the target.
+#================================#
+[BEHEMOTHBLADE]
+Name = Behemoth Blade
+Type = STEEL
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user becomes a gigantic sword and cuts the target.
+#================================#
+[BULLETPUNCH]
+Name = Bullet Punch
+Type = STEEL
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user strikes the target with tough punches as fast as bullets. This move always goes first.
+#================================#
+[DOUBLEIRONBASH]
+Name = Double Iron Bash
+Type = STEEL
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = HitTwoTimesFlinchTarget
+Flags = Contact,CanProtect,Punching,CannotMetronome
+EffectChance = 30
+Description = The user rotates, centering the hex nut in its chest, and then strikes twice. May cause flinching.
+#================================#
+[FLASHCANNON]
+Name = Flash Cannon
+Type = STEEL
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.
+#================================#
+[GEARGRIND]
+Name = Gear Grind
+Type = STEEL
+Category = Physical
+Power = 50
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks by throwing two steel gears at its target.
+#================================#
+[GEARUP]
+Name = Gear Up
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = UserAndAllies
+FunctionCode = RaisePlusMinusUserAndAlliesAtkSpAtk1
+Description = The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability.
+#================================#
+[GIGATONHAMMER]
+Name = Gigaton Hammer
+Type = STEEL
+Category = Physical
+Power = 160
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = CantSelectConsecutiveTurns
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks with its huge hammer. This move can’t be used twice in a row.
+#================================#
+[GYROBALL]
+Name = Gyro Ball
+Type = STEEL
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = PowerHigherWithTargetFasterThanUser
+Flags = Contact,CanProtect,CanMirrorMove,Bomb
+Description = The user tackles the target with a high-speed spin. The slower the user, the greater the damage.
+#================================#
+[HARDPRESS]
+Name = Hard Press
+Type = STEEL
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PowerHigherWithTargetHP100PowerRange
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is crushed with great force. The attack is more powerful the more HP the target has left.
+#================================#
+[HEAVYSLAM]
+Name = Heavy Slam
+Type = STEEL
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PowerHigherWithUserHeavierThanTarget
+Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
+Description = The user slams into the foe with its heavy body. The heavier the user, the greater the damage.
+#================================#
+[IRONDEFENSE]
+Name = Iron Defense
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = User
+FunctionCode = RaiseUserDefense2
+Description = The user hardens its body's surface like iron, sharply raising its Defense stat.
+#================================#
+[IRONHEAD]
+Name = Iron Head
+Type = STEEL
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The foe slams the target with its steel-hard head. It may also make the target flinch.
+#================================#
+[IRONTAIL]
+Name = Iron Tail
+Type = STEEL
+Category = Physical
+Power = 100
+Accuracy = 75
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is slammed with a steel-hard tail. It may also lower the target's Defense stat.
+#================================#
+[KINGSSHIELD]
+Name = King's Shield
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserFromDamagingMovesKingsShield
+Description = Protects itself from damage. It also harshly lowers the Attack of attackers that make contact.
+#================================#
+[MAGNETBOMB]
+Name = Magnet Bomb
+Type = STEEL
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = The user launches steel bombs that stick to the target. This attack will not miss.
+#================================#
+[MAKEITRAIN]
+Name = Make It Rain
+Type = STEEL
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = AddMoneyGainedFromBattleLowerUserSpAtk1
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user throws out a huge mass of coins, lowering its Sp. Atk stat. Money is earned after the battle.
+#================================#
+[METALBURST]
+Name = Metal Burst
+Type = STEEL
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = None
+FunctionCode = CounterDamagePlusHalf
+Flags = CanProtect,CanMirrorMove
+Description = The user retaliates with much greater power against the target that last inflicted damage on it.
+#================================#
+[METALCLAW]
+Name = Metal Claw
+Type = STEEL
+Category = Physical
+Power = 50
+Accuracy = 95
+TotalPP = 35
+Target = NearOther
+FunctionCode = RaiseUserAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is raked with steel claws. It may also raise the user's Attack stat.
+#================================#
+[METALSOUND]
+Name = Metal Sound
+Type = STEEL
+Category = Status
+Accuracy = 85
+TotalPP = 40
+Target = NearOther
+FunctionCode = LowerTargetSpDef2
+Flags = CanProtect,CanMirrorMove,Sound
+Description = A horrible sound like scraping metal harshly reduces the target's Sp. Def stat.
+#================================#
+[METEORMASH]
+Name = Meteor Mash
+Type = STEEL
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserAttack1
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 20
+Description = The target is hit with a hard punch fired like a meteor. It may also raise the user's Attack.
+#================================#
+[MIRRORSHOT]
+Name = Mirror Shot
+Type = STEEL
+Category = Special
+Power = 65
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user looses a flash of energy from its polished body. It may also lower the target's accuracy.
+#================================#
+[SHELTER]
+Name = Shelter
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserDefense2
+Description = The user makes its skin as hard as an iron shield, sharply boosting its Defense stat.
+#================================#
+[SHIFTGEAR]
+Name = Shift Gear
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserAtk1Spd2
+Description = The user rotates its gears, raising its Attack and sharply raising its Speed.
+#================================#
+[SMARTSTRIKE]
+Name = Smart Strike
+Type = STEEL
+Category = Physical
+Power = 70
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user stabs the target with a sharp horn. This attack never misses.
+#================================#
+[SPINOUT]
+Name = Spin Out
+Type = STEEL
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpeed2
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user inflicts damage on the target with a furious spin. This harshly lowers the user’s Speed.
+#================================#
+[STEELBEAM]
+Name = Steel Beam
+Type = STEEL
+Category = Special
+Power = 140
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = UserLosesHalfOfTotalHP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user fires a beam of steel that it collected from its entire body. This also damages the user.
+#================================#
+[STEELROLLER]
+Name = Steel Roller
+Type = STEEL
+Category = Physical
+Power = 130
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = RemoveTerrain
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks while destroying the terrain. This move fails when the ground isn't a terrain.
+#================================#
+[STEELWING]
+Name = Steel Wing
+Type = STEEL
+Category = Physical
+Power = 70
+Accuracy = 90
+TotalPP = 25
+Target = NearOther
+FunctionCode = RaiseUserDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is hit with wings of steel. It may also raise the user's Defense stat.
+#================================#
+[SUNSTEELSTRIKE]
+Name = Sunsteel Strike
+Type = STEEL
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = IgnoreTargetAbility
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.
+#================================#
+[TACHYONCUTTER]
+Name = Tachyon Cutter
+Type = STEEL
+Category = Special
+Power = 50
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = CanProtect,CanMirrorMove,Slicing
+Description = The user attacks by launching particle blades at the target twice in a row. This attack never misses.
