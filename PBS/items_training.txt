@@ -1,1 +1,595 @@
 #================================#
+[RARECANDY]
+Name = Rare Candy
+NamePlural = Rare Candies
+Pocket = 6
+Price = 10000
+SellPrice = 2500
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy packed with energy that raises the level of a Pokémon by one.
+#================================#
+[EXPCANDYXS]
+Name = Exp. Candy (XS)
+NamePlural = Exp. Candies (XS)
+Pocket = 6
+Price = 20
+SellPrice = 5
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy packed with energy that provides a very small amount of experience to a Pokémon.
+#================================#
+[EXPCANDYS]
+Name = Exp. Candy (S)
+NamePlural = Exp. Candies (S)
+Pocket = 6
+Price = 150
+SellPrice = 25
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy packed with energy that provides a small amount of experience to a Pokémon.
+#================================#
+[EXPCANDYM]
+Name = Exp. Candy (M)
+NamePlural = Exp. Candies (M)
+Pocket = 6
+Price = 1000
+SellPrice = 250
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy packed with energy that provides a moderate amount of experience to a Pokémon.
+#================================#
+[EXPCANDYL]
+Name = Exp. Candy (L)
+NamePlural = Exp. Candies (L)
+Pocket = 6
+Price = 2000
+SellPrice = 500
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy packed with energy that provides a large amount of experience to a Pokémon.
+#================================#
+[EXPCANDYXL]
+Name = Exp. Candy (XL)
+NamePlural = Exp. Candies (XL)
+Pocket = 6
+Price = 10000
+SellPrice = 1000
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy packed with energy that provides a very large amount of experience to a Pokémon.
+#================================#
+[HPUP]
+Name = HP Up
+NamePlural = HP Ups
+PortionName = bottle of HP Up
+PortionNamePlural = bottles of HP Up
+Pocket = 6
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+FieldUse = OnPokemon
+Description = A nutritious drink that increases the base HP of a Pokémon.
+#================================#
+[PROTEIN]
+Name = Protein
+NamePlural = Proteins
+PortionName = bottle of Protein
+PortionNamePlural = bottles of Protein
+Pocket = 6
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+FieldUse = OnPokemon
+Description = A nutritious drink that increases the base Attack of a Pokémon.
+#================================#
+[IRON]
+Name = Iron
+NamePlural = Irons
+PortionName = bottle of Iron
+PortionNamePlural = bottles of Iron
+Pocket = 6
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+FieldUse = OnPokemon
+Description = A nutritious drink that increases the base Defense of a Pokémon.
+#================================#
+[CALCIUM]
+Name = Calcium
+NamePlural = Calciums
+PortionName = bottle of Calcium
+PortionNamePlural = bottles of Calcium
+Pocket = 6
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+FieldUse = OnPokemon
+Description = A nutritious drink that increases the base Sp. Atk of a Pokémon.
+#================================#
+[ZINC]
+Name = Zinc
+NamePlural = Zincs
+PortionName = bottle of Zinc
+PortionNamePlural = bottles of Zinc
+Pocket = 6
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+FieldUse = OnPokemon
+Description = A nutritious drink that increases the base Sp. Def of a Pokémon.
+#================================#
+[CARBOS]
+Name = Carbos
+NamePlural = Carbos
+PortionName = bottle of Carbos
+PortionNamePlural = bottles of Carbos
+Pocket = 6
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+FieldUse = OnPokemon
+Description = A nutritious drink that increases the base Speed of a Pokémon.
+#================================#
+[DETOX]
+Name = Detox
+NamePlural = Detoxes
+PortionName = bottle of Detox
+PortionNamePlural = bottles of Detox
+Pocket = 6
+Price = 5000
+SellPrice = 500
+BPPrice = 5
+FieldUse = OnPokemon
+Description = A cleansing drink that resets the base stats of a single Pokémon.
+#================================#
+[PPUP]
+Name = PP Up
+NamePlural = PP Ups
+PortionName = bottle of PP Up
+PortionNamePlural = bottles of PP Up
+Pocket = 6
+Price = 10000
+SellPrice = 2500
+BPPrice = 10
+FieldUse = OnPokemon
+Description = A nutritious drink that slightly increases the PP of a move known by a Pokémon.
+#================================#
+[PPMAX]
+Name = PP Max
+NamePlural = PP Maxes
+PortionName = bottle of PP Max
+PortionNamePlural = bottles of PP Max
+Pocket = 6
+Price = 25000
+SellPrice = 5000
+BPPrice = 10
+FieldUse = OnPokemon
+Description = A nutritious drink that maximizes the PP of a move known by a Pokémon.
+#================================#
+[HEALTHFEATHER]
+Name = Health Feather
+NamePlural = Health Feathers
+Pocket = 6
+Price = 100
+SellPrice = 25
+BPPrice = 0
+FieldUse = OnPokemon
+Description = A feather that slightly increases the base HP of a Pokémon.
+#================================#
+[MUSCLEFEATHER]
+Name = Muscle Feather
+NamePlural = Muscle Feathers
+Pocket = 6
+Price = 100
+SellPrice = 25
+BPPrice = 0
+FieldUse = OnPokemon
+Description = A feather that slightly increases the base Strength of a Pokémon.
+#================================#
+[RESISTFEATHER]
+Name = Resist Feather
+NamePlural = Resist Feathers
+Pocket = 6
+Price = 100
+SellPrice = 25
+BPPrice = 0
+FieldUse = OnPokemon
+Description = A feather that slightly increases the base Defense of a Pokémon.
+#================================#
+[GENIUSFEATHER]
+Name = Genius Feather
+NamePlural = Genius Feathers
+Pocket = 6
+Price = 100
+SellPrice = 25
+BPPrice = 0
+FieldUse = OnPokemon
+Description = A feather that slightly increases the base So. Atk of a Pokémon.
+#================================#
+[CLEVERFEATHER]
+Name = Clever Feather
+NamePlural = Clever Feathers
+Pocket = 6
+Price = 100
+SellPrice = 25
+BPPrice = 0
+FieldUse = OnPokemon
+Description = A feather that slightly increases the base Sp. Def of a Pokémon.
+#================================#
+[SWIFTFEATHER]
+Name = Swift Feather
+NamePlural = Swift Feathers
+Pocket = 6
+Price = 100
+SellPrice = 25
+BPPrice = 0
+FieldUse = OnPokemon
+Description = A feather that slightly increases the base Speed of a Pokémon.
+#================================#
+[SERIOUSMINT]
+Name = Serious Mint
+NamePlural = Serious Mints
+PortionName = sprig of Serious Mint
+PortionNamePlural = sprigs of Serious Mint
+Pocket = 6
+Price = 15000
+SellPrice = 3000
+BPPrice = 15
+FieldUse = OnPokemon
+Description = When a Pokémon smells this mint, all of its stats will grow at an equal rate.
+#================================#
+[LONELYMINT]
+Name = Lonely Mint
+NamePlural = Lonely Mints
+PortionName = sprig of Lonely Mint
+PortionNamePlural = sprigs of Lonely Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Defense will grow more slowly.
+#================================#
+[ADAMANTMINT]
+Name = Adamant Mint
+NamePlural = Adamant Mints
+PortionName = sprig of Adamant Mint
+PortionNamePlural = sprigs of Adamant Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Atk will grow more slowly.
+#================================#
+[NAUGHTYMINT]
+Name = Naughty Mint
+NamePlural = Naughty Mints
+PortionName = sprig of Naughty Mint
+PortionNamePlural = sprigs of Naughty Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Def will grow more slowly.
+#================================#
+[BRAVEMINT]
+Name = Brave Mint
+NamePlural = Brave Mints
+PortionName = sprig of Brave Mint
+PortionNamePlural = sprigs of Brave Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Attack will grow more easily, but its Speed will grow more slowly.
+#================================#
+[BOLDMINT]
+Name = Bold Mint
+NamePlural = Bold Mints
+PortionName = sprig of Bold Mint
+PortionNamePlural = sprigs of Bold Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Defense will grow more easily, but its Attack will grow more slowly.
+#================================#
+[IMPISHMINT]
+Name = Impish Mint
+NamePlural = Impish Mints
+PortionName = sprig of Impish Mint
+PortionNamePlural = sprigs of Impish Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Atk will grow more slowly.
+#================================#
+[LAXMINT]
+Name = Lax Mint
+NamePlural = Lax Mints
+PortionName = sprig of Lax Mint
+PortionNamePlural = sprigs of Lax Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Def will grow more slowly.
+#================================#
+[RELAXEDMINT]
+Name = Relaxed Mint
+NamePlural = Relaxed Mints
+PortionName = sprig of Relaxed Mint
+PortionNamePlural = sprigs of Relaxed Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Defense will grow more easily, but its Speed will grow more slowly.
+#================================#
+[MODESTMINT]
+Name = Modest Mint
+NamePlural = Modest Mints
+PortionName = sprig of Modest Mint
+PortionNamePlural = sprigs of Modest Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Attack will grow more slowly.
+#================================#
+[MILDMINT]
+Name = Mild Mint
+NamePlural = Mild Mints
+PortionName = sprig of Mild Mint
+PortionNamePlural = sprigs of Mild Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Defense will grow more slowly.
+#================================#
+[RASHMINT]
+Name = Rash Mint
+NamePlural = Rash Mints
+PortionName = sprig of Rash Mint
+PortionNamePlural = sprigs of Rash Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Sp. Def will grow more slowly.
+#================================#
+[QUIETMINT]
+Name = Quiet Mint
+NamePlural = Quiet Mints
+PortionName = sprig of Quiet Mint
+PortionNamePlural = sprigs of Quiet Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Speed will grow more slowly.
+#================================#
+[CALMMINT]
+Name = Calm Mint
+NamePlural = Calm Mints
+PortionName = sprig of Calm Mint
+PortionNamePlural = sprigs of Calm Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Attack will grow more slowly.
+#================================#
+[GENTLEMINT]
+Name = Gentle Mint
+NamePlural = Gentle Mints
+PortionName = sprig of Gentle Mint
+PortionNamePlural = sprigs of Gentle Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Defense will grow more slowly.
+#================================#
+[CAREFULMINT]
+Name = Careful Mint
+NamePlural = Careful Mints
+PortionName = sprig of Careful Mint
+PortionNamePlural = sprigs of Careful Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Sp. Atk will grow more slowly.
+#================================#
+[SASSYMINT]
+Name = Sassy Mint
+NamePlural = Sassy Mints
+PortionName = sprig of Sassy Mint
+PortionNamePlural = sprigs of Sassy Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Speed will grow more slowly.
+#================================#
+[TIMIDMINT]
+Name = Timid Mint
+NamePlural = Timid Mints
+PortionName = sprig of Timid Mint
+PortionNamePlural = sprigs of Timid Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Attack will grow more slowly.
+#================================#
+[HASTYMINT]
+Name = Hasty Mint
+NamePlural = Hasty Mints
+PortionName = sprig of Hasty Mint
+PortionNamePlural = sprigs of Hasty Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Defense will grow more slowly.
+#================================#
+[JOLLYMINT]
+Name = Jolly Mint
+NamePlural = Jolly Mints
+PortionName = sprig of Jolly Mint
+PortionNamePlural = sprigs of Jolly Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Atk will grow more slowly.
+#================================#
+[NAIVEMINT]
+Name = Naive Mint
+NamePlural = Naive Mints
+PortionName = sprig of Naive Mint
+PortionNamePlural = sprigs of Naive Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Def will grow more slowly.
+#================================#
+[SERIOUSMINT]
+Name = Serious Mint
+NamePlural = Serious Mints
+PortionName = sprig of Serious Mint
+PortionNamePlural = sprigs of Serious Mint
+Pocket = 6
+Price = 20
+BPPrice = 50
+FieldUse = OnPokemon
+Flags = Fling_10
+Description = When a Pokémon smells this mint, all of its stats will grow at an equal rate.
+#================================#
+[ABILITYCAPSULE]
+Name = Ability Capsule
+NamePlural = Ability Capsule
+Pocket = 6
+Price = 10000
+BPPrice = 50
+FieldUse = OnPokemon
+Description = A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.
+#================================#
+[ABILITYPATCH]
+Name = Ability Patch
+NamePlural = Ability Patches
+Pocket = 6
+Price = 10000
+BPPrice = 200
+FieldUse = OnPokemon
+Description = A patch that allows a Pokémon with a regular Ability to have a rare Ability.
+#================================#
+[BOTTLECAP]
+Name = Bottle Cap
+NamePlural = Bottle Caps
+Pocket = 6
+Price = 10000
+BPPrice = 200
+Description = A lovely silver bottle cap. Some people are delighted to receive these.
+#================================#
+[GOLDBOTTLECAP]
+Name = Gold Bottle Cap
+NamePlural = Gold Bottle Caps
+Pocket = 6
+Price = 50000
+BPPrice = 200
+Description = A lovely gold bottle cap. Some people are delighted to receive these.
+#================================#
+[MACHOBRACE]
+Name = Macho Brace
+NamePlural = Macho Braces
+Pocket = 6
+Price = 3000
+BPPrice = 10
+Flags = Fling_60
+Description = An item to be held by a Pokémon. It is a stiff, heavy brace that promotes strong growth but lowers Speed.
+#================================#
+[POWERWEIGHT]
+Name = Power Weight
+NamePlural = Power Weights
+Pocket = 6
+Price = 3000
+BPPrice = 10
+Flags = Fling_70
+Description = A Pokémon held item that promotes HP gain on leveling, but reduces the Speed stat.
+#================================#
+[POWERBRACER]
+Name = Power Bracer
+NamePlural = Power Bracers
+Pocket = 6
+Price = 3000
+BPPrice = 10
+Flags = Fling_70
+Description = A Pokémon held item that promotes Attack gain on leveling, but reduces the Speed stat.
+#================================#
+[POWERBELT]
+Name = Power Belt
+NamePlural = Power Belts
+Pocket = 6
+Price = 3000
+BPPrice = 10
+Flags = Fling_70
+Description = A Pokémon held item that promotes Defense gain on leveling, but reduces the Speed stat.
+#================================#
+[POWERLENS]
+Name = Power Lens
+NamePlural = Power Lenses
+Pocket = 6
+Price = 3000
+BPPrice = 10
+Flags = Fling_70
+Description = A Pokémon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat.
+#================================#
+[POWERBAND]
+Name = Power Band
+NamePlural = Power Bands
+Pocket = 6
+Price = 3000
+BPPrice = 10
+Flags = Fling_70
+Description = A Pokémon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat.
+#================================#
+[POWERANKLET]
+Name = Power Anklet
+NamePlural = Power Anklets
+Pocket = 6
+Price = 3000
+BPPrice = 10
+Flags = Fling_70
+Description = A Pokémon held item that promotes Speed gain on leveling, but reduces the Speed stat.
