@@ -1,1 +1,1431 @@
+#================REPELS AND LURES================#
+[REPEL]
+Name = Repel
+NamePlural = Repels
+Pocket = 9
+Price = 350
+SellPrice = 100
+FieldUse = Direct
+Flags = Repel
+Description = An aerosol spray that keeps wild Pokémon away for a short while.
+#================================#
+[SUPERREPEL]
+Name = Super Repel
+NamePlural = Super Repels
+Pocket = 9
+Price = 700
+SellPrice = 350
+FieldUse = Direct
+Flags = Repel
+Description = An aerosol spray that keeps wild Pokémon away for longer than a Repel.
+#================================#
+[MAXREPEL]
+Name = Max Repel
+NamePlural = Max Repels
+Pocket = 9
+Price = 900
+SellPrice = 450
+FieldUse = Direct
+Flags = Repel
+Description = An aerosol spray that keeps wild Pokémon away for longer than a Super Repel.
+#================================#
+[LURE]
+Name = Lure
+NamePlural = Lures
+Pocket = 9
+Price = 500
+SellPrice = 250
+FieldUse = Direct
+Flags = Lure
+Description = A fragrant perfume that attracts rare Pokémon for a short while.
+#================================#
+[SUPERLURE]
+Name = Super Lure
+NamePlural = Super Lures
+Pocket = 9
+Price = 750
+SellPrice = 350
+FieldUse = Direct
+Flags = Lure
+Description = A fragrant perfume that attracts rare Pokémon for longer than a Lure.
+#================================#
+[MAXLURE]
+Name = Super Lure
+NamePlural = Super Lures
+Pocket = 9
+Price = 1000
+SellPrice = 500
+FieldUse = Direct
+Flags = Lure
+Description = A fragrant perfume that attracts rare Pokémon for longer than a Super Lure.
+#================================#
+
+
+
+#================TYPE-BOOSTING ITEMS================#
+[SILKSCARF]
+Name = Silk Scarf
+NamePlural = Silk Scarves
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.
+#================================#
+[CHARCOAL]
+Name = Charcoal
+NamePlural = Charcoals
+PortionName = piece of Charcoal
+PortionNamePlural = pieces of Charcoal
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a combustible fuel that boosts the power of Fire-type moves.
+#================================#
+[MYSTICWATER]
+Name = Mystic Water
+NamePlural = Mystic Waters
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.
+#================================#
+[MAGNET]
+Name = Magnet
+NamePlural = Magnets
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.
+#================================#
+[MIRACLESEED]
+Name = Miracle Seed
+NamePlural = Miracle Seeds
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.
+#================================#
+[NEVERMELTICE]
+Name = Never-Melt Ice
+NamePlural = Never-Melt Ices
+PortionName = piece of Never-Melt Ice
+PortionNamePlural = pieces of Never-Melt Ice
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.
+#================================#
+[BLACKBELT]
+Name = Black Belt
+NamePlural = Black Belts
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.
+#================================#
+[POISONBARB]
+Name = Poison Barb
+NamePlural = Poison Barbs
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_70
+Description = An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.
+#================================#
+[SOFTSAND]
+Name = Soft Sand
+NamePlural = Soft Sand
+PortionName = bag of Soft Sand
+PortionNamePlural = bags of Soft Sand
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It is a loose, silky sand that boosts the power of Ground-type moves.
+#================================#
+[SHARPBEAK]
+Name = Sharp Beak
+NamePlural = Sharp Beaks
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_50
+Description = An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.
+#================================#
+[TWISTEDSPOON]
+Name = Twisted Spoon
+NamePlural = Twisted Spoons
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.
+#================================#
+[SILVERPOWDER]
+Name = Silver Powder
+NamePlural = Silver Powders
+PortionName = pile of Silver Powder
+PortionNamePlural = piles of Silver Powder
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.
+#================================#
+[HARDSTONE]
+Name = Hard Stone
+NamePlural = Hard Stones
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_100
+Description = An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.
+#================================#
+[SPELLTAG]
+Name = Spell Tag
+NamePlural = Spell Tags
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.
+#================================#
+[DRAGONFANG]
+Name = Dragon Fang
+NamePlural = Dragon Fangs
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_70
+Description = An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.
+#================================#
+[BLACKGLASSES]
+Name = Black Glasses
+NamePlural = Black Glasses
+PortionName = pair of Black Glasses
+PortionNamePlural = pairs of Black Glasses
+Pocket = 9
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.
+#================================#
+[METALCOAT]
+Name = Metal Coat
+NamePlural = Metal Coats
+Pocket = 9
+Price = 3000
+SellPrice = 1000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.
+#================================#
+[FAIRYFEATHER]
+Name = Fairy Feather
+NamePlural = Fairy Feathers
+Pocket = 9
+Price = 3000
+SellPrice = 750
+Flags = Fling_20
+Description = An item to be held by a Pokémon. This shining feather boosts the power of the holder's Fairy-type moves.
+#================================#
+[STARPENDANT]
+Name = Star Pendant
+NamePlural = Star Pendants
+Pocket = 9
+Price = 3000
+SellPrice = 750
+Flags = Fling_30
+Description = An item to be held by a Pokémon. This star-shaped charm boosts the power of the holder's Cosmic-type moves.
+#================================#
+
+#================POKEMON-SPECIFIC ITEMS================#
+[LIGHTBALL]
+Name = Light Ball
+NamePlural = Light Balls
+Pocket = 9
+Price = 1000
+Flags = Fling_30
+Description = An item to be held by Pikachu. It is a puzzling orb that raises the Attack and Sp. Atk stat.
+#================================#
+[METALPOWDER]
+Name = Metal Powder
+NamePlural = Metal Powders
+PortionName = bag of Metal Powder
+PortionNamePlural = bags of Metal Powder
+Pocket = 9
+Price = 1000
+Flags = Fling_10
+Description = An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat.
+#================================#
+[QUICKPOWDER]
+Name = Quick Powder
+NamePlural = Quick Powders
+PortionName = bag of Quick Powder
+PortionNamePlural = bags of Quick Powder
+Pocket = 9
+Price = 1000
+Flags = Fling_10
+Description = An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat.
+#================================#
+[SOULDEW]
+Name = Soul Dew
+NamePlural = Soul Dews
+Pocket = 9
+Price = 0
+Flags = Fling_30
+Description = A wondrous orb to be held by either Latios or Latias. It raises the power of Psychic- and Dragon-type moves.
+#================================#
+[ADAMANTORB]
+Name = Adamant Orb
+NamePlural = Adamant Orbs
+Pocket = 9
+Price = 0
+Flags = Fling_60
+Description = A brightly gleaming orb to be held by Dialga. It boosts the power of Dragon- and Steel-type moves.
+#================================#
+[LUSTROUSORB]
+Name = Lustrous Orb
+NamePlural = Lustrous Orbs
+Pocket = 9
+Price = 0
+Flags = Fling_60
+Description = A beautifully glowing orb to be held by Palkia. It boosts the power of Dragon- and Water-type moves.
+#================================#
+[GRISEOUSORB]
+Name = Griseous Orb
+NamePlural = Griseous Orbs
+Pocket = 9
+Price = 0
+Flags = Fling_60
+Description = An eerily glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves.
+#================================#
+
+
+
+
+#================INCENSE================#
+[LAXINCENSE]
+Name = Lax Incense
+NamePlural = Lax Incenses
+PortionName = jar of Lax Incense
+PortionNamePlural = jars of Lax Incense
+Pocket = 9
+Price = 5000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense may make attacks miss the holder.
+#================================#
+[FULLINCENSE]
+Name = Full Incense
+NamePlural = Full Incenses
+PortionName = jar of Full Incense
+PortionNamePlural = jars of Full Incense
+Pocket = 9
+Price = 5000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving.
+#================================#
+[LUCKINCENSE]
+Name = Luck Incense
+NamePlural = Luck Incenses
+PortionName = jar of Luck Incense
+PortionNamePlural = jars of Luck Incense
+Pocket = 9
+Price = 11000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
+#================================#
+[PUREINCENSE]
+Name = Pure Incense
+NamePlural = Pure Incenses
+PortionName = jar of Pure Incense
+PortionNamePlural = jars of Pure Incense
+Pocket = 9
+Price = 6000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
+#================================#
+[SEAINCENSE]
+Name = Sea Incense
+NamePlural = Sea Incenses
+PortionName = jar of Sea Incense
+PortionNamePlural = jars of Sea Incense
+Pocket = 9
+Price = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Water-type moves.
+#================================#
+[WAVEINCENSE]
+Name = Wave Incense
+NamePlural = Wave Incenses
+PortionName = jar of Wave Incense
+PortionNamePlural = jars of Wave Incense
+Pocket = 9
+Price = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the accuracy of Water-type moves.
+#================================#
+[ROSEINCENSE]
+Name = Rose Incense
+NamePlural = Rose Incenses
+PortionName = jar of Rose Incense
+PortionNamePlural = jars of Rose Incense
+Pocket = 9
+Price = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves.
+#================================#
+[ODDINCENSE]
+Name = Odd Incense
+NamePlural = Odd Incenses
+PortionName = jar of Odd Incense
+PortionNamePlural = jars of Odd Incense
+Pocket = 9
+Price = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Psychic-type moves.
+#================================#
+[ROCKINCENSE]
+Name = Rock Incense
+NamePlural = Rock Incenses
+PortionName = jar of Rock Incense
+PortionNamePlural = jars of Rock Incense
+Pocket = 9
+Price = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves.
+#================================#
+[DUSKINCENSE]
+Name = Dusk Incense
+NamePlural = Dusk Incenses
+PortionName = jar of Dusk Incense
+PortionNamePlural = jars of Dusk Incense
+Pocket = 9
+Price = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Dark-type moves.
+#================================#
+[FLAMEINCENSE]
+Name = Flame Incense
+NamePlural = Flame Incenses
+PortionName = jar of Flame Incense
+PortionNamePlural = jars of Flame Incense
+Pocket = 9
+Price = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Fire-type moves.
+#================================#
+[SPOREINCENSE]
+Name = Spore Incense
+NamePlural = Spore Incenses
+PortionName = jar of Spore Incense
+PortionNamePlural = jars of Spore Incense
+Pocket = 9
+Price = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the accuracy of Grass-type moves.
+#================================#
+
+
+#================EVOLUTION-INDUCING ITEMS================#
+[RAZORCLAW]
+Name = Razor Claw
+NamePlural = Razor Claws
+Pocket = 9
+Price = 3000
+SellPrice = 2500
+BPPrice = 5
+Flags = Fling_80
+Description = An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.
+#================================#
+[RAZORFANG]
+Name = Razor Fang
+NamePlural = Razor Fangs
+Pocket = 9
+Price = 5000
+BPPrice = 5
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.
+#================================#
+[DRAGONSCALE]
+Name = Dragon Scale
+NamePlural = Dragon Scales
+Pocket = 9
+Price = 3000
+SellPrice = 1000
+BPPrice = 5
+Flags = Fling_30
+Description = A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.
+#================================#
+[UPGRADE]
+Name = Upgrade
+NamePlural = Upgrades
+Pocket = 9
+Price = 3000
+SellPrice = 1000
+BPPrice = 5
+Flags = Fling_30
+Description = A transparent device filled with all sorts of data. It was produced by Silph Co.
+#================================#
+[DUBIOUSDISC]
+Name = Dubious Disc
+NamePlural = Dubious Discs
+Pocket = 9
+Price = 3000
+SellPrice = 1000
+BPPrice = 5
+Flags = Fling_50
+Description = A transparent device overflowing with dubious data.  Its producer is unknown.
+#================================#
+[PROTOTYPEDISC]
+Name = Prototype Disc
+NamePlural = Prototype Discs
+Pocket = 9
+Price = 3000
+SellPrice = 1000
+BPPrice = 5
+Flags = Fling_50
+Description = A transparent device packed with prototype data.  It seems to have been produced by Silph Co.
+#================================#
+[REAPERCLOTH]
+Name = Reaper Cloth
+NamePlural = Reaper Cloths
+PortionName = scrap of Reaper Cloth
+PortionNamePlural = scraps of Reaper Cloth
+Pocket = 9
+Price = 3000
+SellPrice = 1000
+BPPrice = 5
+Flags = Fling_10
+Description = A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.
+#================================#
+[PRISMSCALE]
+Name = Prism Scale
+NamePlural = Prism Scales
+Pocket = 9
+Price = 3000
+SellPrice = 1000
+BPPrice = 10
+Flags = Fling_30
+Description = A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.
+#================================#
+[OVALSTONE]
+Name = Oval Stone
+NamePlural = Oval Stones
+Pocket = 9
+Price = 3000
+SellPrice = 1000
+BPPrice = 5
+Flags = Fling_80
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.
+#================================#
+[EVERSTONE]
+Name = Everstone
+NamePlural = Everstones
+Pocket = 9
+Price = 3000
+BPPrice = 5
+Flags = Fling_30
+Description = An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.
+#================================#
+
+
+#================EXPERIENCE ITEMS================#
+[LUCKYEGG]
+Name = Lucky Egg
+NamePlural = Lucky Eggs
+Pocket = 9
+Price = 10000
+BPPrice = 77
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
+#================================#
+
+#================BREEDING ITEMS================#
+[DESTINYKNOT]
+Name = Destiny Knot
+NamePlural = Destiny Knots
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 10
+Flags = Fling_10
+Description = A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, so does the foe.
+#================================#
+
+
+#================OUT-OF-BATTLE ITEMS================#
+[CLEANSETAG]
+Name = Cleanse Tag
+NamePlural = Cleanse Tags
+Pocket = 9
+Price = 5000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
+#================================#
+[SOOTHEBELL]
+Name = Soothe Bell
+NamePlural = Soothe Bells
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_10
+Description = An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.
+#================================#
+
+#================CHOICE ITEMS================#
+[CHOICEBAND]
+Name = Choice Band
+NamePlural = Choice Bands
+Pocket = 9
+Price = 4000
+BPPrice = 25
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move.
+#================================#
+[CHOICESPECS]
+Name = Choice Specs
+NamePlural = Choice Specs
+PortionName = pair of Choice Specs
+PortionNamePlural = pairs of Choice Specs
+Pocket = 9
+Price = 4000
+BPPrice = 25
+Flags = Fling_10
+Description = An item to be held by a Pokémon. These curious glasses boost Sp. Atk but allows the use of only one move.
+#================================#
+[CHOICESCARF]
+Name = Choice Scarf
+NamePlural = Choice Scarves
+Pocket = 9
+Price = 4000
+BPPrice = 25
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This scarf boosts Speed but allows the use of only one move.
+#================================#
+
+#================WEATHER ROCKS================#
+[DAMPROCK]
+Name = Damp Rock
+NamePlural = Damp Rocks
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_60
+Description = A Pokémon held item that extends the duration of rainfall caused by the holder.
+#================================#
+[HEATROCK]
+Name = Heat Rock
+NamePlural = Heat Rocks
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_60
+Description = A Pokémon held item that extends the duration of harsh sunlight caused by the holder.
+#================================#
+[ICYROCK]
+Name = Icy Rock
+NamePlural = Icy Rocks
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_40
+Description = A Pokémon held item that extends the duration of hail and snow caused by the holder.
+#================================#
+[SMOOTHROCK]
+Name = Smooth Rock
+NamePlural = Smooth Rocks
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_10
+Description = A Pokémon held item that extends the duration of sandstorms caused by the holder.
+#================================#
+
+
+#================TERRAIN SEEDS================#
+[ELECTRICSEED]
+Name = Electric Seed
+NamePlural = Electric Seeds
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.
+#================================#
+[GRASSYSEED]
+Name = Grassy Seed
+NamePlural = Grassy Seeds
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.
+#================================#
+[MISTYSEED]
+Name = Misty Seed
+NamePlural = Misty Seeds
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.
+#================================#
+[PSYCHICSEED]
+Name = Psychic Seed
+NamePlural = Psychic Seeds
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.
+#================================#
+
+#================DAMAGE ORBS================#
+[FLAMEORB]
+Name = Flame Orb
+NamePlural = Flame Orbs
+Pocket = 9
+Price = 4000
+BPPrice = 16
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.
+#================================#
+[LIFEORB]
+Name = Life Orb
+NamePlural = Life Orbs
+Pocket = 9
+Price = 4000
+BPPrice = 25
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.
+#================================#
+[TOXICORB]
+Name = Toxic Orb
+NamePlural = Toxic Orbs
+Pocket = 9
+Price = 4000
+BPPrice = 16
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.
+#================================#
+
+
+#================HP-RESTORING ITEMS================#
+[BLACKSLUDGE]
+Name = Black Sludge
+NamePlural = Black Sludges
+PortionName = blob of Black Sludge
+PortionNamePlural = blobs of Black Sludge
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_30
+Description = A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
+#================================#
+[LEFTOVERS]
+Name = Leftovers
+NamePlural = Leftovers
+PortionName = serving of Leftovers
+PortionNamePlural = servings of Leftovers
+Pocket = 9
+Price = 4000
+BPPrice = 25
+Flags = Fling_10
+Description = An item to be held by a Pokémon. The holder's HP is gradually restored during battle.
+#================================#
+[SHELLBELL]
+Name = Shell Bell
+NamePlural = Shell Bells
+Pocket = 9
+Price = 4000
+BPPrice = 25
+Flags = Fling_30
+Description = An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.
+#================================#
+
+#================ONE-USE ITEMS================#
+[ABSORBBULB]
+Name = Absorb Bulb
+NamePlural = Absorb Bulbs
+Pocket = 9
+Price = 4000
+BPPrice = 10
+Flags = Fling_30
+Description = A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.
+#================================#
+[ADRENALINEORB]
+Name = Adrenaline Orb
+NamePlural = Adrenaline Orbs
+Pocket = 9
+Price = 300
+BPPrice = 10
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It boosts Speed if the holder flinches. It can be used only once.
+#================================#
+[CELLBATTERY]
+Name = Cell Battery
+NamePlural = Cell Batteries
+Pocket = 9
+Price = 4000
+BPPrice = 10
+Flags = Fling_30
+Description = A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.
+#================================#
+[LUMINOUSMOSS]
+Name = Luminous Moss
+NamePlural = Luminous Moss
+PortionName = clump of Luminous Moss
+PortionNamePlural = clumps of Luminous Moss
+Pocket = 9
+Price = 4000
+BPPrice = 10
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.
+#================================#
+[SNOWBALL]
+Name = Snowball
+NamePlural = Snowballs
+Pocket = 9
+Price = 4000
+BPPrice = 10
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It boosts Attack if hit by an Ice-type attack. It can only be used once.
+#================================#
+[WEAKNESSPOLICY]
+Name = Weakness Policy
+NamePlural = Weakness Policies
+Pocket = 9
+Price = 1000
+BPPrice = 20
+Flags = Fling_80
+Description = An item to be held by a Pokémon. The holder's Attack and Sp. Atk sharply increase if hit by a move it's weak to.
+#================================#
+
+#================LENSES================#
+[SCOPELENS]
+Name = Scope Lens
+NamePlural = Scope Lenses
+Pocket = 9
+Price = 4000
+BPPrice = 48
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.
+#================================#
+[WIDELENS]
+Name = Wide Lens
+NamePlural = Wide Lenses
+Pocket = 9
+Price = 4000
+BPPrice = 48
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.
+#================================#
+[ZOOMLENS]
+Name = Zoom Lens
+NamePlural = Zoom Lenses
+Pocket = 9
+Price = 4000
+BPPrice = 48
+Flags = Fling_10
+Description = An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.
+#================================#
+
+
+#================MOVE-TYPE BOOSTERS================#
+[MUSCLEBAND]
+Name = Muscle Band
+NamePlural = Muscle Bands
+Pocket = 9
+Price = 4000
+BPPrice = 48
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.
+#================================#
+[WISEGLASSES]
+Name = Wise Glasses
+NamePlural = Wise Glasses
+PortionName = pair of Wise Glasses
+PortionNamePlural = pairs of Wise Glasses
+Pocket = 9
+Price = 4000
+BPPrice = 48
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.
+#================================#
+
+
+#================HERBS================#
+[MENTALHERB]
+Name = Mental Herb
+NamePlural = Mental Herbs
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.
+#================================#
+[MIRRORHERB]
+Name = Mirror Herb
+NamePlural = Mirror Herbs
+Pocket = 9
+Price = 30000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. This herb will allow the holder to mirror an opponent's stat increases once.
+#================================#
+[POWERHERB]
+Name = Power Herb
+NamePlural = Power Herbs
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_10
+Description = A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
+#================================#
+[WHITEHERB]
+Name = White Herb
+NamePlural = White Herbs
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.
+#================================#
+
+
+#================OTHER ITEMS================#
+[ABILITYSHIELD]
+Name = Ability Shield
+NamePlural = Ability Shields
+Pocket = 9
+Price = 20000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. This  shield protects the holder from having its Ability changed by others.
+#================================#
+[AIRBALLOON]
+Name = Air Balloon
+NamePlural = Air Balloons
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 15
+Flags = Fling_10
+Description = An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.
+#================================#
+[AMULETCOIN]
+Name = Amulet Coin
+NamePlural = Amulet Coins
+Pocket = 9
+Price = 10000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
+#================================#
+[ASSAULTVEST]
+Name = Assault Vest
+NamePlural = Assault Vests
+Pocket = 9
+Price = 1000
+BPPrice = 25
+Flags = Fling_80
+Description = An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.
+#================================#
+[BERSERKGENE]
+Name = Berserk Gene
+NamePlural = Berserk Genes
+Pocket = 9
+Price = 0
+BPPrice = 150
+Description = An item to be held by a Pokémon. This unstable genome maximizes Attack, but induces confusion.
+#================================#
+[BIGROOT]
+Name = Big Root
+NamePlural = Big Roots
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_10
+Description = A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.
+#================================#
+[BINDINGBAND]
+Name = Binding Band
+NamePlural = Binding Bands
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 15
+Flags = Fling_30
+Description = A band that increases the power of binding moves when held.
+#================================#
+[BLUNDERPOLICY]
+Name = Blunder Policy
+NamePlural = Blunder Policies
+Pocket = 9
+Price = 4000
+BPPrice = 20
+Flags = Fling_80
+Description = Raises Speed sharply when a Pokémon misses with a move because of accuracy.
+#================================#
+[BRIGHTPOWDER]
+Name = Bright Powder
+NamePlural = Bright Powders
+PortionName = bag of Bright Powder
+PortionNamePlural = bags of Bright Powder
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 48
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.
+#================================#
+[CLEARAMULET]
+Name = Clear Amulet
+NamePlural = Clear Amulets
+Pocket = 9
+Price = 30000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It protects the holder from having its stats lowered.
+#================================#
+[COVERTCLOAK]
+Name = Covert Cloak
+NamePlural = Covert Cloaks
+Pocket = 9
+Price = 20000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It conceals the holder, protecting it from move's additional effects.
+#================================#
+[EJECTBUTTON]
+Name = Eject Button
+NamePlural = Eject Buttons
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 20
+Flags = Fling_30
+Description = If the holder is hit by an attack, it will switch with another Pokémon in your party.
+#================================#
+[EJECTPACK]
+Name = Eject Pack
+NamePlural = Eject Packs
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 20
+Flags = Fling_50
+Description = An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.
+#================================#
+[EXPERTBELT]
+Name = Expert Belt
+NamePlural = Expert Belts
+Pocket = 9
+Price = 4000
+BPPrice = 25
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.
+#================================#
+[EVIOLITE]
+Name = Eviolite
+NamePlural = Eviolites
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_40
+Description = A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def if the holder can still evolve.
+#================================#
+[FLOATSTONE]
+Name = Float Stone
+NamePlural = Float Stones
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 10
+Flags = Fling_30
+Description = A very light stone. It reduces the weight of a Pokémon when held.
+#================================#
+[FOCUSBAND]
+Name = Focus Band
+NamePlural = Focus Bands
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 48
+Flags = Fling_10
+Description = An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.
+#================================#
+[FOCUSSASH]
+Name = Focus Sash
+NamePlural = Focus Sashes
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 15
+Flags = Fling_10
+Description = An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
+#================================#
+[GRIPCLAW]
+Name = Grip Claw
+NamePlural = Grip Claws
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_90
+Description = A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.
+#================================#
+[HEAVYDUTYBOOTS]
+Name = Heavy-Duty Boots
+NamePlural = Heavy-Duty Boots
+PortionName = pair of Heavy-Duty Boots
+PortionNamePlural = pairs of Heavy-Duty Boots
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_80
+Description = These boots prevent the effects of traps set on the battlefield.
+#================================#
+[IRONBALL]
+Name = Iron Ball
+NamePlural = Iron Balls
+Pocket = 9
+Price = 4000
+BPPrice = 10
+Flags = Fling_130
+Description = A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.
+#================================#
+[KINGSROCK]
+Name = King's Rock
+NamePlural = King's Rocks
+Pocket = 9
+Price = 5000
+BPPrice = 5
+Flags = Fling_30
+Description = An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.
+#================================#
+[LAGGINGTAIL]
+Name = Lagging Tail
+NamePlural = Lagging Tails
+Pocket = 9
+Price = 4000
+BPPrice = 25
+Flags = Fling_10
+Description = An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
+#================================#
+[LIGHTCLAY]
+Name = Light Clay
+NamePlural = Light Clays
+PortionName = lump of Light Clay
+PortionNamePlural = lumps of Light Clay
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_30
+Description = An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.
+#================================#
+[LOADEDDICE]
+Name = Loaded Dice
+NamePlural = Loaded Dices
+Pocket = 9
+Price = 20000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It ensures the holder's multistrike moves hit more times.
+#================================#
+[METRONOME]
+Name = Metronome
+NamePlural = Metronomes
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_30
+Description = A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.
+#================================#
+[PROTECTIVEPADS]
+Name = Protective Pads
+NamePlural = Protective Pads
+PortionName = set of Protective Pads
+PortionNamePlural = sets of Protective Pads
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_30
+Description = An item to be held by a Pokémon. They protect the holder from effects caused by making contact.
+#================================#
+[PUNCHINGGLOVE]
+Name = Punching Glove
+NamePlural = Punching Gloves
+Pocket = 9
+Price = 15000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It boosts the holder's punching moves and prevents direct contact.
+#================================#
+[QUICKCLAW]
+Name = Quick Claw
+NamePlural = Quick Claws
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_80
+Description = An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.
+#================================#
+[REDCARD]
+Name = Red Card
+NamePlural = Red Cards
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 20
+Flags = Fling_10
+Description = A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
+#================================#
+[RINGTARGET]
+Name = Ring Target
+NamePlural = Ring Targets
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 10
+Flags = Fling_10
+Description = Moves that would otherwise have no effect will land on the Pokémon that holds it.
+#================================#
+[ROCKYHELMET]
+Name = Rocky Helmet
+NamePlural = Rocky Helmets
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_60
+Description = If the holder of this item takes damage, the attacker will also be damaged upon contact.
+#================================#
+[ROOMSERVICE]
+Name = Room Service
+NamePlural = Room Services
+PortionName = voucher for Room Service
+PortionNamePlural = vouchers for Room Service
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_100
+Description = An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.
+#================================#
+[SAFETYGOGGLES]
+Name = Safety Goggles
+NamePlural = Safety Goggles
+PortionName = pair of Safety Goggles
+PortionNamePlural = pairs of Safety Goggles
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_80
+Description = An item to be held by a Pokémon. They protect the holder from weather-related damage and powder.
+#================================#
+[SHEDSHELL]
+Name = Shed Shell
+NamePlural = Shed Shells
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+Flags = Fling_10
+Description = An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.
+#================================#
+[SMOKEBALL]
+Name = Smoke Ball
+NamePlural = Smoke Balls
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
+#================================#
+[STICKYBARB]
+Name = Sticky Barb
+NamePlural = Sticky Barbs
+Pocket = 9
+Price = 4000
+BPPrice = 16
+Flags = Fling_80
+Description = A held item that damages the holder on every turn. It may latch on to Pokémon that touch the holder.
+#================================#
+[TERRAINEXTENDER]
+Name = Terrain Extender
+NamePlural = Terrain Extenders
+Pocket = 9
+Price = 4000
+BPPrice = 15
+Flags = Fling_60
+Description = An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder.
+#================================#
+[THROATSPRAY]
+Name = Throat Spray
+NamePlural = Throat Sprays
+PortionName = bottle of Throat Spray
+PortionNamePlural = bottles of Throat Spray
+Pocket = 9
+Price = 4000
+BPPrice = 10
+Flags = Fling_30
+Description = Raises Sp. Atk when a Pokémon uses a sound-based move.
+#================================#
+[UTILITYUMBRELLA]
+Name = Utility Umbrella
+NamePlural = Utility Umbrellas
+Pocket = 9
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_60
+Description = An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and sun.
+#================================#
+
+
+#================PLATES================#
+[BLANKPLATE]
+Name = Blank Plate
+NamePlural = Blank Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of normalcy. It increases the power of Normal-type moves.
+#================================#
+[FLAMEPLATE]
+Name = Flame Plate
+NamePlural = Flame Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of fire. It increases the power of Fire-type moves.
+#================================#
+[SPLASHPLATE]
+Name = Splash Plate
+NamePlural = Splash Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of water. It increases the power of Water-type moves.
+#================================#
+[ZAPPLATE]
+Name = Zap Plate
+NamePlural = Zap Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of electricity. It increases the power of Normal-type moves.
+#================================#
+[MEADOWPLATE]
+Name = Meadow Plate
+NamePlural = Meadow Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of plants. It increases the power of Grass-type moves.
+#================================#
+[ICICLEPLATE]
+Name = Icicle Plate
+NamePlural = Icicle Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of ice. It increases the power of Ice-type moves.
+#================================#
+[FISTPLATE]
+Name = Fist Plate
+NamePlural = Fist Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of fighting spirit. It increases the power of Fighting-type moves.
+#================================#
+[TOXICPLATE]
+Name = Toxic Plate
+NamePlural = Toxic Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of poison. It increases the power of Poison-type moves.
+#================================#
+[EARTHPLATE]
+Name = Earth Plate
+NamePlural = Earth Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of the earth. It increases the power of Ground-type moves.
+#================================#
+[SKYPLATE]
+Name = Sky Plate
+NamePlural = Sky Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of the sky. It increases the power of Flying-type moves.
+#================================#
+[MINDPLATE]
+Name = Mind Plate
+NamePlural = Mind Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of psychic energy. It increases the power of Psychic-type moves.
+#================================#
+[INSECTPLATE]
+Name = Insect Plate
+NamePlural = Insect Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of insects. It increases the power of Bug-type moves.
+#================================#
+[STONEPLATE]
+Name = Stone Plate
+NamePlural = Stone Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of rock. It increases the power of Rock-type moves.
+#================================#
+[SPOOKYPLATE]
+Name = Spooky Plate
+NamePlural = Spooky Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of ghosts. It increases the power of Ghost-type moves.
+#================================#
+[DRACOPLATE]
+Name = Draco Plate
+NamePlural = Draco Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of dragons. It increases the power of Dragon-type moves.
+#================================#
+[DREADPLATE]
+Name = Dread Plate
+NamePlural = Dread Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of darkness. It increases the power of Dark-type moves.
+#================================#
+[IRONPLATE]
+Name = Iron Plate
+NamePlural = Iron Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of steel. It increases the power of Steel-type moves.
+#================================#
+[PIXIEPLATE]
+Name = Pixie Plate
+NamePlural = Pixie Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of fairies. It increases the power of Fairy-type moves.
+#================================#
+[STARRYPLATE]
+Name = Starry Plate
+NamePlural = Starry Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of the stars. It increases the power of Cosmic-type moves.
+#================================#
+[HEAVENPLATE]
+Name = Heaven Plate
+NamePlural = Heaven Plates
+Pocket = 9
+Price = 0
+Description = A stone tablet imbued with the essence of creation. It grants a certain Pokémon the power of every type.
 #================================#
