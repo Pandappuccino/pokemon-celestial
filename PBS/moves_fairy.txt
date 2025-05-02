@@ -1,1 +1,279 @@
 #================================#
+[ALLURINGVOICE]
+Name = Alluring Voice
+Type = FAIRY
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ConfuseTargetIfTargetStatsRaisedThisTurn
+Flags = Sound,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Attacks using an angelic voice. This confuses the target if its stats have been raised this turn.
+#================================#
+[AROMATICMIST]
+Name = Aromatic Mist
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = NearAlly
+FunctionCode = RaiseTargetSpDef1
+Description = The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.
+#================================#
+[BABYDOLLEYES]
+Name = Baby-Doll Eyes
+Type = FAIRY
+Category = Status
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = LowerTargetAttack1
+Flags = CanProtect,CanMirrorMove
+Description = The user stares with its baby-doll eyes, which lowers the target's Attack stat. Always goes first.
+#================================#
+[CHARM]
+Name = Charm
+Type = FAIRY
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAttack2
+Flags = CanProtect,CanMirrorMove
+Description = The user charmingly gazes at the foe, making it less wary. The target's Attack is harshly lowered.
+#================================#
+[CRAFTYSHIELD]
+Name = Crafty Shield
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = UserSide
+Priority = 3
+FunctionCode = ProtectUserSideFromStatusMoves
+Description = The user protects itself and its allies from status moves with a mysterious power.
+#================================#
+[DAZZLINGGLEAM]
+Name = Dazzling Gleam
+Type = FAIRY
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user damages opposing Pokémon by emitting a powerful flash.
+#================================#
+[DECORATE]
+Name = Decorate
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseTargetAtkSpAtk2
+Flags = CannotMetronome
+Description = The user sharply raises the target's Attack and Sp. Atk stats by decorating the target.
+#================================#
+[DISARMINGVOICE]
+Name = Disarming Voice
+Type = FAIRY
+Category = Special
+Power = 40
+Accuracy = 0
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Sound
+Description = Letting out a charming cry, the user does emotional damage to foes. This attack never misses.
+#================================#
+[DRAININGKISS]
+Name = Draining Kiss
+Type = FAIRY
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByThreeQuartersOfDamageDone
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage dealt.
+#================================#
+[FAIRYLOCK]
+Name = Fairy Lock
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = TrapAllBattlersInBattleForOneTurn
+Flags = CanMirrorMove
+Description = By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.
+#================================#
+[FAIRYWIND]
+Name = Fairy Wind
+Type = FAIRY
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user stirs up a fairy wind and strikes the target with it.
+#================================#
+[FLEURCANNON]
+Name = Fleur Cannon
+Type = FAIRY
+Category = Special
+Power = 130
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.
+#================================#
+[FLORALHEALING]
+Name = Floral Healing
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealTargetDependingOnGrassyTerrain
+Flags = CanProtect
+Description = The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass.
+#================================#
+[FLOWERSHIELD]
+Name = Flower Shield
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = AllBattlers
+FunctionCode = RaiseGrassBattlersDef1
+Description = The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power.
+#================================#
+[GEOMANCY]
+Name = Geomancy
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = TwoTurnAttackRaiseUserSpAtkSpDefSpd2
+Description = The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.
+#================================#
+[LIGHTOFRUIN]
+Name = Light of Ruin
+Type = FAIRY
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = RecoilHalfOfDamageDealt
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot.
+#================================#
+[MISTYEXPLOSION]
+Name = Misty Explosion
+Type = FAIRY
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = UserFaintsPowersUpInMistyTerrainExplosive
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks everything around and faints upon using this move. Power increases on Misty Terrain.
+#================================#
+[MISTYTERRAIN]
+Name = Misty Terrain
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartMistyTerrain
+Description = The user covers the ground with mist for five turns. Grounded Pokémon can't gain status conditions.
+#================================#
+[NATURESMADNESS]
+Name = Nature's Madness
+Type = FAIRY
+Category = Special
+Power = 1
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FixedDamageHalfTargetHP
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user hits the target with the force of nature. It halves the target's HP.
+#================================#
+[PLAYROUGH]
+Name = Play Rough
+Type = FAIRY
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
+#================================#
+[SPIRITBREAK]
+Name = Spirit Break
+Type = FAIRY
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = The user attacks the target with immense force. This also lowers the target's Sp. Atk stat.
+#================================#
+[SPRINGTIDESTORM]
+Name = Springtide Storm
+Type = FAIRY
+Category = Special
+Power = 100
+Accuracy = 80
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = LowerTargetAttack1
+Flags = Wind,CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 30
+Description = The user wraps winds of fierce emotion around opponents. This may lower their Attack stats.
+#================================#
+[STRANGESTEAM]
+Name = Strange Steam
+Type = FAIRY
+Category = Special
+Power = 90
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 20
+Description = The user attacks the target by emitting steam. This may also confuse the target.
+#================================#
+[SWEETKISS]
+Name = Sweet Kiss
+Type = FAIRY
+Category = Status
+Accuracy = 75
+TotalPP = 10
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user kisses the target with a sweet, angelic cuteness that causes confusion.
