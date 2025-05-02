@@ -1,1 +1,133 @@
 #================================#
+[BLOODMOON]
+Name = Blood Moon
+Type = COSMIC
+Category = Special
+Power = 140
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = CantSelectConsecutiveTurns
+Flags = CanProtect,CanMirrorMove
+Description = The user unleashes the full brunt of its spirit from a blood moon. This move can't be used twice in a row.
+#================================#
+[COSMICPOWER]
+Name = Cosmic Power
+Type = COSMIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserDefSpDef1
+Description = The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.
+#================================#
+[DOOMDESIRE]
+Name = Doom Desire
+Type = COSMIC
+Category = Special
+Power = 140
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackTwoTurnsLater
+Description = Two turns after this move is used, the user blasts the target with a concentrated bundle of light.
+#================================#
+[LUNARDANCE]
+Name = Lunar Dance
+Type = COSMIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = UserFaintsHealAndCureReplacementRestorePP
+Flags = Dance
+Description = The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.
+#================================#
+[METEORBEAM]
+Name = Meteor Beam
+Type = COSMIC
+Category = Special
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackChargeRaiseUserSpAtk1
+Flags = CanProtect,CanMirrorMove
+Description = Gathers space power and boosts its Sp. Atk stat on the first turn, attacks on the next turn.
+#================================#
+[METEORSTORM]
+Name = Meteor Storm
+Type = COSMIC
+Category = Special
+Power = 120
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserDefSpDef1
+Flags = CanProtect,CanMirrorMove
+Description = The user drops meteors from the sky. This move sharply lowers its Defense and Sp. Def.
+#================================#
+[MOONBLAST]
+Name = Moonblast
+Type = COSMIC
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat.
+#================================#
+[MOONLIGHT]
+Name = Moonlight
+Type = COSMIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = HealUserDependingOnWeather
+Description = The user restores its own HP. The amount of HP regained varies with the weather.
+#================================#
+[MORNINGSUN]
+Name = Morning Sun
+Type = COSMIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = HealUserDependingOnWeather
+Description = The user restores its own HP. The amount of HP regained varies with the weather.
+#================================#
+[SUNNYDAY]
+Name = Sunny Day
+Type = COSMIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+FunctionCode = StartSunWeather
+Description = The user intensifies the sun for five turns, powering up Fire-type moves.
+#================================#
+[SWIFT]
+Name = Swift
+Type = COSMIC
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = Star-shaped rays are shot at the opposing team. This attack never misses.
+#================================#
+[WISH]
+Name = Wish
+Type = COSMIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserPositionNextTurn
+Description = One turn after this move is used, the target's HP is restored by half the user's maximum HP.
