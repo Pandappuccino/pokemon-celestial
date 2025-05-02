@@ -1,1 +1,313 @@
 #================================#
+[ACROBATICS]
+Name = Acrobatics
+Type = FLYING
+Category = Physical
+Power = 55
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = DoublePowerIfUserHasNoItem
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user nimbly strikes the foe. This attack does more damage if the user is not holding an item.
+#================================#
+[AERIALACE]
+Name = Aerial Ace
+Type = FLYING
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = Other
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user confounds the foe with speed, then slashes. The attack lands without fail.
+#================================#
+[AEROBLAST]
+Name = Aeroblast
+Type = FLYING
+Category = Special
+Power = 100
+Accuracy = 95
+TotalPP = 5
+Target = Other
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = A vortex of air is shot at the target to inflict damage. Critical hits land more easily.
+#================================#
+[AIRCUTTER]
+Name = Air Cutter
+Type = FLYING
+Category = Special
+Power = 60
+Accuracy = 95
+TotalPP = 25
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user launches razor-like wind to slash the opposing team. Critical hits land more easily.
+#================================#
+[AIRSLASH]
+Name = Air Slash
+Type = FLYING
+Category = Special
+Power = 75
+Accuracy = 95
+TotalPP = 15
+Target = Other
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks with a blade of air that slices even the sky. It may also make the target flinch.
+#================================#
+[BEAKBLAST]
+Name = Beak Blast
+Type = FLYING
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = -3
+FunctionCode = BurnAttackerBeforeUserActs
+Flags = CanProtect,Bomb
+Description = The user heats up its beak before attacking. Making contact at this time results in a burn.
+#================================#
+[BLEAKWINDSTORM]
+Name = Bleakwind Storm
+Type = FLYING
+Category = Special
+Power = 100
+Accuracy = 80
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed1AlwaysHitsInRain
+Flags = CanProtect,CanMirrorMove,Wind
+EffectChance = 30
+Description = The user attacks with cold winds that cause opposing Pokémon to tremble. This may lower their Speed stats.
+#================================#
+[BOUNCE]
+Name = Bounce
+Type = FLYING
+Category = Physical
+Power = 85
+Accuracy = 85
+TotalPP = 5
+Target = Other
+FunctionCode = TwoTurnAttackInvulnerableInSkyParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.
+#================================#
+[BRAVEBIRD]
+Name = Brave Bird
+Type = FLYING
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user tucks in its wings and charges from a low altitude. The user also takes serious damage.
+#================================#
+[CHATTER]
+Name = Chatter
+Type = FLYING
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = Other
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 100
+Description = The user attacks using a sound wave based on words it has learned. It may also confuse the target.
+#================================#
+[DEFOG]
+Name = Defog
+Type = FLYING
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetEvasion1RemoveSideEffects
+Flags = CanProtect,CanMirrorMove
+Description = A strong wind blows away the foe's obstacles such as Light Screen. It also lowers their evasion.
+#================================#
+[DRAGONASCENT]
+Name = Dragon Ascent
+Type = FLYING
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserDefSpDef1
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user soars upward and drops at high speeds. Its Defense and Sp. Def stats are lowered.
+#================================#
+[DRILLPECK]
+Name = Drill Peck
+Type = FLYING
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = Other
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A corkscrewing attack with the sharp beak acting as a drill.
+#================================#
+[DUALWINGBEAT]
+Name = Dual Wingbeat
+Type = FLYING
+Category = Physical
+Power = 40
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user slams the target with its wings. The target is hit twice in a row.
+#================================#
+[FEATHERDANCE]
+Name = Feather Dance
+Type = FLYING
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAttack2
+Flags = CanProtect,CanMirrorMove,Dance
+Description = The user covers the target's body with a mass of down that harshly lowers its Attack stat.
+#================================#
+[FLY]
+Name = Fly
+Type = FLYING
+Category = Physical
+Power = 90
+Accuracy = 95
+TotalPP = 15
+Target = Other
+FunctionCode = TwoTurnAttackInvulnerableInSky
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user soars into the sky, then strikes on the second turn.
+#================================#
+[GUST]
+Name = Gust
+Type = FLYING
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 35
+Target = Other
+FunctionCode = DoublePowerIfTargetInSky
+Flags = CanProtect,CanMirrorMove
+Description = A gust of wind is whipped up by wings and launched at the target to inflict damage.
+#================================#
+[HURRICANE]
+Name = Hurricane
+Type = FLYING
+Category = Special
+Power = 110
+Accuracy = 70
+TotalPP = 10
+Target = Other
+FunctionCode = ConfuseTargetAlwaysHitsInRainHitsTargetInSky
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user wraps its foe in a fierce wind that flies up into the sky. It may also confuse the foe.
+#================================#
+[OBLIVIONWING]
+Name = Oblivion Wing
+Type = FLYING
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = Other
+FunctionCode = HealUserByThreeQuartersOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = The user absorbs its target's HP. The user's HP is restored by over half of the damage dealt.
+#================================#
+[PECK]
+Name = Peck
+Type = FLYING
+Category = Physical
+Power = 35
+Accuracy = 100
+TotalPP = 35
+Target = Other
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is jabbed with a sharply pointed beak or horn.
+#================================#
+[PLUCK]
+Name = Pluck
+Type = FLYING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = Other
+FunctionCode = UserConsumeTargetBerry
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.
+#================================#
+[ROOST]
+Name = Roost
+Type = FLYING
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHPLoseFlyingTypeThisTurn
+Description = The user lands and rests its body. It restores the user's HP by up to half of its max HP.
+#================================#
+[SKYATTACK]
+Name = Sky Attack
+Type = FLYING
+Category = Physical
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = Other
+FunctionCode = TwoTurnAttackFlinchTarget
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 30
+Description = A second-turn attack move where critical hits land more easily. It may also make the target flinch.
+#================================#
+[SKYDROP]
+Name = Sky Drop
+Type = FLYING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = Other
+FunctionCode = TwoTurnAttackInvulnerableInSkyTargetCannotAct
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user takes the foe into the sky, then drops it on the next turn. The foe cannot attack while airborne.
+#================================#
+[TAILWIND]
+Name = Tailwind
+Type = FLYING
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = UserSide
+FunctionCode = StartUserSideDoubleSpeed
+Description = The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
+#================================#
+[WINGATTACK]
+Name = Wing Attack
+Type = FLYING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 35
+Target = Other
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is struck with large, imposing wings spread wide to inflict damage.
