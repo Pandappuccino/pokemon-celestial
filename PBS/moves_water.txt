@@ -1,1 +1,523 @@
 #================================#
+[AQUACUTTER]
+Name = Aqua Cutter
+Type = WATER
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Slicing,HighCriticalHitRate
+Description = The user expels pressurized water to cut at the target like a blade. Critical hits land more easily.
+#================================#
+[AQUAJET]
+Name = Aqua Jet
+Type = WATER
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
+#================================#
+[AQUARING]
+Name = Aqua Ring
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = StartHealUserEachTurn
+Description = The user envelops itself in a veil made of water. It regains some HP on every turn.
+#================================#
+[AQUASTEP]
+Name = Aqua Step
+Type = WATER
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserSpeed1
+Flags = Dance,Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks the target using light and fluid dance steps. This also boosts the user’s Speed stat.
+#================================#
+[AQUATAIL]
+Name = Aqua Tail
+Type = WATER
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks by swinging its tail as if it were a vicious wave in a raging storm.
+#================================#
+[BRINE]
+Name = Brine
+Type = WATER
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetHPLessThanHalf
+Flags = CanProtect,CanMirrorMove
+Description = If the target's HP is down to about half, this attack will hit with double the power.
+#================================#
+[BUBBLE]
+Name = Bubble
+Type = WATER
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats.
+#================================#
+[BUBBLEBEAM]
+Name = Bubble Beam
+Type = WATER
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat.
+#================================#
+[CHILLINGWATER]
+Name = Chilling Water
+Type = WATER
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = The user showers the target with frigid water. This also lowers the target's Attack stat.
+#================================#
+[CLAMP]
+Name = Clamp
+Type = WATER
+Category = Physical
+Power = 35
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns.
+#================================#
+[CRABHAMMER]
+Name = Crabhammer
+Type = WATER
+Category = Physical
+Power = 100
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The target is hammered with a large pincer. Critical hits land more easily.
+#================================#
+[DIVE]
+Name = Dive
+Type = WATER
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackInvulnerableUnderwater
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Diving on the first turn, the user rises and hits on the next turn.
+#================================#
+[FISHIOUSREND]
+Name = Fishious Rend
+Type = WATER
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetNotActed
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user rends the target with its hard gills. Power doubles if the user moves first.
+#================================#
+[FLIPTURN]
+Name = Flip Turn
+Type = WATER
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = Contact,CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#================================#
+[HYDROCANNON]
+Name = Hydro Cannon
+Type = WATER
+Category = Special
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = The target is hit with a watery blast. The user must rest on the next turn, however.
+#================================#
+[HYDROPUMP]
+Name = Hydro Pump
+Type = WATER
+Category = Special
+Power = 110
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The target is blasted by a huge volume of water launched under great pressure.
+#================================#
+[HYDROSTEAM]
+Name = Hydro Steam
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = IncreasePowerInSunWeather
+Flags = CanProtect,CanMirrorMove
+Description = The user blasts the target with boiling-hot water whose power is boosted in harsh sunlight.
+#================================#
+[JETPUNCH]
+Name = Jet Punch
+Type = WATER
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome,Punching
+Description = The user summons a torrent around its fist and punches at blinding speed. Always goes first.
+#================================#
+[LIFEDEW]
+Name = Life Dew
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = UserAndAllies
+FunctionCode = HealUserAndAlliesQuarterOfTotalHP
+Flags = CannotMetronome
+Description = The user scatters mysterious water around and restores the HP of itself and its allies.
+#================================#
+[LIQUIDATION]
+Name = Liquidation
+Type = WATER
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user slams into the target using a full-force blast of water. May lower the target's Defense.
+#================================#
+[MUDDYWATER]
+Name = Muddy Water
+Type = WATER
+Category = Special
+Power = 90
+Accuracy = 85
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks by shooting muddy water at the opposing team. It may also lower the target's accuracy.
+#================================#
+[OCTAZOOKA]
+Name = Octazooka
+Type = WATER
+Category = Special
+Power = 65
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 50
+Description = The user attacks by spraying ink in the foe's face or eyes. It may also lower the target's accuracy.
+#================================#
+[ORIGINPULSE]
+Name = Origin Pulse
+Type = WATER
+Category = Special
+Power = 110
+Accuracy = 85
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Pulse,CannotMetronome
+Description = The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.
+#================================#
+[RAINDANCE]
+Name = Rain Dance
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+FunctionCode = StartRainWeather
+Description = The user summons a heavy rain that falls for five turns, powering up Water-type moves.
+#================================#
+[RAZORSHELL]
+Name = Razor Shell
+Type = WATER
+Category = Physical
+Power = 75
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user cuts the foe with sharp shells. It may also lower the target's Defense stat.
+#================================#
+[SCALD]
+Name = Scald
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove,ThawsUser
+EffectChance = 30
+Description = The user shoots boiling hot water at its target. It may also leave the target with a burn.
+#================================#
+[SNIPESHOT]
+Name = Snipe Shot
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = CannotBeRedirected
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user ignores any effects that redirect moves, allowing this move to hit the chosen target.
+#================================#
+[SOAK]
+Name = Soak
+Type = WATER
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SetTargetTypesToWater
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots a torrent of water at the target and changes the target's type to Water.
+#================================#
+[SPARKLINGARIA]
+Name = Sparkling Aria
+Type = WATER
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = CureTargetBurn
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 100
+Description = The user bursts into song, emitting many bubbles. Any burnt Pokémon will be healed by these bubbles.
+#================================#
+[STEAMERUPTION]
+Name = Steam Eruption
+Type = WATER
+Category = Special
+Power = 110
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove,ThawsUser,CannotMetronome
+EffectChance = 30
+Description = The user immerses the target in superheated steam. This may also leave the target with a burn.
+#================================#
+[SURF]
+Name = Surf
+Type = WATER
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = DoublePowerIfTargetUnderwater
+Flags = CanProtect,CanMirrorMove
+Description = The user swamps the area around itself with a giant wave.
+#================================#
+[SURGINGSTRIKES]
+Name = Surging Strikes
+Type = WATER
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = HitThreeTimesAlwaysCriticalHit
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = Hits three times in a row with mastery of the Water style. This attack always deals critical hits.
+#================================#
+[TRIPLEDIVE]
+Name = Triple Dive
+Type = WATER
+Category = Physical
+Power = 30
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitThreeTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user performs a perfectly timed triple dive, hitting the target three times in a row.
+#================================#
+[WATERGUN]
+Name = Water Gun
+Type = WATER
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The target is blasted with a forceful shot of water.
+#================================#
+[WATERPLEDGE]
+Name = Water Pledge
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = WaterPledge
+Flags = CanProtect,CanMirrorMove
+Description = A column of water strikes the target. When combined with its fire equivalent, it makes a rainbow.
+#================================#
+[WATERPULSE]
+Name = Water Pulse
+Type = WATER
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = Other
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove,Pulse
+EffectChance = 20
+Description = The user attacks the target with a pulsing blast of water. It may also confuse the target.
+#================================#
+[WATERSHURIKEN]
+Name = Water Shuriken
+Type = WATER
+Category = Special
+Power = 15
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 1
+FunctionCode = HitTwoToFiveTimesOrThreeForAshGreninja
+Flags = CanProtect,CanMirrorMove
+Description = The user hits the target with throwing stars 2-5 times in a row. This move always goes first.
+#================================#
+[WATERSPORT]
+Name = Water Sport
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = BothSides
+FunctionCode = StartWeakenFireMoves
+Description = The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.
+#================================#
+[WATERSPOUT]
+Name = Water Spout
+Type = WATER
+Category = Special
+Power = 150
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = PowerHigherWithUserHP
+Flags = CanProtect,CanMirrorMove
+Description = The user spouts water to damage the foe. The lower the user's HP, the less powerful it becomes.
+#================================#
+[WATERFALL]
+Name = Waterfall
+Type = WATER
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user charges at the target and may make it flinch.
+#================================#
+[WAVECRASH]
+Name = Wave Crash
+Type = WATER
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user shrouds itself in water and slams into the target. This also damages the user.
+#================================#
+[WHIRLPOOL]
+Name = Whirlpool
+Type = WATER
+Category = Special
+Power = 35
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTargetDoublePowerIfTargetUnderwater
+Flags = CanProtect,CanMirrorMove
+Description = Traps foes in a violent swirling whirlpool for four to five turns.
+#================================#
+[WITHDRAW]
+Name = Withdraw
+Type = WATER
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = RaiseUserDefense1
+Description = The user withdraws its body into its hard shell, raising its Defense stat.
