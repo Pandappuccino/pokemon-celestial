@@ -1,1 +1,81 @@
 #================================#
+[POKETOY]
+Name = Poké Toy
+NamePlural = Poké Toys
+Pocket = 1
+Price = 500
+SellPrice = 100
+BPPrice = 0
+BattleUse = Direct
+Description = A toy that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
+#================================#
+[XATTACK]
+Name = X Attack
+NamePlural = X Attacks
+Pocket = 1
+Price = 500
+SellPrice = 100
+BPPrice = 0
+BattleUse = OnBattler
+Description = An item that raises the Attack of a Pokémon in battle until the Pokémon is withdrawn.
+#================================#
+[XDEFENSE]
+Name = X Defense
+NamePlural = X Defenses
+Pocket = 1
+Price = 500
+SellPrice = 100
+BPPrice = 0
+BattleUse = OnBattler
+Description = An item that raises the Defense of a Pokémon in battle until the Pokémon is withdrawn.
+#================================#
+[XSPATK]
+Name = X Sp. Atk
+NamePlural = X Sp. Atks
+Pocket = 1
+Price = 500
+SellPrice = 100
+BPPrice = 0
+BattleUse = OnBattler
+Description = An item that raises the Sp. Atk of a Pokémon in battle until the Pokémon is withdrawn.
+#================================#
+[XSPDEF]
+Name = X Sp. Def
+NamePlural = X Sp. Defs
+Pocket = 1
+Price = 500
+SellPrice = 100
+BPPrice = 0
+BattleUse = OnBattler
+Description = An item that raises the Sp. Def of a Pokémon in battle until the Pokémon is withdrawn.
+#================================#
+[XSPEED]
+Name = X Speed
+NamePlural = X Speeds
+Pocket = 1
+Price = 500
+SellPrice = 100
+BPPrice = 0
+BattleUse = OnBattler
+Description = An item that raises the Speed of a Pokémon in battle until the Pokémon is withdrawn.
+#================================#
+[DIREHIT]
+Name = Dire Hit
+NamePlural = Dire Hits
+Pocket = 1
+Price = 750
+SellPrice = 250
+BPPrice = 0
+BattleUse = OnBattler
+Description = An item that raises the critical-hit ratio of a Pokémon in battle until it is withdrawn.
+#================================#
+[GUARDSPEC]
+Name = Guard Spec.
+NamePlural = Guard Specs.
+Pocket = 1
+Price = 750
+SellPrice = 250
+BPPrice = 0
+BattleUse = OnBattler
+Description = An item that prevents stat reduction among the Trainer's party Pokémon for five turns after use.
+#================================#
