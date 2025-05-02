@@ -1,1 +1,238 @@
+#================NORMAL TREASURES================#
+[PRETTYFEATHER]
+Name = Pretty Feather
+NamePlural = Pretty Feathers
+Pocket = 12
+Price = 1000
+SellPrice = 500
+Description = A small and pretty feather. It serves no benefit, but can be sold to shops.
+#================================#
+[HEARTSCALE]
+Name = Heart Scale
+NamePlural = Heart Scales
+Pocket = 12
+Price = 100
+SellPrice = 50
+Description = A tiny heart-shaped scale. Some people are delighted to receive one.
+#================================#
+[PEARL]
+Name = Pearl
+NamePlural = Pearls
+Pocket = 12
+Price = 2000
+SellPrice = 1000
+Description = A small pearl with a nice silvery sheen. It can be sold at a low price to shops.
+#================================#
+[BIGPEARL]
+Name = Big Pearl
+NamePlural = Big Pearls
+Pocket = 12
+Price = 8000
+SellPrice = 4000
+Description = A large pearl with a nice silvery sheen. It can be sold at a high price to shops.
+#================================#
+[PEARLSTRING]
+Name = Pearl String
+NamePlural = Pearl Strings
+Pocket = 12
+Price = 20000
+SellPrice = 10000
+Description = Very large pearls with a nice silvery sheen. They can be sold at a high price to shops.
+#================================#
+
+
+#================GOURMET================#
+[TINYMUSHROOM]
+Name = Tiny Mushroom
+NamePlural = Tiny Mushrooms
+Pocket = 12
+Price = 500
+SellPrice = 250
+Flags = Gourmet
+Description = A small and rare mushroom. It is quite popular with certain collectors.
+#================================#
+[BIGMUSHROOM]
+Name = Big Mushroom
+NamePlural = Big Mushrooms
+Pocket = 12
+Price = 5000
+SellPrice = 2500
+Flags = Gourmet
+Description = A large and rare mushroom. It is quite popular with certain collectors.
+#================================#
+[BALMMUSHROOM]
+Name = Balm Mushroom
+NamePlural = Balm Mushrooms
+Pocket = 12
+Price = 15000
+SellPrice = 7500
+Flags = Gourmet
+Description = A rare mushroom with a pleasant aroma. It is quite popular with certain collectors.
+#================================#
+[SLOWPOKETAIL]
+Name = Slowpoke Tail
+NamePlural = Slowpoke Tails
+Pocket = 12
+Price = 1000
+SellPrice = 5000
+Flags = Gourmet
+Description = A tasty tail of something. It is quite popular with certain collectors.
+#================================#
+[TINYBAMBOOSHOOT]
+Name = Tiny Bamboo Shoot
+NamePlural = Tiny Bamboo Shoots
+Pocket = 12
+Price = 700
+SellPrice = 350
+Flags = Gourmet
+Description = A small, rare bamboo shoot. It is quite popular with certain collectors.
+#================================#
+[BIGBAMBOOSHOOT]
+Name = Big Bamboo Shoot
+NamePlural = Big Bamboo Shoots
+Pocket = 12
+Price = 3000
+SellPrice = 1500
+Flags = Gourmet
+Description = A large, rare bamboo shoot. It is quite popular with certain collectors.
+#================================#
+
+
+#================ORE================#
+[NUGGET]
+Name = Nugget
+NamePlural = Nuggets
+Pocket = 12
+Price = 10000
+SellPrice = 5000
+Flags = Ore
+Description = A small nugget of pure gold. It can be sold at a high price to shops.
+#================================#
+[BIGNUGGET]
+Name = Big Nugget
+NamePlural = Big Nuggets
+Pocket = 12
+Price = 40000
+SellPrice = 20000
+Flags = Ore
+Description = A large nugget of pure gold. It can be sold at a high price to shops.
+#================================#
+[STARDUST]
+Name = Stardust
+NamePlural = Stardusts
+PortionName = bag of Stardust
+PortionNamePlural = bags of Stardust
+Pocket = 12
+Price = 3000
+SellPrice = 1500
+Flags = Ore
+Description = Silky red sand with a lovely feel. It can be sold at a low price to shops.
+#================================#
+[STARPIECE]
+Name = Star Piece
+NamePlural = Star Pieces
+Pocket = 12
+Price = 12000
+SellPrice = 6000
+Flags = Ore
+Description = A shard of red stone that glitters beautifully. It can be sold at a high price to shops.
+#================================#
+[COMETSHARD]
+Name = Comet Shard
+NamePlural = Comet Shards
+Pocket = 12
+Price = 25000
+SellPrice = 12500
+Flags = Ore
+Description = A piece of a meteorite that passed nearby. It can be sold at a high price to shops.
+#================================#
+
+
+#================RELICS================#
+[RELICCOPPER]
+Name = Relic Copper
+NamePlural = Relic Coppers
+PortionName = piece of Relic Copper
+PortionNamePlural = pieces of Relic Copper
+Pocket = 12
+Price = 5
+SellPrice = 1000
+Flags = Relic
+Description = A copper coin used by an ancient civilization about three thousand years ago.
+#================================#
+[RELICSILVER]
+Name = Relic Silver
+NamePlural = Relic Silvers
+PortionName = piece of Relic Silver
+PortionNamePlural = pieces of Relic Silver
+Pocket = 12
+Price = 5
+SellPrice = 5000
+Flags = Relic
+Description = A silver coin used by an ancient civilization about three thousand years ago.
+#================================#
+[RELICGOLD]
+Name = Relic Gold
+NamePlural = Relic Golds
+PortionName = piece of Relic Gold
+PortionNamePlural = pieces of Relic Gold
+Pocket = 12
+Price = 5
+SellPrice = 30000
+Flags = Relic
+Description = A copper coin used by an ancient civilization about three thousand years ago.
+#================================#
+[RELICVASE]
+Name = Relic Vase
+NamePlural = Relic Vases
+Pocket = 12
+Price = 5
+SellPrice = 50000
+Flags = Relic
+Description = A stone vase created by an ancient civilization about three thousand years ago.
+#================================#
+[RELICBAND]
+Name = Relic Band
+NamePlural = Relic Bands
+Pocket = 12
+Price = 5
+SellPrice = 100000
+Flags = Relic
+Description = A stone band created by an ancient civilization about three thousand years ago.
+#================================#
+[RELICSTATUE]
+Name = Relic Statue
+NamePlural = Relic Statues
+Pocket = 12
+Price = 5
+SellPrice = 200000
+Flags = Relic
+Description = A stone statue created by an ancient civilization about three thousand years ago.
+#================================#
+[RELICCROWN]
+Name = Relic Crown
+NamePlural = Relic Crowns
+Pocket = 12
+Price = 5
+SellPrice = 350000
+Flags = Relic
+Description = A royal crown created by an ancient civilization about three thousand years ago.
+#================================#
+
+#================SPECIAL TREASURE================#
+[CRACKEDLODESTONE]
+Name = Cracked Lodestone
+NamePlural = Cracked Lodestones
+Pocket = 12
+Price = 5
+SellPrice = 0
+Description = A strange stone that seems to contain a valuable artifact. Maple seems very interested in them.
+#================================#
+[SHININGLODESTONE]
+Name = Shining Lodestone
+NamePlural = Shining Lodestones
+Pocket = 12
+Price = 5
+SellPrice = 0
+Description = A strange stone that seems to contain a priceless artifact. Maple seems very interested in them.
 #================================#
