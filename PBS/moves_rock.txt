@@ -1,1 +1,251 @@
 #================================#
+[ACCELEROCK]
+Name = Accelerock
+Type = ROCK
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user smashes into the target at high speed. This move always goes first.
+#================================#
+[ANCIENTPOWER]
+Name = Ancient Power
+Type = ROCK
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = RaiseUserMainStats1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks with a prehistoric power. It may also raise all the user's stats at once.
+#================================#
+[DIAMONDSTORM]
+Name = Diamond Storm
+Type = ROCK
+Category = Physical
+Power = 100
+Accuracy = 95
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = RaiseUserDefense2
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 50
+Description = The user whips up a storm of diamonds to damage foes. This may also sharply raise the user's Defense stat.
+#================================#
+[HEADSMASH]
+Name = Head Smash
+Type = ROCK
+Category = Physical
+Power = 150
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = RecoilHalfOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks the foe with a hazardous, full-power headbutt. The user also takes terrible damage.
+#================================#
+[MIGHTYCLEAVE]
+Name = Mighty Cleave
+Type = ROCK
+Category = Physical
+Power = 95
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanMirrorMove,Slicing
+Description = The user cleaves the target. This move hits even if the target protects itself.
+#================================#
+[POWERGEM]
+Name = Power Gem
+Type = ROCK
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks with a ray of light that sparkles as if it were made of gemstones.
+#================================#
+[ROCKBLAST]
+Name = Rock Blast
+Type = ROCK
+Category = Physical
+Power = 25
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.
+#================================#
+[ROCKPOLISH]
+Name = Rock Polish
+Type = ROCK
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpeed2
+Description = The user polishes its body to reduce drag. It can sharply raise the Speed stat.
+#================================#
+[ROCKSLIDE]
+Name = Rock Slide
+Type = ROCK
+Category = Physical
+Power = 75
+Accuracy = 90
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch.
+#================================#
+[ROCKTHROW]
+Name = Rock Throw
+Type = ROCK
+Category = Physical
+Power = 50
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user picks up and throws a small rock at the target to attack.
+#================================#
+[ROCKTOMB]
+Name = Rock Tomb
+Type = ROCK
+Category = Physical
+Power = 60
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
+#================================#
+[ROCKWRECKER]
+Name = Rock Wrecker
+Type = ROCK
+Category = Physical
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = The user launches a huge boulder at the target to attack. It must rest on the next turn, however.
+#================================#
+[ROLLOUT]
+Name = Rollout
+Type = ROCK
+Category = Physical
+Power = 30
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = MultiTurnAttackPowersUpEachTurn
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user continually rolls into the target over five turns. It becomes stronger each time it hits.
+#================================#
+[SALTCURE]
+Name = Salt Cure
+Type = ROCK
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartSaltCureTarget
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = The user salt cures the target, inflicting damage every turn. Steel and Water types take more damage.
+#================================#
+[SANDSTORM]
+Name = Sandstorm
+Type = ROCK
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartSandstormWeather
+Description = Summons a five-turn sandstorm to hurt all combatants except the Rock, Ground, and Steel types.
+#================================#
+[SMACKDOWN]
+Name = Smack Down
+Type = ROCK
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitsTargetInSkyGroundsTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user throws a stone or projectile to attack. A flying Pokémon will fall to the ground when hit.
+#================================#
+[STEALTHROCK]
+Name = Stealth Rock
+Type = ROCK
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = FoeSide
+FunctionCode = AddStealthRocksToFoeSide
+Description = The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.
+#================================#
+[STONEAXE]
+Name = Stone Axe
+Type = ROCK
+Category = Physical
+Power = 65
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = SplintersTargetGen8AddStealthRocksGen9
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+EffectChance = 100
+Description = The user swings at the opponent with its stone axes. May leave floating rocks around the target.
+#================================#
+[STONEEDGE]
+Name = Stone Edge
+Type = ROCK
+Category = Physical
+Power = 100
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.
+#================================#
+[TARSHOT]
+Name = Tar Shot
+Type = ROCK
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpeed1MakeTargetWeakerToFire
+Flags = CanProtect,CanMirrorMove
+Description = Pours sticky tar over the target, lowering its Speed and making it weaker to Fire-type moves.
+#================================#
+[WIDEGUARD]
+Name = Wide Guard
+Type = ROCK
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = UserSide
+Priority = 3
+FunctionCode = ProtectUserSideFromMultiTargetDamagingMoves
+Description = The user and its allies are protected from wide-ranging attacks for a turn. May fail if used in succession.
