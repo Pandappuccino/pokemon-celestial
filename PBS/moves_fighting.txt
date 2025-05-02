@@ -1,1 +1,631 @@
 #================================#
+[ARMTHRUST]
+Name = Arm Thrust
+Type = FIGHTING
+Category = Physical
+Power = 15
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.
+#================================#
+[AURASPHERE]
+Name = Aura Sphere
+Type = FIGHTING
+Category = Special
+Power = 80
+Accuracy = 0
+TotalPP = 20
+Target = Other
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Pulse,Bomb
+Description = The user looses a blast of aura power from deep within its body. This move is certain to hit.
+#================================#
+[AXEKICK]
+Name = Axe Kick
+Type = FIGHTING
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = CrashDamageIfFailsConfuseTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = Performs a downward kick which may confuse the target. The user takes damage if it misses.
+#================================#
+[BODYPRESS]
+Name = Body Press
+Type = FIGHTING
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UseUserDefenseInsteadOfUserAttack
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks by slamming its body into the target. Power increases the higher the user's Defense is.
+#================================#
+[BRICKBREAK]
+Name = Brick Break
+Type = FIGHTING
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RemoveScreens
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.
+#================================#
+[BULKUP]
+Name = Bulk Up
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserAtkDef1
+Description = The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.
+#================================#
+[CIRCLETHROW]
+Name = Circle Throw
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+Priority = -6
+FunctionCode = SwitchOutTargetDamagingMove
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user throws the target and drags out another Pokémon in its party. In the wild, the battle ends.
+#================================#
+[CLOSECOMBAT]
+Name = Close Combat
+Type = FIGHTING
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserDefSpDef1
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user fights the foe up close without guarding itself. It also cuts the user's Defense and Sp. Def.
+#================================#
+[COACHING]
+Name = Coaching
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = AllAllies
+FunctionCode = RaiseAlliesAtkDef1
+Flags = CanMirrorMove
+Description = The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.
+#================================#
+[COLLISIONCOURSE]
+Name = Collision Course
+Type = FIGHTING
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = IncreasePowerSuperEffective
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = A massive prehistoric explosion. This move’s power is boosted more than usual if it’s a supereffective hit.
+#================================#
+[COUNTER]
+Name = Counter
+Type = FIGHTING
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = None
+Priority = -5
+FunctionCode = CounterPhysicalDamage
+Flags = Contact,CanProtect
+Description = A retaliation move that counters any physical attack, inflicting double the damage taken.
+#================================#
+[CROSSCHOP]
+Name = Cross Chop
+Type = FIGHTING
+Category = Physical
+Power = 100
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user delivers a double chop with its forearms crossed. Critical hits land more easily.
+#================================#
+[DETECT]
+Name = Detect
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+Priority = 4
+FunctionCode = ProtectUser
+Description = It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+#================================#
+[DOUBLEKICK]
+Name = Double Kick
+Type = FIGHTING
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is quickly kicked twice in succession using both feet.
+#================================#
+[DRAINPUNCH]
+Name = Drain Punch
+Type = FIGHTING
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = An energy-draining punch. The user's HP is restored by half the damage taken by the target.
+#================================#
+[DYNAMICPUNCH]
+Name = Dynamic Punch
+Type = FIGHTING
+Category = Physical
+Power = 100
+Accuracy = 50
+TotalPP = 5
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 100
+Description = The user punches the target with full, concentrated power. It confuses the target if it hits.
+#================================#
+[FINALGAMBIT]
+Name = Final Gambit
+Type = FIGHTING
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = UserFaintsFixedDamageUserHP
+Flags = CanProtect
+Description = The user risks all to attack the foe. The user faints but does damage equal to its HP.
+#================================#
+[FLYINGPRESS]
+Name = Flying Press
+Type = FIGHTING
+Category = Physical
+Power = 100
+Accuracy = 95
+TotalPP = 10
+Target = Other
+FunctionCode = EffectivenessIncludesFlyingType
+Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
+Description = The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.
+#================================#
+[FOCUSBLAST]
+Name = Focus Blast
+Type = FIGHTING
+Category = Special
+Power = 120
+Accuracy = 70
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 10
+Description = The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.
+#================================#
+[FOCUSPUNCH]
+Name = Focus Punch
+Type = FIGHTING
+Category = Physical
+Power = 150
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = -3
+FunctionCode = FailsIfUserDamagedThisTurn
+Flags = Contact,CanProtect,Punching
+Description = The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.
+#================================#
+[HAMMERARM]
+Name = Hammer Arm
+Type = FIGHTING
+Category = Physical
+Power = 100
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerUserSpeed1
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however.
+#================================#
+[HIGHJUMPKICK]
+Name = High Jump Kick
+Type = FIGHTING
+Category = Physical
+Power = 130
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = CrashDamageIfFailsUnusableInGravity
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
+#================================#
+[JUMPKICK]
+Name = Jump Kick
+Type = FIGHTING
+Category = Physical
+Power = 100
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = CrashDamageIfFailsUnusableInGravity
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.
+#================================#
+[KARATECHOP]
+Name = Karate Chop
+Type = FIGHTING
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The target is attacked with a sharp chop. Critical hits land more easily.
+#================================#
+[LOWKICK]
+Name = Low Kick
+Type = FIGHTING
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithTargetWeight
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.
+#================================#
+[LOWSWEEP]
+Name = Low Sweep
+Type = FIGHTING
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks the target's legs swiftly, reducing the target's Speed stat.
+#================================#
+[MACHPUNCH]
+Name = Mach Punch
+Type = FIGHTING
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user throws a punch at blinding speed. It is certain to strike first.
+#================================#
+[MATBLOCK]
+Name = Mat Block
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = UserSide
+FunctionCode = ProtectUserSideFromDamagingMovesIfUserFirstTurn
+Description = Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves.
+#================================#
+[METEORASSAULT]
+Name = Meteor Assault
+Type = FIGHTING
+Category = Physical
+Power = 150
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks wildly with its thick leek. The user can't move on the next turn.
+#================================#
+[NORETREAT]
+Name = No Retreat
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = RaiseUserMainStats1TrapUserInBattle
+Description = This move raises all the user's stats but prevents the user from switching out or fleeing.
+#================================#
+[OCTOLOCK]
+Name = Octolock
+Type = FIGHTING
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = TrapTargetInBattleLowerTargetDefSpDef1EachTurn
+Flags = CanProtect,CanMirrorMove
+Description = Locks the target in and prevents it from fleeing. Also lowers the target's Defense and Sp. Def each turn.
+#================================#
+[POWERUPPUNCH]
+Name = Power-Up Punch
+Type = FIGHTING
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseUserAttack1
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 100
+Description = Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat.
+#================================#
+[QUICKGUARD]
+Name = Quick Guard
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = UserSide
+Priority = 3
+FunctionCode = ProtectUserSideFromPriorityMoves
+Description = The user protects itself and its allies from priority moves. It may fail if used in succession.
+#================================#
+[REVENGE]
+Name = Revenge
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -4
+FunctionCode = DoublePowerIfUserLostHPThisTurn
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+#================================#
+[REVERSAL]
+Name = Reversal
+Type = FIGHTING
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = PowerLowerWithUserHP
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An all-out attack that becomes more powerful the less HP the user has.
+#================================#
+[ROCKSMASH]
+Name = Rock Smash
+Type = FIGHTING
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat.
+#================================#
+[ROLLINGKICK]
+Name = Rolling Kick
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user lashes out with a quick, spinning kick. It may also make the target flinch.
+#================================#
+[SACREDSWORD]
+Name = Sacred Sword
+Type = FIGHTING
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = IgnoreTargetDefSpDefEvaStatStages
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.
+#================================#
+[SECRETSWORD]
+Name = Secret Sword
+Type = FIGHTING
+Category = Special
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UseTargetDefenseInsteadOfTargetSpDef
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
+#================================#
+[SEISMICTOSS]
+Name = Seismic Toss
+Type = FIGHTING
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = FixedDamageUserLevel
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is thrown using the power of gravity. It inflicts damage equal to the user's level.
+#================================#
+[SKYUPPERCUT]
+Name = Sky Uppercut
+Type = FIGHTING
+Category = Physical
+Power = 85
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitsTargetInSky
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user attacks the target with an uppercut thrown skyward with force.
+#================================#
+[STORMTHROW]
+Name = Storm Throw
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = AlwaysCriticalHit
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user strikes the target with a fierce blow. This attack always results in a critical hit.
+#================================#
+[SUBMISSION]
+Name = Submission
+Type = FIGHTING
+Category = Physical
+Power = 80
+Accuracy = 80
+TotalPP = 20
+Target = NearOther
+FunctionCode = RecoilQuarterOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.
+#================================#
+[SUPERPOWER]
+Name = Superpower
+Type = FIGHTING
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserAtkDef1
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks the target with great power. However, it also lowers the user's Attack and Defense.
+#================================#
+[THUNDEROUSKICK]
+Name = Thunderous Kick
+Type = FIGHTING
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = Overwhelms the target with lightning-like movement, then kicks. Lowers the target's Defense stat.
+#================================#
+[TRIPLEARROWS]
+Name = Triple Arrows
+Type = FIGHTING
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetDefense1FlinchTarget
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 100
+Description = The user fires arrows which may lower the target’s Defense or make it flinch. Critical hits land more easily.
+#================================#
+[TRIPLEKICK]
+Name = Triple Kick
+Type = FIGHTING
+Category = Physical
+Power = 10
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitThreeTimesPowersUpWithEachHit
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A consecutive three-kick attack that becomes more powerful with each successive hit.
+#================================#
+[UPPERHAND]
+Name = Upper Hand
+Type = FIGHTING
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 3
+FunctionCode = FlinchTargetFailsIfTargetNotUsingPriorityMove
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = An attack that hits first and makes the target flinch. Fails if the target isn't using a high priority move.
+#================================#
+[VACUUMWAVE]
+Name = Vacuum Wave
+Type = FIGHTING
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.
+#================================#
+[VICTORYDANCE]
+Name = Victory Dance
+Type = FIGHTING
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserAtkDefSpd1
+Flags = Dance
+Description = The user performs an intense dance to usher in victory, raising its Attack, Defense, and Speed.
+#================================#
+[VITALTHROW]
+Name = Vital Throw
+Type = FIGHTING
+Category = Physical
+Power = 70
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+Priority = -1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks last. In return, this throw move is guaranteed not to miss.
+#================================#
+[WAKEUPSLAP]
+Name = Wake-Up Slap
+Type = FIGHTING
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetAsleepCureTarget
+Flags = Contact,CanProtect,CanMirrorMove
+Description = This attack inflicts big damage on a sleeping target. It also wakes the target up, however.
