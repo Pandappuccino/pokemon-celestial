@@ -1,1 +1,370 @@
 #================================#
+[ATTACKORDER]
+Name = Attack Order
+Type = BUG
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user calls out its underlings to pummel the target. Critical hits land more easily.
+#================================#
+[BUGBITE]
+Name = Bug Bite
+Type = BUG
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = UserConsumeTargetBerry
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.
+#================================#
+[BUGBUZZ]
+Name = Bug Buzz
+Type = BUG
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 10
+Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+#================================#
+[DEFENDORDER]
+Name = Defend Order
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = RaiseUserDefSpDef1
+Description = The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.
+#================================#
+[FELLSTINGER]
+Name = Fell Stinger
+Type = BUG
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = RaiseUserAttack3IfTargetFaints
+Flags = Contact,CanProtect,CanMirrorMove
+Description = When the user knocks out a target with this move, the user's Attack stat rises drastically.
+#================================#
+[FIRSTIMPRESSION]
+Name = First Impression
+Type = BUG
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 2
+FunctionCode = FailsIfNotUserFirstTurn
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Although this move has great power, it only works the first turn the user is in battle.
+#================================#
+[FURYCUTTER]
+Name = Fury Cutter
+Type = BUG
+Category = Physical
+Power = 40
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithConsecutiveUse
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is slashed with scythes or claws. Its power increases if it hits in succession.
+#================================#
+[HEALORDER]
+Name = Heal Order
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = The user calls out its underlings to heal it. The user regains up to half of its max HP.
+#================================#
+[INFESTATION]
+Name = Infestation
+Type = BUG
+Category = Special
+Power = 20
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = BindTarget
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is infested and unable to flee for four to five turns.
+#================================#
+[LEECHLIFE]
+Name = Leech Life
+Type = BUG
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user drains the target's blood. The user's HP is restored by half the damage taken by the target.
+#================================#
+[LUNGE]
+Name = Lunge
+Type = BUG
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user makes a lunge at the target, attacking with full force. This lowers the target's Attack stat.
+#================================#
+[MEGAHORN]
+Name = Megahorn
+Type = BUG
+Category = Physical
+Power = 120
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Using its tough and impressive horn, the user rams into the target with no letup.
+#================================#
+[PINMISSILE]
+Name = Pin Missile
+Type = BUG
+Category = Physical
+Power = 25
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
+#================================#
+[POLLENPUFF]
+Name = Pollen Puff
+Type = BUG
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HealAllyOrDamageFoe
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.
+#================================#
+[POUNCE]
+Name = Pounce
+Type = BUG
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = The user attacks by pouncing on the target. This also lowers the target’s Speed stat.
+#================================#
+[POWDER]
+Name = Powder
+Type = BUG
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = TargetNextFireMoveDamagesTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The target is covered in a powder that explodes and damages it if it uses a Fire-type move.
+#================================#
+[QUIVERDANCE]
+Name = Quiver Dance
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtkSpDefSpd1
+Flags = Dance
+Description = The user performs a beautiful dance. It boosts the user's Sp. Atk, Sp. Def, and Speed stats.
+#================================#
+[RAGEPOWDER]
+Name = Rage Powder
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+Priority = 2
+FunctionCode = RedirectAllMovesToUser
+Flags = Powder
+Description = The user scatters irritating powder to draw attention to itself. Opponents aim only at the user.
+#================================#
+[SIGNALBEAM]
+Name = Signal Beam
+Type = BUG
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks with a sinister beam of light. It may also confuse the target.
+#================================#
+[SILKTRAP]
+Name = Silk Trap
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserFromDamagingMovesSilkTrap
+Flags = CannotMetronome
+Description = User spins a silken trap to protect itself. Lowers the Speed of any that make direct contact.
+#================================#
+[SILVERWIND]
+Name = Silver Wind
+Type = BUG
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = RaiseUserMainStats1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The foe is attacked with powdery scales blown by wind. It may also raise all the user's stats.
+#================================#
+[SKITTERSMACK]
+Name = Skitter Smack
+Type = BUG
+Category = Physical
+Power = 70
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
+#================================#
+[SPIDERWEB]
+Name = Spider Web
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = TrapTargetInBattle
+Flags = CanMirrorMove
+Description = The user ensnares the target with thin, gooey silk so it can't flee from battle.
+#================================#
+[STEAMROLLER]
+Name = Steamroller
+Type = BUG
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
+EffectChance = 30
+Description = The user crushes its foes by rolling over them. This attack may make the target flinch.
+#================================#
+[STICKYWEB]
+Name = Sticky Web
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = FoeSide
+FunctionCode = AddStickyWebToFoeSide
+Description = Weaves a sticky net around the opposing team, which lowers their Speed stats upon switching in.
+#================================#
+[STRINGSHOT]
+Name = String Shot
+Type = BUG
+Category = Status
+Accuracy = 95
+TotalPP = 40
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed2
+Flags = CanProtect,CanMirrorMove
+Description = The foe is bound with silk blown from the user's mouth. This silk reduces the target's Speed.
+#================================#
+[STRUGGLEBUG]
+Name = Struggle Bug
+Type = BUG
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.
+#================================#
+[TAILGLOW]
+Name = Tail Glow
+Type = BUG
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtk3
+Description = The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.
+#================================#
+[TWINEEDLE]
+Name = Twineedle
+Type = BUG
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = HitTwoTimesPoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The foe is stabbed twice by a pair of stingers. It may also poison the target.
+#================================#
+[UTURN]
+Name = U-turn
+Type = BUG
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = SwitchOutUserDamagingMove
+Flags = Contact,CanProtect,CanMirrorMove
+Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+#================================#
+[XSCISSOR]
+Name = X-Scissor
+Type = BUG
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.
