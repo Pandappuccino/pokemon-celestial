@@ -1,1 +1,118 @@
 #================================#
+[TRAINERCARD]
+Name = Trainer Card
+NamePlural = Trainer Cards
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = An ID card for Trainers who have registered to the Pokémon League.
+#================================#
+[BANKCARD]
+Name = Bank Card
+NamePlural = Bank Cards
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A card that allows Trainers to access their bank accounts and withdraw or deposit money.
+#================================#
+[BPCARD]
+Name = BP Card
+NamePlural = BP Cards
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A card that allows Trainers to earn BP from battles.
+#================================#
+[BERRYPOTS]
+Name = Berry Pots
+NamePlural = Berry Pots
+PortionName = set of Berry Pots
+PortionNamePlural = sets of Berry Pots
+Pocket = 13
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A set of gardening pots for growing Berries and Apricorns on the go.
+#================================#
+[KARPCAN]
+Name = Karp Can
+NamePlural = Karp Cans
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A watering can shaped like a Magikarp. It can be used to water Berry plants.
+#================================#
+[POKEBLOCKKIT]
+Name = Pokéblock Kit
+NamePlural = Pokéblock Kits
+Pocket = 13
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A convenient kit for making and storing Pokéblocks. It includes a portable blender.
+#================================#
+[FISHINGROD]
+Name = Fishing Rod
+NamePlural = Fishing Rods
+Pocket = 13
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A durable fishing rod used to fish for Pokémon in bodies of water.
+#================================#
+[MININGKIT]
+Name = Mining Kit
+NamePlural = Mining Kits
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A kit full of tools for mining. It contains a pickaxe, a hammer, and a sturdy helmet.
+#================================#
+[MYSTERYEGG]
+Name = Mystery Egg
+NamePlural = Mystery Eggs
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A strange Egg discovered by Professor Danao. Nothing makes it respond.
+#================================#
+[CHILDSPURSE]
+Name = Child's Purse
+NamePlural = Child's Purses
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A small, hand-stitched purse containing a child's life savings.
+#================================#
+[HERBALREMEDY]
+Name = Herbal Remedy
+NamePlural = Herbal Remedies
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A potent medicine created with a blend of various medicinal herbs. It can treat almost any ailment.
+#================================#
+[ODDKEYSTONE]
+Name = Odd Keystone
+NamePlural = Odd Keystones
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A peculiarly-shaped stone. It gives off an eerie, otherworldly energy.
+#================================#
+[ASTERTICKET]
+Name = Aster Ticket
+NamePlural = Aster Ticket
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A ticket to travel to Rift Isle. It is printed with a picture of a shining star.
+#================================#
+[CLOVERPASS]
+Name = Clover Pass
+NamePlural = Clover Passes
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A ticket to travel to Fourleaf Isle. It is printed with a picture of a clover.
+#================================#
