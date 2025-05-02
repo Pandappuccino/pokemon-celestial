@@ -1,1 +1,513 @@
 #================================#
+[ARMORCANNON]
+Name = Armor Cannon
+Type = FIRE
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserDefSpDef1
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 100
+Description = The user shoots its own armor out as blazing projectiles. This lowers the user’s Defense and Sp. Def.
+#================================#
+[BITTERBLADE]
+Name = Bitter Blade
+Type = FIRE
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = Contact,CanProtect,Slicing,CanMirrorMove
+Description = A spiteful slashing attack. The user’s HP is restored by up to half the damage taken by the target.
+#================================#
+[BLASTBURN]
+Name = Blast Burn
+Type = FIRE
+Category = Special
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = AttackAndSkipNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = The target is razed by a fiery explosion. The user must rest on the next turn, however.
+#================================#
+[BLAZEKICK]
+Name = Blaze Kick
+Type = FIRE
+Category = Physical
+Power = 85
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 10
+Description = The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn.
+#================================#
+[BLUEFLARE]
+Name = Blue Flare
+Type = FIRE
+Category = Special
+Power = 130
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user attacks by engulfing the foe in a beautiful, yet intense, blue flame. It may also burn the foe.
+#================================#
+[BURNUP]
+Name = Burn Up
+Type = FIRE
+Category = Special
+Power = 130
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = UserLosesFireType
+Flags = CanProtect,CanMirrorMove,ThawsUser
+Description = To inflict massive damage, the user burns itself out. The user will no longer be Fire type.
+#================================#
+[BURNINGBULWARK]
+Name = Burning Bulwark
+Type = FIRE
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = ProtectUserBurningBulwark
+Description = Protects the user from attacks. Also burns any attacker that makes contact with the user.
+#================================#
+[BURNINGJEALOUSY]
+Name = Burning Jealousy
+Type = FIRE
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = BurnTargetIfTargetStatsRaisedThisTurn
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks with energy from jealousy. This burns all foes that had their stats boosted this turn.
+#================================#
+[EMBER]
+Name = Ember
+Type = FIRE
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is attacked with small flames. It may also leave the target with a burn.
+#================================#
+[ERUPTION]
+Name = Eruption
+Type = FIRE
+Category = Special
+Power = 150
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = PowerHigherWithUserHP
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks in an explosive fury. The lower the user's HP, the less powerful this attack becomes.
+#================================#
+[FIERYDANCE]
+Name = Fiery Dance
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserSpAtk1
+Flags = CanProtect,CanMirrorMove,Dance
+EffectChance = 50
+Description = Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat.
+#================================#
+[FIREBLAST]
+Name = Fire Blast
+Type = FIRE
+Category = Special
+Power = 110
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.
+#================================#
+[FIREFANG]
+Name = Fire Fang
+Type = FIRE
+Category = Physical
+Power = 65
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnFlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 101
+Description = The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned.
+#================================#
+[FIRELASH]
+Name = Fire Lash
+Type = FIRE
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user strikes the target with a burning lash. This also lowers the target's Defense stat.
+#================================#
+[FIREPLEDGE]
+Name = Fire Pledge
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FirePledge
+Flags = CanProtect,CanMirrorMove
+Description = A column of fire hits opposing Pokémon. When used with its Grass equivalent, it makes a sea of fire.
+#================================#
+[FIREPUNCH]
+Name = Fire Punch
+Type = FIRE
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 10
+Description = The target is punched with a fiery fist. It may leave the target with a burn.
+#================================#
+[FIRESPIN]
+Name = Fire Spin
+Type = FIRE
+Category = Special
+Power = 35
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = CanProtect,CanMirrorMove
+Description = The target becomes trapped within a fierce vortex of fire that rages for four to five turns.
+#================================#
+[FLAMEBURST]
+Name = Flame Burst
+Type = FIRE
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DamageTargetAlly
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the foe with a bursting flame. It also damages Pokémon next to the target.
+#================================#
+[FLAMECHARGE]
+Name = Flame Charge
+Type = FIRE
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseUserSpeed1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.
+#================================#
+[FLAMEWHEEL]
+Name = Flame Wheel
+Type = FIRE
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove,ThawsUser
+EffectChance = 10
+Description = The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.
+#================================#
+[FLAMETHROWER]
+Name = Flamethrower
+Type = FIRE
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is scorched with an intense blast of fire. It may also leave the target with a burn.
+#================================#
+[FLAREBLITZ]
+Name = Flare Blitz
+Type = FIRE
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealtBurnTarget
+Flags = Contact,CanProtect,CanMirrorMove,ThawsUser
+EffectChance = 10
+Description = The user cloaks itself in fire and charges at the foe. The user also takes damage and may burn the target.
+#================================#
+[FUSIONFLARE]
+Name = Fusion Flare
+Type = FIRE
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = DoublePowerAfterFusionBolt
+Flags = CanProtect,CanMirrorMove,ThawsUser
+Description = The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.
+#================================#
+[HEATCRASH]
+Name = Heat Crash
+Type = FIRE
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PowerHigherWithUserHeavierThanTarget
+Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
+Description = The user slams the foe with its flaming body. The heavier the user is, the greater the damage.
+#================================#
+[HEATWAVE]
+Name = Heat Wave
+Type = FIRE
+Category = Special
+Power = 95
+Accuracy = 90
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.
+#================================#
+[INCINERATE]
+Name = Incinerate
+Type = FIRE
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = DestroyTargetBerryOrGem
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the foe with fire. The target's held Berry becomes burnt up and unusable.
+#================================#
+[INFERNO]
+Name = Inferno
+Type = FIRE
+Category = Special
+Power = 100
+Accuracy = 50
+TotalPP = 5
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.
+#================================#
+[LAVAPLUME]
+Name = Lava Plume
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.
+#================================#
+[MAGMASTORM]
+Name = Magma Storm
+Type = FIRE
+Category = Special
+Power = 100
+Accuracy = 75
+TotalPP = 5
+Target = NearOther
+FunctionCode = BindTarget
+Flags = CanProtect,CanMirrorMove
+Description = The target becomes trapped within a maelstrom of fire that rages for four to five turns.
+#================================#
+[MINDBLOWN]
+Name = Mind Blown
+Type = FIRE
+Category = Special
+Power = 150
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = UserLosesHalfOfTotalHPExplosive
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user attacks everything by causing its own head to explode. This also damages the user.
+#================================#
+[MYSTICALFIRE]
+Name = Mystical Fire
+Type = FIRE
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.
+#================================#
+[OVERHEAT]
+Name = Overheat
+Type = FIRE
+Category = Special
+Power = 130
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.
+#================================#
+[PYROBALL]
+Name = Pyro Ball
+Type = FIRE
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove,ThawsUser,Bomb,CannotMetronome
+EffectChance = 10
+Description = Attacks by igniting a small stone and launching it as a fiery ball. May also burn the target.
+#================================#
+[RAGINGFURY]
+Name = Raging Fury
+Type = FIRE
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = RandomNearFoe
+FunctionCode = MultiTurnAttackConfuseUserAtEnd
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user rampages around spewing flames for two to three turns. The user then becomes confused.
+#================================#
+[SACREDFIRE]
+Name = Sacred Fire
+Type = FIRE
+Category = Physical
+Power = 100
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove,ThawsUser
+EffectChance = 50
+Description = The target is razed with a mystical fire of great intensity. It may also leave the target with a burn.
+#================================#
+[SEARINGSHOT]
+Name = Searing Shot
+Type = FIRE
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 30
+Description = An inferno of scarlet flames torches everything around the user. It may leave the foe with a burn.
+#================================#
+[SHELLTRAP]
+Name = Shell Trap
+Type = FIRE
+Category = Special
+Power = 150
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+Priority = -3
+FunctionCode = UsedAfterUserTakesPhysicalDamage
+Flags = CanProtect
+Description = The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurts the attacker.
+#================================#
+[TEMPERFLARE]
+Name = Temper Flare
+Type = FIRE
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfUserLastMoveFailed
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks driven by frustration. Power increases if the user's previous move failed.
+#================================#
+[TORCHSONG]
+Name = Torch Song
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserSpAtk1
+Flags = Sound,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user blows out raging flames as if singing a song. This also boosts the user’s Sp. Atk stat.
+#================================#
+[VCREATE]
+Name = V-create
+Type = FIRE
+Category = Physical
+Power = 180
+Accuracy = 95
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserDefSpDefSpd1
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = With a fiery forehead, the user hurls itself at the foe. It lowers the user's Defense, Sp. Def, and Speed.
+#================================#
+[WILLOWISP]
+Name = Will-O-Wisp
+Type = FIRE
+Category = Status
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots a sinister, bluish-white flame at the target to inflict a burn.
