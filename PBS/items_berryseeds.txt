@@ -1,0 +1,48 @@
+#-------------------------------
+[MYSTERYBERRYSEED]
+Name = Mystery Berry Seed
+NamePlural = Mystery Berry Seeds
+Pocket = 1
+Price = 20
+Flags = BerrySeed,Fling_10,NaturalGift_NORMAL_80
+Description = A seed used to plant an unknown berry plant.
+#-------------------------------
+[CHERIBERRY_SEED]
+Name = Cheri Berry Seed
+NamePlural = Cheri Berry Seeds
+Pocket = 1
+Price = 20
+Flags = BerrySeed,Fling_10,NaturalGift_FIRE_80
+Description = A seed used to plant a Cheri Berry plant.
+#-------------------------------
+[CHESTOBERRY_SEED]
+Name = Chesto Berry Seed
+NamePlural = Chesto Berry Seeds
+Pocket = 1
+Price = 20
+Flags = BerrySeed,Fling_10,NaturalGift_WATER_80
+Description = A seed used to plant an Chesto Berry plant.
+#-------------------------------
+[PECHABERRY_SEED]
+Name = Pecha Berry Seed
+NamePlural = Pecha Berry Seeds
+Pocket = 1
+Price = 20
+Flags = BerrySeed,Fling_10,NaturalGift_ELECTRIC_80
+Description = A seed used to plant an Pecha Berry plant.
+#-------------------------------
+[RAWSTBERRY_SEED]
+Name = Rawst Berry Seed
+NamePlural = Rawst Berry Seeds
+Pocket = 1
+Price = 20
+Flags = BerrySeed,Fling_10,NaturalGift_GRASS_80
+Description = A seed used to plant an Rawst Berry plant.
+#-------------------------------
+[ASPEARBERRY_SEED]
+Name = Aspear Berry Seed
+NamePlural = Aspear Berry Seeds
+Pocket = 1
+Price = 20
+Flags = BerrySeed,Fling_10,NaturalGift_ICE_80
+Description = A seed used to plant an Aspear Berry plant.
