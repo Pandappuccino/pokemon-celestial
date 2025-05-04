@@ -18,8 +18,6 @@
 * **A New Type:** Discover the mysterious *Cosmic* type, a classification of Pokémon hailing from beyond the stars first discovered in the aftermath of the Cobalt Comet incident!
 * **...and more!**
 
-[Check out the wiki for more information!](https://pokemoncelestial.miraheze.org/wiki/Main_Page)
-
 ## Credits
 ### Graphics and Audio
 * Caruban
