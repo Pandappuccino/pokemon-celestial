@@ -15,13 +15,6 @@ Gender = Male
 BaseMoney = 60
 BattleBGM = Battle_Kai
 #================================#
-[RIVAL_Micah]
-Name = Pokémon Trainer
-Gender = Female
-BaseMoney = 60
-SkillLevel = 30
-BattleBGM = Battle_Micah
-#================================#
 [RIVAL_Medusa]
 Name = Pokémon Trainer
 Gender = Female
