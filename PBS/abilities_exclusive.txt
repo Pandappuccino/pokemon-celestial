@@ -1,1 +1,13 @@
 #================================#
+[RADIANTSUN]
+Name = Radiant Sun
+Description = The power of the sun changes the weather to harsh sunlight.
+Flags = FasterEggHatching
+#================================#
+[SERENEMOON]
+Name = Serene Moon
+Description = The power of the moon clears all weather changes.
+#================================#
+[GOODLUCK]
+Name = Good Luck
+Description = Brings endless good luck!
