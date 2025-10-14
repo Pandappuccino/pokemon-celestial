@@ -221,6 +221,15 @@ BPPrice = 0
 Flags = Berry,Fling_10,NaturalGift_PSYCHIC_90
 Description = Using this Berry on a Pokémon makes it more friendly, but it also lowers its base Speed.
 #================================#
+[DRAGOBERRY]
+Name = Drago Berry
+NamePlural = Drago Berries
+Pocket = 4
+Price = 10000
+SellPrice = 1000
+BPPrice = 0
+Flags = Berry,Fling_10,NaturalGift_COSMIC_180
+Description = Using this Berry on a Pokémon makes it incredibly friendly, but sharply lowers its base stats.
 
 #================MOVE-WEAKENING BERRIES================#
 [CHILANBERRY]
