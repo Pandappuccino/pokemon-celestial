@@ -485,18 +485,6 @@ FieldUse = OnPokemon
 Flags = Fling_10
 Description = When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Def will grow more slowly.
 #================================#
-[SERIOUSMINT]
-Name = Serious Mint
-NamePlural = Serious Mints
-PortionName = sprig of Serious Mint
-PortionNamePlural = sprigs of Serious Mint
-Pocket = 6
-Price = 20
-BPPrice = 50
-FieldUse = OnPokemon
-Flags = Fling_10
-Description = When a Pokémon smells this mint, all of its stats will grow at an equal rate.
-#================================#
 [ABILITYCAPSULE]
 Name = Ability Capsule
 NamePlural = Ability Capsule
