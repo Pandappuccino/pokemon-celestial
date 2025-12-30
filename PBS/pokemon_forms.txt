@@ -1,35 +1,36 @@
 #================MEDARO VARIANTS================#
 [LAPRAS,1]
 Name = Lapras
-FormName = Medaro Form
+FormName = Medaran Form
 Types = GROUND,ROCK
 BaseStats = 0,0,0,0,0,0
-Abilities = SANDCLOAK,ROUGHSKIN
+Abilities = DRYSKIN,ROUGHSKIN
 HiddenAbilities = WATERABSORB
 Moves = 
 TutorMoves = 
 EggMoves = 
 EggGroups = Monster,Mineral
-Height = 8.1
+Weight = 565.0
 Color = Brown
 Habitat = RoughTerrain
-Pokedex = Lapras in the Medaro region have adapted to dry desert climates. In spite of their changed surroundings, they are still just as gentle as other Lapras.
-Flags = InheritFormFromMother,DefaultForm_1
+Pokedex = It is believed that the deserts that Lapras call home were once lakes and oceans, and they have adapted to the drier climates to survive. They thrive in hot weather.
+Flags = InheritFormWithEverstone,DefaultForm_1
 #================================#
 [RAICHU,1]
 Name = Raichu
-FormName = Medaro Form
+FormName = Medaran Form
 Types = ELECTRIC,POISON
 BaseStats = 
 EVs = HP,1,SPEED,2
-Abilities = PARALYTICPOISON
-Moves =
-TutorMoves =
+Abilities = POISONTOUCH
+HiddenAbilities = PARALYTICPOISON
+Moves = 0,POISONJAB,1,PLAYNICE,1,SWEETKISS,1,NUZZLE,1,NASTYPLOT,1,CHARM,1,THUNDERWAVE,1,DOUBLETEAM,1,ELECTROBALL,1,FEINT,1,SPARK,1,AGILITY,1,IRONTAIL,1,DISCHARGE,1,LIGHTSCREEN,1,THUNDER,1,THUNDERSHOCK,1,TAILWHIP,1,GROWL,1,QUICKATTACK,5,THUNDERBOLT
+TutorMoves = TAKEDOWN,CHARM,FAKETEARS,AGILITY,PROTECT,ACIDSPRAY,THIEF,DISARMINGVOICE,TRAILBLAZE,CHARGEBEAM,FACADE,POISONTAIL,SWIFT,DRAININGKISS,FLING,VENOSHOCK,ENDURE,VOLTSWITCH,RAINDANCE,DIG,BRICKBREAK,BODYSLAM,THUNDERPUNCH,SLEEPTALK,ELECTROBALL,REFLECT,LIGHTSCREEN,GRASSKNOT,THUNDERWAVE,POISONJAB,REST,EERIEIMPULSE,GUNKSHOT,SUBSTITUTE,ENCORE,SURF,THUNDERBOLT,PLAYROUGH,HELPINGHAND,REVERSAL,ELECTRICTERRAIN,NASTYPLOT,WILDCHARGE,SLUDGEBOMB,GIGAIMPACT,FOCUSBLAST,HYPERBEAM,THUNDER,TERABLAST,CHARGE,TOXIC,KNOCKOFF,FOCUSPUNCH,ENDEAVOR,ELECTROWEB,ALLURINGVOICE,UPPERHAND
 Height = 2.4
 Weight = 47.5
 Color = Purple
 Category = Toxic Mouse
-Pokedex = The altered environment of the Medaro region forced Pikachu to adapt and become immune to toxins. Its cheek sacs contain potent neurotoxins.
+Pokedex = The toxic sacs in its cheeks are filled with paralytic venom. It eats rotting Berries to produce more venom.
 
 #================MINIOR COLORS================#
 [MINIOR,7]
