@@ -61,9 +61,9 @@ BaseMoney = 100
 BattleBGM = Battle_GymLeader
 VictoryBGM = Victory_GymLeader
 #================================#
-[GYMLEADER_Kohaku] # Yukata Girl Gym Leader
+[GYMLEADER_DJEvolegend] # DJ Gym Leader
 Name = Gym Leader
-Gender = Female
+Gender = Male
 BaseMoney = 100
 BattleBGM = Battle_GymLeader
 VictoryBGM = Victory_GymLeader
