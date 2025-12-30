@@ -433,6 +433,196 @@ Description = An item to be held by a Pokémon. This exotic-smelling incense boo
 #================================#
 
 
+#================EVOLUTION STONES================#
+[FIRESTONE]
+Name = Fire Stone
+NamePlural = Fire Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
+#================================#
+[WATERSTONE]
+Name = Water Stone
+NamePlural = Water Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.
+#================================#
+[THUNDERSTONE]
+Name = Thunder Stone
+NamePlural = Thunder Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.
+#================================#
+[LEAFSTONE]
+Name = Leaf Stone
+NamePlural = Leaf Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.
+#================================#
+[ICESTONE]
+Name = Ice Stone
+NamePlural = Ice Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.
+#================================#
+[SUNSTONE]
+Name = Sun Stone
+NamePlural = Sun Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.
+#================================#
+[MOONSTONE]
+Name = Moon Stone
+NamePlural = Moon Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.
+#================================#
+[SHINYSTONE]
+Name = Shiny Stone
+NamePlural = Shiny Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It shines with dazzling light.
+#================================#
+[DUSKSTONE]
+Name = Dusk Stone
+NamePlural = Dusk Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It holds dark shadows within.
+#================================#
+[DAWNSTONE]
+Name = Dawn Stone
+NamePlural = Dawn Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It twinkles like a glittering eye.
+#================================#
+[LINKINGSTONE]
+Name = Linking Stone
+NamePlural = Linking Stones
+Pocket = 5
+Price = 3000
+SellPrice = 500
+BPPrice = 25
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It exudes a feeling of connection.
+#================================#
+
+
+#================MILCERY SWEETS================#
+[STRAWBERRYSWEET]
+Name = Strawberry Sweet
+NamePlural = Strawberry Sweets
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = A strawberry-shaped sweet. When a Milcery holds this, it spins around happily.
+#================================#
+[LOVESWEET]
+Name = Love Sweet
+NamePlural = Love Sweets
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = A heart-shaped sweet. When a Milcery holds this, it spins around happily.
+#================================#
+[BERRYSWEET]
+Name = Berry Sweet
+NamePlural = Berry Sweets
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = A berry-shaped sweet. When a Milcery holds this, it spins around happily.
+#================================#
+[CLOVERSWEET]
+Name = Clover Sweet
+NamePlural = Clover Sweets
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = A clover-shaped sweet. When a Milcery holds this, it spins around happily.
+#================================#
+[FLOWERSWEET]
+Name = Flower Sweet
+NamePlural = Flower Sweets
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = A flower-shaped sweet. When a Milcery holds this, it spins around happily.
+#================================#
+[STARSWEET]
+Name = Star Sweet
+NamePlural = Star Sweets
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = A star-shaped sweet. When a Milcery holds this, it spins around happily.
+#================================#
+[RIBBONSWEET]
+Name = Ribbon Sweet
+NamePlural = Ribbon Sweets
+Pocket = 1
+Price = 500
+BPPrice = 5
+Flags = Fling_10
+Description = A ribbon-shaped sweet. When a Milcery holds this, it spins around happily.
+#================================#
+
+
 #================EVOLUTION-INDUCING ITEMS================#
 [RAZORCLAW]
 Name = Razor Claw
