@@ -1,0 +1,380 @@
+#================MEDARO VARIANTS================#
+
+
+#================MINIOR COLORS================#
+[MINIOR,7]
+FormName = Red Core
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Red
+Pokedex = The color of a Minior is reliant on its diet. This Minior's diet has given it a vibrant red color.
+Flags = InheritFormFromMother
+#================================#
+[MINIOR,8]
+FormName = Orange Core
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Red
+Pokedex = The color of a Minior is reliant on its diet. This Minior's diet has given it a vibrant orange color.
+Flags = InheritFormFromMother
+#================================#
+[MINIOR,9]
+FormName = Yellow Core
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Yellow
+Pokedex = The color of a Minior is reliant on its diet. This Minior's diet has given it a vibrant yellow color.
+Flags = InheritFormFromMother
+#================================#
+[MINIOR,10]
+FormName = Green Core
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Green
+Pokedex = The color of a Minior is reliant on its diet. This Minior's diet has given it a vibrant green color.
+Flags = InheritFormFromMother
+#================================#
+[MINIOR,11]
+FormName = Blue Core
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Blue
+Pokedex = The color of a Minior is reliant on its diet. This Minior's diet has given it a vibrant blue color.
+Flags = InheritFormFromMother
+#================================#
+[MINIOR,12]
+FormName = Indigo Core
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Blue
+Pokedex = The color of a Minior is reliant on its diet. This Minior's diet has given it a vibrant indigo color.
+Flags = InheritFormFromMother
+#================================#
+[MINIOR,13]
+FormName = Violet Core
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Purple
+Pokedex = The color of a Minior is reliant on its diet. This Minior's diet has given it a vibrant violet color.
+Flags = InheritFormFromMother
+#================================#
+
+#================SMEARGLE AND PICARTSO COLORS================#
+[SMEARGLE,1]
+FormName = Blue Paint
+#================================#
+[SMEARGLE,2]
+FormName = Red Paint
+#================================#
+[SMEARGLE,3]
+FormName = Yellow Paint
+#================================#
+[PICARTSO,1]
+FormName = Blue Paint
+#================================#
+[PICARTSO,2]
+FormName = Red Paint
+#================================#
+[PICARTSO,3]
+FormName = Yellow Paint
+#================================#
+
+#================FLABEBE COLORS================#
+[FLABEBE,1]
+FormName = Red Flower
+Color = Red
+#================================#
+[FLABEBE,2]
+FormName = Orange Flower
+Color = Red
+#================================#
+[FLABEBE,3]
+FormName = Yellow Flower
+Color = Yellow
+#================================#
+[FLABEBE,4]
+FormName = Green Flower
+Color = Green
+#================================#
+[FLABEBE,5]
+FormName = Blue Flower
+Color = Blue
+#================================#
+[FLABEBE,6]
+FormName = Violet Flower
+Color = Purple
+#================================#
+[FLABEBE,7]
+FormName = Black Flower
+Color = Black
+#================================#
+[FLOETTE,1]
+FormName = Red Flower
+Color = Red
+#================================#
+[FLOETTE,2]
+FormName = Orange Flower
+Color = Red
+#================================#
+[FLOETTE,3]
+FormName = Yellow Flower
+Color = Yellow
+#================================#
+[FLOETTE,4]
+FormName = Green Flower
+Color = Green
+#================================#
+[FLOETTE,5]
+FormName = Blue Flower
+Color = Blue
+#================================#
+[FLOETTE,6]
+FormName = Violet Flower
+Color = Purple
+#================================#
+[FLOETTE,7]
+FormName = Black Flower
+Color = Black
+#================================#
+[FLORGES,1]
+FormName = Red Flower
+Color = Red
+#================================#
+[FLORGES,2]
+FormName = Orange Flower
+Color = Red
+#================================#
+[FLORGES,3]
+FormName = Yellow Flower
+Color = Yellow
+#================================#
+[FLORGES,4]
+FormName = Green Flower
+Color = Green
+#================================#
+[FLORGES,5]
+FormName = Blue Flower
+Color = Blue
+#================================#
+[FLORGES,6]
+FormName = Violet Flower
+Color = Purple
+#================================#
+[FLORGES,7]
+FormName = Black Flower
+Color = Black
+#================================#
+
+#================ALCREMIE FLAVORS================#
+[ALCREMIE,1]
+FormName = Blueberry Cream
+Color = Blue
+#================================#
+[ALCREMIE,2]
+FormName = Cherry Cream
+Color = Pink
+#================================#
+[ALCREMIE,3]
+FormName = Lemon Cream
+Color = Yellow
+#================================#
+[ALCREMIE,4]
+FormName = Matcha Cream
+Color = Green
+#================================#
+[ALCREMIE,5]
+FormName = Orange Cream
+Color = Red
+#================================#
+[ALCREMIE,6]
+FormName = Lavender Cream
+Color = Purple
+#================================#
+
+#================LYCANROC FORMES================#
+[ROCKRUFF,2]
+Abilities = OWNTEMPO
+HiddenAbilities = OWNTEMPO
+Flags = InheritFormFromMother
+Evolutions = LYCANROC,LevelEvening,25
+#================================#
+[ROCKRUFF,3]
+Abilities = EARLYBIRD
+HiddenAbilities = EARLYBIRD
+Flags = InheritFormFromMother
+Evolutions = LYCANROC,LevelMorning,25
+#================================#
+[LYCANROC,1]
+FormName = Midnight Form
+BaseStats = 85,115,75,82,55,75
+Abilities = KEENEYE,VITALSPIRIT
+HiddenAbilities = NOGUARD
+Moves = 
+TutorMoves = 
+Height = 1.1
+Color = Red
+Shape = BipedalTail
+Pokedex = This aggressive Pokémon goads others into fighting it, punishing its opponents with vicious headbutts with its hard, rocky mane.
+#================================#
+[LYCANROC,2]
+FormName = Dusk Form
+BaseStats = 75,117,65,110,55,65
+Abilities = TOUGHCLAWS
+HiddenAbilities = TOUGHCLAWS
+Moves = 
+TutorMoves = 
+Pokedex = The light of the setting sun has given Lycanroc incredible new power. Beneath its calm demeanor lies a fierce fighting spirit.
+Flags = InheritFormFromMother
+#================================#
+[LYCANROC,3]
+FormName = Dawn Form
+BaseStats = 100,120,90,52,60,65
+Abilities = HUGEPOWER
+HiddenAbilities = HUGEPOWER
+Moves = 
+TutorMoves = 
+Shape = BipedalTail
+Pokedex = The light of the morning sun has given Lycanroc incredible new power. Although it is incredibly energetic, it is a surprisingly gentle and affectionate Pokémon.
+Flags = InheritFormFromMother
+#================================#
+
+
+#================ARCEUS FORMES================#
+[ARCEUS,1]
+FormName = Fighting Type
+Types = FIGHTING
+#================================#
+[ARCEUS,2]
+FormName = Flying Type
+Types = FLYING
+#================================#
+[ARCEUS,3]
+FormName = Poison Type
+Types = POISON
+#================================#
+[ARCEUS,4]
+FormName = Ground Type
+Types = GROUND
+#================================#
+[ARCEUS,5]
+FormName = Rock Type
+Types = ROCK
+#================================#
+[ARCEUS,6]
+FormName = Bug Type
+Types = BUG
+#================================#
+[ARCEUS,7]
+FormName = Ghost Type
+Types = GHOST
+#================================#
+[ARCEUS,8]
+FormName = Steel Type
+Types = STEEL
+#================================#
+[ARCEUS,9]
+FormName = Unknown Type
+Types = QMARKS
+#================================#
+[ARCEUS,10]
+FormName = Fire Type
+Types = FIRE
+#================================#
+[ARCEUS,11]
+FormName = Water Type
+Types = WATER
+#================================#
+[ARCEUS,12]
+FormName = Grass Type
+Types = GRASS
+#================================#
+[ARCEUS,13]
+FormName = Electric Type
+Types = ELECTRIC
+#================================#
+[ARCEUS,14]
+FormName = Psychic Type
+Types = PSYCHIC
+#================================#
+[ARCEUS,15]
+FormName = Ice Type
+Types = ICE
+#================================#
+[ARCEUS,16]
+FormName = Dragon Type
+Types = DRAGON
+#================================#
+[ARCEUS,17]
+FormName = Dark Type
+Types = DARK
+#================================#
+[ARCEUS,18]
+FormName = Fairy Type
+Types = FAIRY
+#================================#
+[ARCEUS,19]
+FormName = Cosmic Type
+Types = COSMIC
+
+#================COSMIC PHENOMENON================#
+[ABSOL,1]
+FormName = Startouched
+Types = DARK,COSMIC
+EggGroups = Undiscovered
+Color = Black
+Pokedex = An Absol that has been exposed to the power of the Cobalt Comet, and mutated as a result. Its calm demeanor has not changed, but its power is much greater.
+Evolutions = SEISOL,HappinessNight,
+#================================#
+[SEISOL,1]
+FormName = Startouched
+Types = DARK,COSMIC
+EggGroups = Undiscovered
+Color = Black
+Pokedex = A Seisol that has been exposed to the power of the Cobalt Comet, and mutated as a result. They gather near fragments of the Comet and act as guardians to deter others from approaching.
+#================================#
+[HOUNDREAD,1]
+FormName = Startouched
+Types = FIRE,COSMIC
+EggGroups = Undiscovered
+Color = Black
+Pokedex = A Houndread that has been exposed to the power of the Cobalt Comet, and mutated as a result. Its searing flames glow icy blue and scorch intruders with the power of the stars.
+#================================#
+[MAGPLUME,1]
+FormName = Startouched
+Types = FLYING,COSMIC
+EggGroups = Undiscovered
+Color = Black
+Pokedex = A Magplume that has been exposed to the power of the Cobalt Comet, and mutated as a result. The crest on its head glows in the moonlight, giving the illusion of a star perched in the trees.
+#================================#
+[WISDOWL,1]
+FormName = Startouched
+Types = ROCK,COSMIC
+EggGroups = Undiscovered
+Color = Black
+Pokedex = A Wisdowl that has been exposed to the power of the Cobalt Comet, and mutated as a result. Its shining eyes resemble glowing moonstones, and it watches as a sentinel for undesirables.
+#================================#
+[LYCANROC,4]
+FormName = Startouched
+BaseStats = 90,100,75,82,70,70
+Abilities = HUSTLE
+Moves = 
+TutorMoves = 
+EggGroups = Undiscovered
+Color = Black
+Shape = Quadruped
+Pokedex = A Lycanroc that has been exposed to the power of the Cobalt Comet, and mutated as a result. Already an unstable Pokémon, the energy of the stars has driven it into a wild and uncontrollable frenzy.
+#================================#
