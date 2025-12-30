@@ -280,32 +280,6 @@ Habitat = Field
 Category = Flower Garden
 Pokedex = 
 #================================#
-[LAPRAS]
-Name = Lapras
-Types = WATER,ICE
-BaseStats = 130,85,80,85,95,60
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseEXP = 219
-EVs = HP,2
-CatchRate = 45
-Happiness = 70
-Abilities = WATERABSORB,SHELLARMOR
-HiddenAbilities = HYDRATION
-Moves = 
-TutorMoves = 
-EggMoves = 
-HatchSteps = 10200
-EggGroups = Monster,Water1
-Height = 8.1
-Weight = 485.0
-Color = Blue
-Shape = Finned
-Habitat = Sea
-Category = Transport
-Pokedex = A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.
-Flags = InheritFormFromMother
-#================================#
 [PICHU]
 Name = Pichu
 Types = ELECTRIC
@@ -354,30 +328,7 @@ Shape = Quadruped
 Habitat = Forest
 Category = Mouse
 Pokedex = When several of these Pokémon gather, their electricity can build and cause lightning storms.
-Evolutions = RAICHU_1,Item,THUNDERSTONE,RAICHU,ItemOtherRegion,THUNDERSTONE
-#================================#
-[RAICHU]
-Name = Raichu
-Types = ELECTRIC
-BaseStats = 
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseEXP = 215
-EVs = SPEED,3
-CatchRate = 75
-Happiness = 70
-Abilities = STATIC
-HiddenAbilities = LIGHTNINGROD
-Moves =
-TutorMoves =
-EggGroups = Field,Fairy
-Height = 2.6
-Weight = 66.1
-Color = Yellow
-Shape = Bipedal
-Habitat = Forest
-Category = Mouse
-Pokedex = If the electric pouches in its cheeks become fully charged, both ears will stand straight up.
+Evolutions = RAICHU,Item,THUNDERSTONE,RAICHU_1,ItemOtherRegion,THUNDERSTONE
 #================================#
 [DEINO]
 Name = Deino
