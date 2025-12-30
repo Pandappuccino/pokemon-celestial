@@ -640,6 +640,17 @@ FunctionCode = HitTwoToFiveTimes
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The target is raked with sharp claws or scythes for two to five times in quick succession.
 #================================#
+[GENETICSHUFFLE]
+Name = Genetic Shuffle
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = Self
+FunctionCode = ChangeTypeToRandomType
+Flags = CannotMetronome
+Description = The user alters its genetic makeup, changing to a random type.
+#================================#
 [GIGAIMPACT]
 Name = Giga Impact
 Type = NORMAL
