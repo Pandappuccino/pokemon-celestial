@@ -16,6 +16,20 @@ Habitat = RoughTerrain
 Pokedex = Lapras in the Medaro region have adapted to dry desert climates. In spite of their changed surroundings, they are still just as gentle as other Lapras.
 Flags = InheritFormFromMother,DefaultForm_1
 #================================#
+[RAICHU,1]
+Name = Raichu
+FormName = Medaro Form
+Types = ELECTRIC,POISON
+BaseStats = 
+EVs = HP,1,SPEED,2
+Abilities = PARALYTICPOISON
+Moves =
+TutorMoves =
+Height = 2.4
+Weight = 47.5
+Color = Purple
+Category = Toxic Mouse
+Pokedex = The altered environment of the Medaro region forced Pikachu to adapt and become immune to toxins. Its cheek sacs contain potent neurotoxins.
 
 #================MINIOR COLORS================#
 [MINIOR,7]
@@ -112,87 +126,129 @@ FormName = Yellow Paint
 #================FLABEBE COLORS================#
 [FLABEBE,1]
 FormName = Red Flower
+Types = FAIRY,FIRE
 Color = Red
+Flags = InheritFormFromMother
 #================================#
 [FLABEBE,2]
 FormName = Orange Flower
+Types = FAIRY,GROUND
 Color = Red
+Flags = InheritFormFromMother
 #================================#
 [FLABEBE,3]
 FormName = Yellow Flower
+Types = FAIRY,ELECTRIC
 Color = Yellow
+Flags = InheritFormFromMother
 #================================#
 [FLABEBE,4]
 FormName = Green Flower
+Types = FAIRY,GRASS
 Color = Green
+Flags = InheritFormFromMother
 #================================#
 [FLABEBE,5]
 FormName = Blue Flower
+Types = FAIRY,WATER
 Color = Blue
+Flags = InheritFormFromMother
 #================================#
 [FLABEBE,6]
 FormName = Violet Flower
+Types = FAIRY,PSYCHIC
 Color = Purple
+Flags = InheritFormFromMother
 #================================#
 [FLABEBE,7]
 FormName = Black Flower
+Types = FAIRY,DARK
 Color = Black
+Flags = InheritFormFromMother
 #================================#
 [FLOETTE,1]
 FormName = Red Flower
+Types = FAIRY,FIRE
 Color = Red
+Flags = InheritFormFromMother
 #================================#
 [FLOETTE,2]
 FormName = Orange Flower
+Types = FAIRY,GROUND
 Color = Red
+Flags = InheritFormFromMother
 #================================#
 [FLOETTE,3]
 FormName = Yellow Flower
+Types = FAIRY,ELECTRIC
 Color = Yellow
+Flags = InheritFormFromMother
 #================================#
 [FLOETTE,4]
 FormName = Green Flower
+Types = FAIRY,GRASS
 Color = Green
+Flags = InheritFormFromMother
 #================================#
 [FLOETTE,5]
 FormName = Blue Flower
+Types = FAIRY,WATER
 Color = Blue
+Flags = InheritFormFromMother
 #================================#
 [FLOETTE,6]
 FormName = Violet Flower
+Types = FAIRY,PSYCHIC
 Color = Purple
+Flags = InheritFormFromMother
 #================================#
 [FLOETTE,7]
 FormName = Black Flower
+Types = FAIRY,DARK
 Color = Black
+Flags = InheritFormFromMother
 #================================#
 [FLORGES,1]
 FormName = Red Flower
+Types = FAIRY,FIRE
 Color = Red
+Flags = InheritFormFromMother
 #================================#
 [FLORGES,2]
 FormName = Orange Flower
+Types = FAIRY,GROUND
 Color = Red
+Flags = InheritFormFromMother
 #================================#
 [FLORGES,3]
 FormName = Yellow Flower
+Types = FAIRY,ELECTRIC
 Color = Yellow
+Flags = InheritFormFromMother
 #================================#
 [FLORGES,4]
 FormName = Green Flower
+Types = FAIRY,GRASS
 Color = Green
+Flags = InheritFormFromMother
 #================================#
 [FLORGES,5]
 FormName = Blue Flower
+Types = FAIRY,WATER
 Color = Blue
+Flags = InheritFormFromMother
 #================================#
 [FLORGES,6]
 FormName = Violet Flower
+Types = FAIRY,PSYCHIC
 Color = Purple
+Flags = InheritFormFromMother
 #================================#
 [FLORGES,7]
 FormName = Black Flower
+Types = FAIRY,DARK
 Color = Black
+Flags = InheritFormFromMother
 #================================#
 
 #================ALCREMIE FLAVORS================#
