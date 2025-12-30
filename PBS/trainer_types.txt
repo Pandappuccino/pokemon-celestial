@@ -18,7 +18,7 @@ BattleBGM = Battle_Kai
 [RIVAL_Medusa]
 Name = Pokémon Trainer
 Gender = Female
-BaseMoney = 60
+BaseMoney = 45
 BattleBGM = Battle_Trainer
 #================================#
 [RIVAL_Adrian]
