@@ -570,6 +570,18 @@ Target = User
 FunctionCode = RaiseUserCriticalHitRate2
 Description = The user takes a deep breath and focuses so that critical hits land more easily.
 #================================#
+[FLORALSTORM]
+Name = Floral Storm
+Type = NORMAL
+Category = Special
+Power = 100
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = TypeDependsOnUserSecondType
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = The user unleashes a storm of flower petals. The type changes depending on the user's secondary type.
+#================================#
 [FOLLOWME]
 Name = Follow Me
 Type = NORMAL
