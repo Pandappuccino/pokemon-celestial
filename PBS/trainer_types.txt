@@ -9,17 +9,40 @@ Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #================================#
+[PROFESSOR]
+Name = Professor
+Gender = Female
+BaseMoney = 100
+#================================#
+[PROFESSOR2]
+Name = Professor
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle_ChampionRematch
+#================================#
 [RIVAL_Kai]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 BattleBGM = Battle_Kai
 #================================#
+[RIVAL_Kai2]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+BattleBGM = Battle_ChampionRematch
+#================================#
 [RIVAL_Medusa]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 45
 BattleBGM = Battle_Trainer
+#================================#
+[RIVAL_Medusa2]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 75
+BattleBGM = Battle_ChampionRematch
 #================================#
 [RIVAL_Adrian]
 Name = Pokémon Trainer
