@@ -22,7 +22,7 @@ Color = Green
 Shape = HeadArms
 Habitat = Rare
 Category = Leaf Fairy
-Pokedex = These Pokémon are incredibly skittish and tend to hide under tall grasses and leaves. They make their homes in abandoned tree hollows.
+Pokedex = These skittish Pokémon hide under foliage away from humans. They are very rarely seen by anyone.
 Evolutions = PETALIT,Level,17
 #================================#
 [PETALIT]
@@ -46,7 +46,7 @@ Color = Green
 Shape = HeadArms
 Habitat = Rare
 Category = Flower Fairy
-Pokedex = Leaves that fall from a Petalit can be steeped into a medicinal tea. They sometimes offer these leaves to humans they trust.
+Pokedex = The flower petals dropped from a Petalit can be used to brew tea. They are secretive, but show themselves around humans they trust.
 Evolutions = BLOOMAGIC,Level,32
 #================================#
 [BLOOMAGIC]
@@ -70,7 +70,7 @@ Color = Green
 Shape = HeadArms
 Habitat = Rare
 Category = Flower Mage
-Pokedex = It is extremely protective of Leaflit and Petalit, and any who enter its forest with ill intent are swiftly dealt with.
+Pokedex = They are very protective over Leaflit and Petalit. If a human earns its trust, it will extend this protection to that human.
 #================================#
 [EMBERUFF]
 Name = Emberuff
@@ -95,7 +95,7 @@ Color = Black
 Shape = Quadruped
 Habitat = Rare
 Category = Flame Puppy
-Pokedex = Its diet consists primarily of coal. A healthy Emberuff has small coal deposits sticking out of its fur.
+Pokedex = Emberuff feast on a diet rich in coal. A sign of a healthy diet is a number of coal deposits in its fur.
 Evolutions = BARKINDLE,Level,18
 #================================#
 [BARKINDLE]
@@ -119,7 +119,7 @@ Color = Black
 Shape = Quadruped
 Habitat = Rare
 Category = Flame Hound
-Pokedex = Barkindle maintains a body temperature of up to 1,000 degrees Fahrenheit. Its fur is always warm to the touch.
+Pokedex = Barkindle is always warm to the touch thanks to its organs combusting food as fuel. They like cold weather as a result.
 Evolutions = PURGATOUND,Level,33
 #================================#
 [PURGATOUND]
@@ -144,7 +144,7 @@ Color = Black
 Shape = Quadruped
 Habitat = Rare
 Category = Hellhound
-Pokedex = Scholars believe that Purgatound is a distant relative of the Houndoom line. It is fiercely loyal to its Trainer, no matter what.
+Pokedex = It is speculated that Purgatound is a relative of Houndour. They are fiercely loyal to their trainers and easy to train.
 #================================#
 [KELPUDDLE]
 Name = Kelpuddle
@@ -169,7 +169,7 @@ Color = Blue
 Shape = Quadruped
 Habitat = Rare
 Category = Puddle Horse
-Pokedex = On rainy days, Kelpuddle likes to splash its hooves into the puddles left behind. It is very friendly towards humans.
+Pokedex = On rainy days, Kelpuddle enjoy running around and splashing in puddles. These playful Pokémon enjoy human company.
 Evolutions = COLTERGEIST,Level,18
 #================================#
 [COLTERGEIST]
@@ -193,7 +193,7 @@ Color = Blue
 Shape = Quadruped
 Habitat = Rare
 Category = Kelpie
-Pokedex = Its mane secretes a sticky substance that it uses to catch prey. Despite its appearance, it is very much carnivorous.
+Pokedex = Coltergeist has a sticky, tacky mane that it uses to catch prey. Its neighing can chill those that hear it to the bone.
 Evolutions = GHASTALLION,Level,35
 #================================#
 [GHASTALLION]
@@ -217,4 +217,4 @@ Color = Blue
 Shape = Quadruped
 Habitat = Rare
 Category = Nightmare
-Pokedex = If anyone other than its Trainer tries to ride it, Ghastallion will immediately drag it to the bottom of the nearest body of water.
+Pokedex = If anyone other than its Trainer tries to ride it, Ghastallion will immediately drag it into the depths of the lakes it calls home.
