@@ -44,7 +44,7 @@ Color = Red
 Shape = Winged
 Habitat = Rare
 Category = Sun Dragon
-Pokedex =
+Pokedex = The sun is said to rise only when Korotia wakes, and sets when it slumbers. Its majestic, fiery wings give off intense heat, but are cool to the touch.
 Flags = Legendary
 #================================#
 [GERAKYMA]
@@ -67,7 +67,7 @@ Color = Blue
 Shape = Serpentine
 Habitat = Rare
 Category = Moon Dragon
-Pokedex =
+Pokedex = It is believed that the moon was formed when Gerakyma cast one of its shining scales into the sky. When the moon is full, its scales shine like the stars in the sky.
 Flags = Legendary
 #================================#
 [LUKKIKI]
