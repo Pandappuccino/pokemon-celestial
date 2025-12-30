@@ -1,0 +1,343 @@
+#================RIVAL BATTLES (KAI)================#
+[RIVAL_Kai,Kai,1] # First battle outside of Equis Town; player picked Leaflit
+LoseText = It's official, you're now my rival!
+Pokemon = EMBERUFF,5
+  Gender = male
+  Nature = TIMID
+#================================#
+[RIVAL_Kai,Kai,2] # First battle outside of Equis Town; player picked Emberuff
+LoseText = It's official, you're now my rival!
+Pokemon = KELPUDDLE,5
+  Gender = male
+  Nature = BRAVE
+#================================#
+[RIVAL_Kai,Kai,3] # First battle outside of Equis Town; player picked Kelpuddle
+LoseText = It's official, you're now my rival!
+Pokemon = LEAFLIT,5
+  Gender = male
+  Nature = MILD
+#================================#
+
+#================RIVAL BATTLES (MEDUSA)================#
+[RIVAL_Medusa,Medusa,0] # First encounter at Boreal City
+LoseText = Thank you for this opportunity.
+Items = POTION
+Pokemon = SERPETAL,7
+  Gender = female
+  Nature = TIMID
+
+#================GYM LEADERS================#
+[GYMLEADER_Everett,Everett,1]
+LoseText = Bravo! You get full marks for that victory!
+Items = POTION
+Pokemon =
+#================================#
+[GYMLEADER_Everett,Everett,2] # Gym Leader Rematch
+LoseText = Bravo! You get full marks for that victory!
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[GYMLEADER_Remi,Remi,1]
+LoseText = Whoa, that strategy was impossible to crack!
+Items = POTION,POTION
+Pokemon =
+#================================#
+[GYMLEADER_Remi,Remi,2] # Gym Leader Rematch
+LoseText = Whoa, that strategy was impossible to crack!
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[GYMLEADER_Hunter,Hunter,1]
+LoseText = Even I couldn't survive that beating!
+Items = SUPERPOTION
+Pokemon =
+#================================#
+[GYMLEADER_Hunter,Hunter,2] # Gym Leader Rematch
+LoseText = Even I couldn't survive that beating!
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[GYMLEADER_Sophia,Sophia,1] # Gym Leader Rematch
+LoseText = I see you're going to go far!
+Items = SUPERPOTION
+Pokemon =
+#================================#
+[GYMLEADER_Sophia,Sophia,2] # Gym Leader Rematch
+LoseText = I see you're going to go far!
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[GYMLEADER_DJSteelShot,DJ Steel Shot,1]
+LoseText = You got this crowd PUMPED, yo!
+Items = SUPERPOTION,SUPERPOTION
+Pokemon =
+#================================#
+[GYMLEADER_DJSteelShot,DJ Steel Shot,2] # Gym Leader Rematch
+LoseText = You got this crowd PUMPED, yo!
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[GYMLEADER_Bakarra,Bakarra,1]
+LoseText = I went all in, but it was a bust!
+Items = HYPERPOTION
+Pokemon =
+#================================#
+[GYMLEADER_Bakarra,Bakarra,2] # Gym Leader Rematch
+LoseText = I went all in, but it was a bust!
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[GYMLEADER_Adite,Adite,1]
+LoseText = Fortune truly favors you this day.
+Items = HYPERPOTION,HYPERPOTION
+Pokemon =
+#================================#
+[GYMLEADER_Adite,Adite,2] # Gym Leader Rematch
+LoseText = Fortune truly favors you this day.
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[GYMLEADER_Piers,Piers,1]
+LoseText = Seems you've got what it takes to go all the way.
+Items = FULLRESTORE
+Pokemon =
+#================================#
+
+#================ELITE FOUR AND CHAMPIONS================#
+[ELITEFOUR_Hyacinth,Hyacinth,1]
+LoseText = We wilted under your strength, it seems.
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[ELITEFOUR_Willow,Willow,1]
+LoseText = Oh...so very sad...
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[ELITEFOUR_Hemlock,Hemlock,1]
+LoseText = Guess your partners are more than just looks.
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[ELITEFOUR_Aster,Aster,1]
+LoseText = Even a dragon can't withstand your might.
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[ELITEFOUR_Hyacinth,Hyacinth,2] # After becoming Champion
+LoseText = We wilted under your strength, it seems.
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[ELITEFOUR_Willow,Willow,2] # After becoming Champion
+LoseText = Oh...so very sad...
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[ELITEFOUR_Hemlock,Hemlock,2] # After becoming Champion
+LoseText = Guess your partners are more than just looks.
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[ELITEFOUR_Aster,Aster,2] # After becoming Champion
+LoseText = Even a dragon can't withstand your might.
+Items = FULLRESTORE
+Pokemon =
+#================================#
+[CHAMPION,Danao]
+LoseText = Hahaha! You did it, \PN! You really, truly did it!
+Items = FULLRESTORE,FULLRESTORE
+Pokemon = 
+#================================#
+[GALARLEADER_Adrian,Adrian]
+LoseText = ...I...lost...
+Items = FULLRESTORE,FULLRESTORE,DYNAMAXBAND
+Pokemon = UMBREON,100
+	Gender = male
+	Moves = FOULPLAY,CALMMIND,TOXIC,PROTECT
+	Ability = SYNCHRONIZE
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = LEFTOVERS
+	Nature = CALM
+	IV = 31,31,31,31,31,31
+	EV = 252,0,4,0,0,252
+	Happiness = 255
+	Ball = DUSKBALL
+Pokemon = HATTERENE,100
+	Gender = female
+	Moves = CALMMIND,DRAININGKISS,PSYCHIC,MYSTICALFIRE
+	Ability = MAGICBOUNCE
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = FOCUSSASH
+	Nature = BOLD
+	IV = 31,31,31,31,31,31
+	EV = 252,0,244,12,0,0
+	Happiness = 255
+	Ball = HEALBALL
+Pokemon = AEGISLASH,100
+	Gender = male
+	Moves = KINGSSHIELD,SWORDSDANCE,IRONHEAD,SHADOWCLAW
+	Ability = STANCECHANGE
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = REDCARD
+	Nature = ADAMANT
+	IV = 31,31,31,31,31,31
+	EV = 4,252,0,252,0,0
+	Happiness = 255
+	Ball = DUSKBALL
+Pokemon = SEISOL,100
+	Gender = female
+	Moves = KNOCKOFF,SUCKERPUNCH,NIGHTSLASH,HOWL
+	Ability = SUPERLUCK
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = DUSKINCENSE
+	Nature = JOLLY
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,252,0,4
+	Happiness = 255
+	Ball = NESTBALL
+Pokemon = HYDREIGON,100
+	Gender = female
+	Moves = NASTYPLOT,EARTHPOWER,DARKPULSE,DRAGONPULSE
+	Ability = LEVITATE
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = ROSELIBERRY
+	Nature = MODEST
+	IV = 31,31,31,31,31,31
+	EV = 4,0,0,252,252,0
+	Happiness = 255
+	Ball = ULTRABALL
+Pokemon = CORVIKNIGHT,100
+	Gender = male
+	Moves = IRONDEFENSE,STEELWING,ROOST,SWORDSDANCE
+	Ability = MIRRORARMOR
+	Shiny = yes
+	SuperShiny = no
+	Shadow = no
+	Item = OCCABERRY
+	Nature = IMPISH
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,4,0,0
+	Happiness = 255
+	Gigantimax = true
+	DynamaxLevel = 10
+	Ball = POKEBALL
+
+#================TEAM GORGON================#
+
+#================CHAMPION REMATCHES================#
+[RIVAL_Kai2,Kai]
+LoseText = Guess you're still way outta my league, huh?
+Items = FULLRESTORE,FULLRESTORE
+Pokemon =
+#================================#
+[RIVAL_Medusa2,Medusa]
+LoseText = Hehe. Even if I lost, this was still quite fun.
+Items = FULLRESTORE,FULLRESTORE
+Pokemon =
+#================================#
+[PROFESSOR2,Danao]
+LoseText = You're not giving up the championship that easily, huh?
+Items = FULLRESTORE,FULLRESTORE
+Pokemon =
+#================================#
+[GYMLEADER_Piers,Piers,2]
+LoseText = Not bad. Looks like I've still got a ways to go.
+Items = FULLRESTORE,FULLRESTORE
+Pokemon =
+#================================#
+[RIVAL_Adrian2,Adrian]
+LoseText = Looks like you haven't gotten rusty while I've been gone.
+Items = FULLRESTORE,FULLRESTORE
+Pokemon = UMBREON,100
+	Gender = male
+	Moves = FOULPLAY,CALMMIND,TOXIC,PROTECT
+	Ability = SYNCHRONIZE
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = LEFTOVERS
+	Nature = CALM
+	IV = 31,31,31,31,31,31
+	EV = 252,0,4,0,0,252
+	Happiness = 255
+	Ball = DUSKBALL
+Pokemon = HATTERENE,100
+	Gender = female
+	Moves = CALMMIND,DRAININGKISS,PSYCHIC,MYSTICALFIRE
+	Ability = MAGICBOUNCE
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = FOCUSSASH
+	Nature = BOLD
+	IV = 31,31,31,31,31,31
+	EV = 252,0,244,12,0,0
+	Happiness = 255
+	Ball = HEALBALL
+Pokemon = AEGISLASH,100
+	Gender = male
+	Moves = KINGSSHIELD,SWORDSDANCE,IRONHEAD,SHADOWCLAW
+	Ability = STANCECHANGE
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = REDCARD
+	Nature = ADAMANT
+	IV = 31,31,31,31,31,31
+	EV = 4,252,0,252,0,0
+	Happiness = 255
+	Ball = DUSKBALL
+Pokemon = SEISOL,100
+	Gender = female
+	Moves = KNOCKOFF,SUCKERPUNCH,NIGHTSLASH,HOWL
+	Ability = SUPERLUCK
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = DUSKINCENSE
+	Nature = JOLLY
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,252,0,4
+	Happiness = 255
+	Ball = NESTBALL
+Pokemon = HYDREIGON,100
+	Gender = female
+	Moves = NASTYPLOT,EARTHPOWER,DARKPULSE,DRAGONPULSE
+	Ability = LEVITATE
+	Shiny = no
+	SuperShiny = no
+	Shadow = no
+	Item = ROSELIBERRY
+	Nature = MODEST
+	IV = 31,31,31,31,31,31
+	EV = 4,0,0,252,252,0
+	Happiness = 255
+	Ball = ULTRABALL
+Pokemon = CORVIKNIGHT,100
+	Gender = male
+	Moves = IRONDEFENSE,STEELWING,ROOST,SWORDSDANCE
+	Ability = MIRRORARMOR
+	Shiny = yes
+	SuperShiny = no
+	Shadow = no
+	Item = OCCABERRY
+	Nature = IMPISH
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,4,0,0
+	Happiness = 255
+	Gigantimax = true
+	DynamaxLevel = 10
+	Ball = POKEBALL
+
+#================STANDARD TRAINERS================#
