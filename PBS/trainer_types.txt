@@ -1,4 +1,4 @@
-#================================#
+#===========SPECIAL TRAINERS===========#
 [POKEMONTRAINER_Cass]
 Name = Pokémon Trainer
 Gender = Male
@@ -61,7 +61,7 @@ BaseMoney = 100
 BattleBGM = Battle_GymLeader
 VictoryBGM = Victory_GymLeader
 #================================#
-[GYMLEADER_DJEvolegend] # DJ Gym Leader
+[GYMLEADER_DJSteelShot] # DJ Gym Leader
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
@@ -105,7 +105,7 @@ BattleBGM = Battle_EliteFour
 VictoryBGM = Victory_GymLeader
 #================================#
 [ELITEFOUR_Hemlock] # Poison-type Elite Four
-Name = Elite Four Member
+Name = Elite Four
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle_EliteFour
@@ -167,3 +167,5 @@ BattleBGM = Battle_GorgonLeader
 Name = Rift Isle Researcher
 Gender = Female
 BaseMoney = 75
+
+#================STANDARD TRAINERS================#
