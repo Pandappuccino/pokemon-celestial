@@ -1,5 +1,21 @@
 #================MEDARO VARIANTS================#
-
+[LAPRAS,1]
+Name = Lapras
+FormName = Medaro Form
+Types = GROUND,ROCK
+BaseStats = 0,0,0,0,0,0
+Abilities = SANDCLOAK,ROUGHSKIN
+HiddenAbilities = WATERABSORB
+Moves = 
+TutorMoves = 
+EggMoves = 
+EggGroups = Monster,Mineral
+Height = 8.1
+Color = Brown
+Habitat = RoughTerrain
+Pokedex = Lapras in the Medaro region have adapted to dry desert climates. In spite of their changed surroundings, they are still just as gentle as other Lapras.
+Flags = InheritFormFromMother,DefaultForm_1
+#================================#
 
 #================MINIOR COLORS================#
 [MINIOR,7]
