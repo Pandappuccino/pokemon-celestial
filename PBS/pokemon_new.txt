@@ -20,7 +20,7 @@ Color = White
 Shape = HeadArms
 Habitat = None
 Category = Forgotten
-Pokedex = This Pokémon came from an abandoned Egg, but perished before it could hatch. It clings to the world of the living out of sorrow.
+Pokedex = An Egg that was left forgotten miraculously hatched, but the Pokémon within perished before it could be born. It lingers due to its sorrow.
 Evolutions = WINGEIST,LevelDarkness,50
 #================================#
 [WINGEIST]
@@ -43,7 +43,7 @@ Color = White
 Shape = Bipedal
 Habitat = None
 Category = Vengeful
-Pokedex = It carries endless grudges, anchoring it to the world of the living. It is unable to pass on, lashing out at the world around it.
+Pokedex = It is unable to move on, shackled to the world of the living. Its ire strengthens it, and it lashes out violently at its surroundings.
 #================================#
 [MAGPECK]
 Name = Magpeck
@@ -68,7 +68,7 @@ Color = Black
 Shape = Winged
 Habitat = Grassland
 Category = Magpie
-Pokedex = Flocks of Magpeck move at night and sleep during the day. They fly swiftly and silently, blanketing the sky.
+Pokedex = Small flocks of Magpeck travel at night and sleep during the day. They are very intelligent and capable of remembering faces.
 Evolutions = MAGPLUME,Level,24
 #================================#
 [MAGPLUME]
@@ -92,7 +92,7 @@ Color = Black
 Shape = Winged
 Habitat = Grassland
 Category = Magpie
-Pokedex = Scientists are undecided as to whether a Magplume uses the markings on its wings for mating or for intimidation, or for a different purpose altogether.
+Pokedex = The patterns on a Magplume's wings are used for various purposes. Researchers are undecided if they are for mating or intimidation.
 WildItemUncommon = PRETTYFEATHER
 #================================#
 [SERPETAL]
@@ -118,7 +118,7 @@ Color = Green
 Shape = Serpentine
 Habitat = Grassland
 Category = Tiny Snake
-Pokedex = These tiny Pokémon camouflage in tall grass to avoid bird Pokémon. They are generally quite docile and easy to train.
+Pokedex = These tiny, harmless Pokémon blend in with tall grass thanks to their green scales. They are quite even-tempered, making them a good choice for new Trainers.
 Evolutions = OPHIDROSE,Item,LEAFSTONE
 #================================#
 [OPHIDROSE]
@@ -142,7 +142,7 @@ Color = Green
 Shape = Serpentine
 Habitat = Grassland
 Category = Flower Snake
-Pokedex = The flower that blooms on its tail emits a pleasant scent to lure in prey. The petals can be used to make a potent sleep aid.
+Pokedex = The flower that blooms on its tail emits a sweet scent, luring in unsuspecting prey. The petals can be used to create a strong painkiller.
 WildItemUncommon = LEAFSTONE
 WildItemRare = MIRACLESEED
 #================================#
@@ -169,7 +169,7 @@ Color = Red
 Shape = Serpentine
 Habitat = RoughTerrain
 Category = Tiny Snake
-Pokedex = It thrives in warm climates, basking in the sun. Its rough scales deter predators from trying to attack.
+Pokedex = Serpyre's scales are warm to the touch despite its reptilian biology. These scales are sometimes used to make hand warmers.
 Evolutions = OPHIDROUGHT,Item,FIRESTONE
 #================================#
 [OPHIDROUGHT]
@@ -193,7 +193,7 @@ Color = Red
 Shape = Serpentine
 Habitat = RoughTerrain
 Category = Flame Snake
-Pokedex = Its muscles are incredibly dense, allowing it to crush even solid metal. Its body temperature cooks its prey alive quickly.
+Pokedex = Its muscles are incredibly dense, and it can easily crush anything by constricting around it, if its prey doesn't cook from its body heat first.
 WildItemUncommon = FIRESTONE
 WildItemRare = CHARCOAL
 #================================#
@@ -220,7 +220,7 @@ Color = Blue
 Shape = Serpentine
 Habitat = WatersEdge
 Category = Tiny Snake
-Pokedex = If it senses danger, it quickly hides in small bodies of water. It can hold its breath for almost fifteen minutes at a time.
+Pokedex = They spend much of their early lives around ponds and streams, and can hold their breath for up to twenty minutes at a time.
 Evolutions = OPHIDROWN,Item,WATERSTONE
 #================================#
 [OPHIDROWN]
@@ -244,7 +244,7 @@ Color = Blue
 Shape = Serpentine
 Habitat = WatersEdge
 Category = Sea Snake
-Pokedex = When Ophidrown swims, it fans out its hood, allowing it to glide across the water without leaving ripples.
+Pokedex = The hood of an Ophidrown acts to balance it as it glides across the water. It hibernates at the bottom of cold lakes in the winter.
 WildItemUncommon = WATERSTONE
 WildItemRare = MYSTICWATER
 #================================#
@@ -271,7 +271,7 @@ Color = Blue
 Shape = Finned
 Habitat = None
 Category = Bubble Croc
-Pokedex = It is believed to be an ancient Pokémon that lived in the sea. Its flippers have rough pads that let it climb onto land.
+Pokedex = This ancient Pokémon is believed to have lived in oceans in prehistoric times. Its finned body is not suited for moving on land.
 Evolutions = BARYTIDE,Level,35
 #================================#
 [BARYTIDE]
@@ -321,7 +321,7 @@ Color = Brown
 Shape = Quadruped
 Habitat = Gray
 Category = Shield Horn
-Pokedex = Scholars believe Tricrustops to be a distant relative to Shieldon. Its body is covered in a hard, rust-like substance.
+Pokedex = Its thick hide is made of some sort of organic metal, which rusts when it comes into contact with humid air. This metal makes it extremely heavy.
 Evolutions = TRICHROMOPS,Level,35
 #================================#
 [TRICHROMOPS]
@@ -345,7 +345,7 @@ Color = Gray
 Shape = Quadruped
 Habitat = None
 Category = Shield Horn
-Pokedex = The silvery gleam of its horns is believed to be used as a display of intimidation. That said, this Pokémon is very non-confrontational.
+Pokedex = The gleaming chrome that makes up its horns seems to have been used for intimidation purposes. However, this Pokémon is entirely non-confrontational.
 #================================#
 [ANCHIRP]
 Name = Anchirp
@@ -370,7 +370,7 @@ Color = Brown
 Shape = Winged
 Habitat = None
 Category = Ancient Bird
-Pokedex = It is thought that Anchirp is the distant ancestor of all avian Pokémon. However, it is too heavy to fly.
+Pokedex = It is believed to be a distant ancestor of other flying Pokémon, yet it can barely fly on its own. It is thought to be related to the Archen line in Unova.
 Evolutions = ANCREST,Level,35
 #================================#
 [ANCREST]
@@ -394,7 +394,7 @@ Color = Brown
 Shape = Winged
 Habitat = None
 Category = Ancient Bird
-Pokedex = The dignified plume of feathers on its head is a sign of leadership. If its plume is damaged, it becomes deeply depressed.
+Pokedex = Rather than fly, Ancrest glides between treetops, as its body is too heavy to sustain flight. It is a nimble hunter, but its diet is primarily herbivorous.
 #================================#
 [LARVILLA]
 Name = Larvilla
@@ -418,7 +418,7 @@ Color = Green
 Shape = Insectoid
 Habitat = Forest
 Category = Larva
-Pokedex = It feasts on fallen leaves as it grows, stockpiling energy for its evolution. They can eat up to ten times their body weight in a day.
+Pokedex = Newly hatched Larvilla can eat up to five times their body weight in foliage per day. The spinnerets on their rear ends double as hooks to hang from trees.
 Evolutions = MOLTOON,Level,10
 WildItemCommon = HONEY
 #================================#
@@ -442,7 +442,7 @@ Color = White
 Shape = Head
 Habitat = Forest
 Category = Cocoon
-Pokedex = As Moltoon nears evolution, its sticky cocoon begins to dry. Females grow much larger, but take longer to mature.
+Pokedex = The silk covering a slumbering Moltoon deters predators from attacking it. Females grow slower than the males, but also become much larger.
 Evolutions = PHEROMOTH,LevelFemale,16,FLAPAWN,LevelMale,13
 WildItemCommon = HONEY
 #================================#
@@ -466,7 +466,7 @@ Color = Yellow
 Shape = Insectoid
 Habitat = Forest
 Category = Queen Moth
-Pokedex = It commands swarms of Flapawn to do its bidding with powerful pheromones carried on its wings. It feasts only on the finest nectar.
+Pokedex = Pheromoth gives off potent pheromones to command swarms of Flapawn to do her bidding. She thrives on the purest nectar gathered by her minions.
 WildItemUncommon = HONEY
 #================================#
 [FLAPAWN]
@@ -489,7 +489,7 @@ Color = Green
 Shape = Insectoid
 Habitat = Forest
 Category = Drone
-Pokedex = Flapawn who leave their hive are mercilessly chased down by their former kin. They mindlessly gather nectar for their queen.
+Pokedex = Unlike their flying matriarch, Flapawn lack wings. Instead, they bear powerful mandibles and claws with which to fight while gathering nectar.
 WildItemCommon = HONEY
 #================================#
 [WYBULB]
@@ -514,7 +514,7 @@ Color = Green
 Shape = Serpentine
 Habitat = Forest
 Category = Flowerbulb
-Pokedex = To preserve its energy as it grows, Wybulb roots itself in the ground. It feeds on sunlight and decaying leaves as it matures.
+Pokedex = In order to conserve its energy, Wybulb only moves a scant ten feet per day. It subsists on photosynthesis and rotting plant matter.
 Evolutions = DRAGROW,Level,28
 WildItemUncommon = ENERGYPOWDER
 #================================#
@@ -538,7 +538,7 @@ Color = Green
 Shape = Serpentine
 Habitat = Forest
 Category = Sprouting
-Pokedex = Its petals sprout white as snow, taking on a red hue as it matures. Petals of deep crimson are a sign that Dragrow is close to evolution.
+Pokedex = Its petals start off white, but slowly adopt a red color as it matures. Only the most vibrantly colored Dragrow reach adulthood.
 Evolutions = WYCORIS,LevelDay,55
 WildItemUncommon = ENERGYPOWDER
 #================================#
@@ -562,7 +562,7 @@ Color = Green
 Shape = Serpentine
 Habitat = Forest
 Category = Spider Lily
-Pokedex = Benevolent and gentle, Wycoris instills a sensation of peace in those who smell its pollen. It is believed to guide wayward souls to the beyond.
+Pokedex = Wycoris is believed to be a messenger of the dead, inviting others to slumber for eternity in its garden. Their petals can be used to create a calming sedative tea.
 WildItemUncommon = ENERGYROOT
 #================================#
 [BEPERMIN]
@@ -585,7 +585,7 @@ Color = Brown
 Shape = HeadArms
 Habitat = Urban
 Category = Metronome
-Pokedex = This whismical ghost Pokémon decided to possess an old metronome to play with a musician. Its mood swings in time with the pendulum.
+Pokedex = A playful ghost Pokémon chose to inhabit an old musician's metronome. Its mood swings just like the needle on the metronome.
 #================================#
 [BAKUMA]
 Name = Bakuma
@@ -610,7 +610,7 @@ Color = Pink
 Shape = Quadruped
 Habitat = Forest
 Category = Dreaming
-Pokedex = It is impossible to tell if this Pokémon is awake or asleep, as it can interact with its surroundings even while deep in a dream.
+Pokedex = It is hard to tell when Bakuma is asleep and when it is awake, because it can move and act even in its sleep.
 #================================#
 [GORTERBACK]
 Name = Gorterback
@@ -635,7 +635,7 @@ Color = Black
 Shape = Bipedal
 Habitat = Grassland
 Category = Linebacker
-Pokedex = Gorterback adheres to a vigorous workout routine to keep its cherished muscles in peak condition. The stone it carries is unbelievably heavy.
+Pokedex = Gorterback takes great pride in its muscles and maintains a vigorously active lifestyle to build them. The boulder it carries is astonishingly heavy.
 #================================#
 [WISDOWL]
 Name = Wisdowl
