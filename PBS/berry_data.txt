@@ -167,6 +167,14 @@ Smoothness = 30
 Color = Red
 Description = This Berry is large and spicy. When eaten during the cold season, it warms the body from inside.
 #================================#
+[DRAGOBERRY]
+Size = 3.6
+Firmness = Hard
+Flavor = 30,0,25,0,0
+Smoothness = 50
+Color = Red
+Description = The tough outer skin of this Berry hides a smooth flesh. It packs a spicy punch that its subsequent sweetness cools off.
+#================================#
 [CHILANBERRY]
 Size = 1.3
 Firmness = Very Soft
