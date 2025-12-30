@@ -50,6 +50,12 @@ Gender = Male
 BaseMoney = 80
 BattleBGM = Battle_Adrian
 #================================#
+[RIVAL_Adrian2]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle_ChampionRematch
+#================================#
 [GALARLEADER_Adrian]
 Name = Galar Gym Leader
 Gender = Male
