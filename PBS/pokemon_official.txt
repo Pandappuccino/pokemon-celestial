@@ -280,29 +280,3 @@ Habitat = Field
 Category = Flower Garden
 Pokedex = 
 #================================#
-[LAPRAS]
-Name = Lapras
-FormName = Medaro Form
-Types = GROUND,ROCK
-BaseStats = 0,0,0,0,0,0
-GenderRatio = Female50Percent
-GrowthRate = Slow
-BaseEXP = 219
-EVs = HP,2
-CatchRate = 45
-Happiness = 70
-Abilities = SANDCLOAK,ROUGHSKIN
-HiddenAbilities = WATERABSORB
-Moves = 
-TutorMoves = 
-EggMoves = 
-HatchSteps = 10200
-EggGroups = Monster,Mineral
-Height = 8.1
-Weight = 492.0
-Color = Brown
-Shape = Finned
-Habitat = RoughTerrain
-Category = Transport
-Pokedex = Lapras in the Medaro region have adapted to dry desert climates. In spite of their changed surroundings, they are still just as gentle as other Lapras.
-#================================#
