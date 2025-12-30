@@ -306,6 +306,20 @@ Price = 0
 Flags = Fling_60
 Description = An eerily glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves.
 #================================#
+[SUNPEARL]
+Name = Sun Pearl
+NamePlural = Sun Pearls
+Pocket = 9
+Price = 0
+Description = A large pearl that shines like the morning sun. Its golden luster increases the power of Fire- and Dragon-type moves.
+#================================#
+[MOONPEARL]
+Name = Moon Pearl
+NamePlural = Moon Pearls
+Pocket = 9
+Price = 0
+Description = A large pearl that shines like the full moon. Its silvery luster increases the power of Water- and Dragon-type moves.
+#================================#
 
 
 
