@@ -90,6 +90,41 @@ BaseMoney = 100
 BattleBGM = Battle_Piers
 VictoryBGM = Victory_GymLeader
 #================================#
+[ELITEFOUR_Hyacinth] # Grass-type Elite Four
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle_EliteFour
+VictoryBGM = Victory_GymLeader
+#================================#
+[ELITEFOUR_Willow] # Ghost-type Elite Four
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle_EliteFour
+VictoryBGM = Victory_GymLeader
+#================================#
+[ELITEFOUR_Hemlock] # Poison-type Elite Four
+Name = Elite Four Member
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle_EliteFour
+VictoryBGM = Victory_GymLeader
+#================================#
+[ELITEFOUR_Aster] # Dragon-type Elite Four
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle_EliteFour
+VictoryBGM = Victory_GymLeader
+#================================#
+[CHAMPION]
+Name = Medaro League Champion
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle_Champion
+VictoryBGM = Victory_Champion
+#================================#
 [GORGONGRUNT_Male]
 Name = Team Gorgon
 Gender = Male
@@ -127,3 +162,8 @@ Name = Team Gorgon Leader
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle_GorgonLeader
+#================================#
+[RIFTRESEARCHER]
+Name = Rift Isle Researcher
+Gender = Female
+BaseMoney = 75
