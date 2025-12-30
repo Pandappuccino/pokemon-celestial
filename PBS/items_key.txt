@@ -7,6 +7,14 @@ Price = 0
 Flags = KeyItem
 Description = An ID card for Trainers who have registered to the Pokémon League.
 #================================#
+[MEDALCASE]
+Name = Medal Case
+NamePlural = Medal Cases
+Pocket = 13
+Price = 0
+Flags = KeyItem
+Description = A case for Trainers to keep medals tracking their greatest achievements.
+#================================#
 [BANKCARD]
 Name = Bank Card
 NamePlural = Bank Cards
