@@ -197,4 +197,15 @@ Name = Rift Isle Researcher
 Gender = Female
 BaseMoney = 75
 
+#================PARTNER TRAINERS================#
+[PARTNER_Kai]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#================================#
+[PARTNER_Adrian]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 100
+
 #================STANDARD TRAINERS================#
